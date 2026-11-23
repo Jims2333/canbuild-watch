@@ -1,5 +1,5 @@
 import unittest
-from update_prices import parse_tracker, parse_retail
+from update_prices import parse_tracker, parse_retail, newegg_4070
 
 class MonitorParserTests(unittest.TestCase):
     def test_tracker_price_with_real_shop_link(self):
@@ -29,5 +29,23 @@ class MonitorParserTests(unittest.TestCase):
         rec=parse_retail(html,'Memory Express','https://www.memoryexpress.com/Products/MX00135516')
         self.assertEqual(rec['price'],1609.99)
         self.assertEqual(rec['stock'],'out_of_stock')
+
+    def test_newegg_new_orderable_cards(self):
+        def card(title, price, button):
+            return f'<div class="item-cell"><a class="item-title" href="https://www.newegg.ca/p/example">{title}</a><li class="price-current">$<strong>{price}</strong><sup>.99</sup> –</li><button>{button}</button></div>'
+        html = ''.join([card('Refurbished RTX 4070 Ti SUPER','799','Add to cart'),
+                        card('RTX 4070 Ti SUPER','999','Notify me'),
+                        card('RTX 4070 Ti SUPER BTF','899','Add to cart'),
+                        card('RTX 4070 Ti SUPER 16GB','1,399','Add to cart')])
+        self.assertEqual(newegg_4070(html)['price'],1399.99)
+
+    def test_modcom_requires_cad(self):
+        html='<h1>Montech AIR 903 Base Black</h1><div>$75.69</div><script>Shopify.currency = {"active":"USD"};</script>'
+        with self.assertRaisesRegex(ValueError, 'Canadian-dollar'):
+            parse_retail(html,'Modcom','https://www.modcom.ca/products/test')
+
+    def test_split_retail_price(self):
+        html='<h1>MSI MLG Edition OC 16GB</h1><span>Only</span><span>$1,609.99</span><p>Online Store: Out of Stock</p>'
+        self.assertEqual(parse_retail(html,'Memory Express','https://www.memoryexpress.com/Products/test')['price'],1609.99)
 
 if __name__=='__main__':unittest.main()

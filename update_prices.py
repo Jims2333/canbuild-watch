@@ -43,6 +43,22 @@ RETAIL = {
     'air903': ('Modcom', 'https://www.modcom.ca/collections/case/products/montech-air-903-base-e-atx-mid-tower-case-high-airflow-with-max-capacity-3x-140mm-pwm-fans-pre-installed-tempered-glass-side-panel-mesh-front-type-c_black'),
 }
 RETAIL_HOSTS = ('canadacomputers.com', 'memoryexpress.com', 'newegg.ca', 'amazon.ca', 'bestbuy.ca', 'vuugo.com', 'modcom.ca')
+CC = 'https://www.canadacomputers.com/en/'
+DIRECT_ALTERNATIVES = {
+    'cpu': ['amd-desktop-processors/264908/amd-ryzen-7-9800x3d-8-core-4nm-am5-104mb-cache-120w-zen-5-cpu-100-100001084wof.html'],
+    'ram': ['desktop-memory/227127/g-skill-trident-z5-neo-rgb-32gb-2x16gb-ddr5-6000mhz-cl30-udimm-f5-6000j3038f16gx2-tz5nr.html'],
+    'rme': ['power-supplies/270519/corsair-corsair-rm850e-850w-gold-atx-power-supply-black-cp-9020296-na.html'],
+    'best5070': [
+        'powered-by-nvidia/268906/msi-geforce-rtx-5070-ti-16g-ventus-3x-oc-rtx-5070-ti-16g-ventus-3x-oc.html',
+        'powered-by-nvidia/290028/msi-geforce-rtx-5070-ti-16g-frieren-edition-oc-rtx-5070-ti-16g-frieren-edition-oc.html',
+        'powered-by-nvidia/282429/msi-geforce-rtx-5070-ti-16g-ventus-3x-pz-16gb-gddr7-graphics-card-rtx-5070-ti-16g-ventus-3x-pz-oc.html',
+    ],
+    'best9070': [
+        'powered-by-amd/269139/sapphire-pulse-amd-radeon-rx-9070-xt-16gb-gddr6-11348-03-20g.html',
+        'powered-by-amd/268723/asrock-radeon-rx-9070-xt-taichi-16gb-rx9070xt-tc-16go-rx9070xt-tc-16go.html',
+    ],
+}
+NEWEGG_4070 = 'https://www.newegg.ca/p/pl?N=100007708+601432392'
 PRICE = re.compile(r'(?:CA\s*)?\$\s*([\d,]+(?:\.\d{2})?)', re.I)
 CURRENCY = re.compile(r'CA\$\s*([\d,]+(?:\.\d{2})?)', re.I)
 
@@ -136,6 +152,12 @@ def extract_jsonld_price(html_soup: BeautifulSoup) -> tuple[float | None, str]:
 
 def parse_retail(html: str, name: str, page_url: str) -> dict:
     raw_soup = BeautifulSoup(html, 'html.parser')
+    if name == 'Modcom':
+        marker = raw_soup.select_one('meta[property="og:price:currency"], meta[property="product:price:currency"]')
+        currency = re.search(r'Shopify\.currency\s*=\s*\{[^}]*"active"\s*:\s*"([A-Z]{3})"', html)
+        active_currency = currency.group(1) if currency else (marker.get('content') if marker else None)
+        if active_currency != 'CAD':
+            raise ValueError('Canadian-dollar storefront not confirmed')
     ld_price, stock = extract_jsonld_price(raw_soup)
     soup = BeautifulSoup(html, 'html.parser')
     lines = text_lines(soup)
@@ -152,9 +174,9 @@ def parse_retail(html: str, name: str, page_url: str) -> dict:
     amount = ld_price
     if not amount:
         if name == 'Memory Express':
-            for line in fragment:
-                if re.match(r'^Only\s*\$', line, re.I):
-                    m = PRICE.search(line)
+            for pos, line in enumerate(fragment):
+                if re.fullmatch(r'Only', line, re.I) or re.match(r'^Only\s*\$', line, re.I):
+                    m = PRICE.search(' '.join(fragment[pos:pos + 3]))
                     if m: amount = extract_amount(m.group(1));break
             # Protection prices appear before the listing price; never take the first dollar.
         else:
@@ -187,7 +209,7 @@ def parse_retail(html: str, name: str, page_url: str) -> dict:
     elif name == 'Modcom':
         # In Shopify, ld+json stock is usually most reliable, else leave unknown.
         pass
-    return {'price':amount, 'shop': name,'product':title[:160],
+    return {'price':amount, 'currency':'CAD', 'shop': name,'product':title[:160],
             'url':page_url,'track_url':page_url,'stock':stock,
             'basis':'exact_sku', 'note':'Retailer observation. Check current stock and local delivery on the product page.'}
 
@@ -224,6 +246,61 @@ def fetch(session: requests.Session, url: str) -> str:
     return response.text
 
 
+def newegg_4070(html: str) -> dict:
+    offers = []
+    soup = BeautifulSoup(html, 'html.parser')
+    for card in soup.select('.item-cell'):
+        title = card.select_one('a.item-title[href]')
+        price = card.select_one('.price-current')
+        if not title or not price:
+            continue
+        name = title.get_text(' ', strip=True)
+        listing = card.get_text(' ', strip=True)
+        if not re.search(r'4070\s*Ti\s*Super', name, re.I) or re.search(r'refurbished|open box|used|BTF|water block', name, re.I):
+            continue
+        if not re.search(r'add to cart', listing, re.I):
+            continue
+        amount_match = PRICE.search(price.get_text('', strip=True))
+        amount = extract_amount(amount_match.group(1)) if amount_match else None
+        link = urljoin(NEWEGG_4070, title['href'])
+        if amount and urlparse(link).hostname in ('www.newegg.ca','newegg.ca'):
+            offers.append({'price':amount, 'shop':'Newegg Canada marketplace', 'product':name, 'url':link,
+                           'stock':'in_stock','currency':'CAD','track_url':NEWEGG_4070,'basis':'lowest_in_stock_variant'})
+    if not offers:
+        raise ValueError('No qualifying new, orderable Newegg.ca listing')
+    return min(offers, key=lambda offer: offer['price'])
+
+
+def observe(session, key, kind, item):
+    if kind == 'retail':
+        name, url = item
+        if name == 'Modcom':
+            url += '?country=CA&currency=CAD'
+        return parse_retail(fetch(session, url), name, url)
+    try:
+        return parse_tracker(fetch(session, item), item)
+    except (ValueError, OSError) as exc:
+        print(f'{key}: primary source unavailable ({exc}); checking alternative listings')
+    if key == 'best4070':
+        return newegg_4070(fetch(session, NEWEGG_4070))
+    candidates = []
+    for path in DIRECT_ALTERNATIVES.get(key, []):
+        url = CC + path
+        time.sleep(2)
+        try:
+            record = parse_retail(fetch(session, url), 'Canada Computers', url)
+        except (ValueError, OSError):
+            continue
+        if not key.startswith('best'):
+            return record
+        if record['stock'] == 'in_stock':
+            record.update(basis='lowest_in_stock_variant', track_url=item)
+            candidates.append(record)
+    if not candidates:
+        raise ValueError('No qualifying direct retailer quote')
+    return min(candidates, key=lambda offer: offer['price'])
+
+
 def main() -> None:
     import requests
     try:
@@ -231,6 +308,11 @@ def main() -> None:
     except (OSError, ValueError):
         data = {'schema':'canbuild-live.v1','items':{},'history':{},'failures':{}}
     data.update(schema='canbuild-live.v1', last_run_at=STAMP)
+    # The original Shopify check did not verify the storefront currency.
+    legacy = data.get('items', {}).get('air903', {})
+    if legacy and legacy.get('shop') == 'Modcom' and not legacy.get('currency'):
+        data['history']['air903'] = [p for p in data['history'].get('air903', []) if p['date'] != legacy.get('date')]
+        data['items'].pop('air903')
     session = requests.Session()
     session.headers.update({'User-Agent': 'CANBUILD personal hardware price watch/1.0 (scheduled; low request rate; no captcha bypass)'})
     errors = {}
@@ -242,8 +324,7 @@ def main() -> None:
             continue
         url = item if kind=='tracker' else item[1]
         try:
-            html = fetch(session, url)
-            result = parse_tracker(html, url) if kind=='tracker' else parse_retail(html, item[0], url)
+            result = observe(session, key, kind, item)
             validate_result(result)
             previous = data.get('items', {}).get(key)
             if previous:
