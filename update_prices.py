@@ -352,6 +352,12 @@ def main() -> None:
     session.headers.update({'User-Agent': 'CANBUILD personal hardware price watch/1.0 (scheduled; low request rate; no captcha bypass)'})
     errors = {}
     n_ok = 0
+    # The dashboard catalogue is also the source of retailer monitoring URLs.
+    catalog_node = BeautifulSoup((ROOT/'index.html').read_text('utf-8'), 'html.parser').find(id='partCatalog')
+    catalog = json.loads(catalog_node.get_text())
+    for key, part in catalog.items():
+        if part.get('url'):
+            RETAIL[key] = ('Canada Computers', part['url'])
     targets = [(k,'tracker',v) for k,v in TRACKERS.items()] + [(k,'retail',v) for k,v in RETAIL.items()]
     only = {s.strip() for s in os.environ.get('CANBUILD_ONLY','').split(',') if s.strip()}
     for pos, (key, kind, item) in enumerate(targets):

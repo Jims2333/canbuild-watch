@@ -22,3 +22,13 @@ Each release runs eight parser fixtures with Python unittest, then opens the bui
 
 The budget screenshot uses a CAD 1,000 manual GPU quote as a test input. The desktop and mobile screenshots show the default build from that release. Retailer stock and checkout prices can change after an observation.
 
+
+## Build finder
+
+Open [Find a build](https://jims2333.github.io/canbuild-watch/#recommendations). The default target is CA$3,000 after Ontario HST with a 10% range. Choose a workload or any of eight component categories. Each result represents a distinct CPU and GPU family. Open **Parts & offers** for retailer pages, dates and stock in the planner, or **Use build** to edit the configuration. Exact filters can return fewer than ten results.
+
+The finder checks CPU socket and memory generation, reserves a dual-tower cooler for higher-power processors, and uses at least 850W for an RTX 5080. It checks matching three-part bundle offers alongside standalone prices. Within the chosen price range it ranks complete offers by availability, then budget distance with a preference for 32GB or more and fewer unconfirmed quotes. Reference offers carry their November 23, 2026 date. Shipping is extra.
+
+The HTML catalogue drives both the JavaScript finder and the Python / Beautiful Soup price collector. GitHub Actions runs parser tests and Playwright in Chromium, publishes desktop and mobile screenshots, and deploys the resulting site to GitHub Pages. The scheduled collector retains the last observation and its timestamp when a retailer check fails.
+
+[Finder screenshot](https://jims2333.github.io/canbuild-watch/verification/recommendations.png) · [Mobile filters](https://jims2333.github.io/canbuild-watch/verification/filters-mobile.png) · [Test results](https://jims2333.github.io/canbuild-watch/verification/checks.json)
