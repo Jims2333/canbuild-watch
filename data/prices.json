@@ -1,0 +1,245 @@
+{
+  "failures": {
+    "best4070": {
+      "last_failure_at": "2026-11-23T07:20:27Z",
+      "reason": "Unexpected page size"
+    },
+    "best5070": {
+      "last_failure_at": "2026-11-23T07:20:27Z",
+      "reason": "Unexpected page size"
+    },
+    "best9070": {
+      "last_failure_at": "2026-11-23T07:20:27Z",
+      "reason": "Unexpected page size"
+    },
+    "cpu": {
+      "last_failure_at": "2026-11-23T07:20:27Z",
+      "reason": "Unexpected page size"
+    },
+    "mlg": {
+      "last_failure_at": "2026-11-23T07:20:27Z",
+      "reason": "Could not isolate a valid product sale price (Memory Express)"
+    },
+    "ram": {
+      "last_failure_at": "2026-11-23T07:20:27Z",
+      "reason": "Unexpected page size"
+    },
+    "rme": {
+      "last_failure_at": "2026-11-23T07:20:27Z",
+      "reason": "Unexpected page size"
+    }
+  },
+  "history": {
+    "air903": [
+      {
+        "date": "2026-11-23",
+        "price": 75.69,
+        "product": "Montech AIR 903 Base, E-ATX Mid Tower Case, High Airflow with Max Capacity, 3X 140mm PWM Fans Pre-Installed, Tempered Glass Side Panel, Mesh Front, Type-C_Black",
+        "url": "https://www.modcom.ca/collections/case/products/montech-air-903-base-e-atx-mid-tower-case-high-airflow-with-max-capacity-3x-140mm-pwm-fans-pre-installed-tempered-glass-side-panel-mesh-front-type-c_black"
+      }
+    ],
+    "best5070": [
+      {
+        "date": "2026-11-23",
+        "price": 1610,
+        "product": "MSI MLG Edition OC",
+        "url": "https://www.memoryexpress.com/Products/MX00135516"
+      }
+    ],
+    "board": [
+      {
+        "date": "2026-11-23",
+        "price": 209.99,
+        "product": "GIGABYTE B850 EAGLE WIFI6E AMD AM5 LGA 1718 Motherboard, ATX, DDR5, 3x M.2, PCIe 5.0, USB-C, WIFI6E, 1GbE LAN, EZ-Latch, 5-Year Warranty",
+        "url": "https://www.canadacomputers.com/en/amd-motherboards/267132/gigabyte-b850-eagle-wifi6e-amd-am5-lga-1718-motherboard-atx-ddr5-b850-eagle-wifi6e.html"
+      }
+    ],
+    "cpu": [
+      {
+        "date": "2026-11-23",
+        "price": 550,
+        "product": "Ryzen 7 9800X3D",
+        "url": "https://www.canadacomputers.com/en/amd-desktop-processors/264908/amd-ryzen-7-9800x3d-8-core-4nm-am5-104mb-cache-120w-zen-5-cpu-100-100001084wof.html"
+      }
+    ],
+    "kit": [
+      {
+        "date": "2026-11-23",
+        "price": 1399.98,
+        "product": "AMD Ryzen 7 9800X3D CPU + ASUS TUF GAMING B850-E WIFI Motherboard + T-Force 32GB D5 6000MHz CL30 RAM",
+        "url": "https://www.canadacomputers.com/en/amd-desktop-processors/283326/amd-ryzen-7-9800x3d-cpu-asus-tuf-gaming-b850-e-wifi-motherboard-t-force-32gb-d5-6000mhz-cl30-ram.html"
+      }
+    ],
+    "mlg": [
+      {
+        "date": "2026-11-23",
+        "price": 1609.99,
+        "product": "MSI MLG Edition OC",
+        "url": "https://www.memoryexpress.com/Products/MX00135516"
+      }
+    ],
+    "nv3a": [
+      {
+        "date": "2026-11-23",
+        "price": 219.99,
+        "product": "Kingston NV3 1TB NVMe PCIe 4x4 SSD Read: 6000MB/s; Write:4000MB/s M.2 2280 Solid State Drive (SNV3S/1000G)",
+        "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/261114/kingston-nv3-1tb-nvme-pcie-4x4-ssd-snv3s-1000g.html"
+      }
+    ],
+    "nv3b": [
+      {
+        "date": "2026-11-23",
+        "price": 399.99,
+        "product": "Kingston NV3 2TB NVMe PCIe 4x4 SSD Read: 6000MB/s; Write:5000MB/s M.2 2280 Solid State Drive (SNV3S/2000G)",
+        "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/261116/kingston-nv3-2tb-nvme-pcie-4x4-ssd-snv3s-2000g.html"
+      }
+    ],
+    "sn850": [
+      {
+        "date": "2026-11-23",
+        "price": 549.99,
+        "product": "WD Black SN850X 2TB PCIe Gen4 NVMe M.2 2280 Read:7,300MB/s, Write:6,600MB/s SSD (WDBB9G0020BNC)",
+        "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/282003/wd-black-sn850x-2tb-pcie-gen4-nvme-m-2-ssd-wdbb9g0020bnc.html"
+      }
+    ],
+    "win": [
+      {
+        "date": "2026-11-23",
+        "price": 1899.0,
+        "product": "GIGABYTE GeForce RTX 5070 Ti WINDFORCE OC SFF 16G Graphics Card, 16GB 256-bit GDDR7, PCIe 5.0, WINDFORCE cooling system, GV-N507TWF3OC-16GD Video Card",
+        "url": "https://www.canadacomputers.com/en/powered-by-nvidia/268823/gigabyte-geforce-rtx-5070-ti-windforce-oc-sff-16g-graphics-card-gv-n507twf3oc-16gd.html"
+      }
+    ]
+  },
+  "items": {
+    "air903": {
+      "basis": "exact_sku",
+      "checked_at": "2026-11-23T07:20:27Z",
+      "date": "2026-11-23",
+      "note": "Retailer observation. Check current stock and local delivery on the product page.",
+      "price": 75.69,
+      "product": "Montech AIR 903 Base, E-ATX Mid Tower Case, High Airflow with Max Capacity, 3X 140mm PWM Fans Pre-Installed, Tempered Glass Side Panel, Mesh Front, Type-C_Black",
+      "shop": "Modcom",
+      "stock": "unknown",
+      "track_url": "https://www.modcom.ca/collections/case/products/montech-air-903-base-e-atx-mid-tower-case-high-airflow-with-max-capacity-3x-140mm-pwm-fans-pre-installed-tempered-glass-side-panel-mesh-front-type-c_black",
+      "url": "https://www.modcom.ca/collections/case/products/montech-air-903-base-e-atx-mid-tower-case-high-airflow-with-max-capacity-3x-140mm-pwm-fans-pre-installed-tempered-glass-side-panel-mesh-front-type-c_black"
+    },
+    "best5070": {
+      "basis": "lowest_in_stock_variant",
+      "checked_at": "2026-11-23T07:09:04Z",
+      "date": "2026-11-23",
+      "note": "The retailer reports this listing out of stock. It conflicts with the tracker observation.",
+      "origin": "Release source review",
+      "price": 1610,
+      "product": "MSI MLG Edition OC",
+      "shop": "Memory Express",
+      "stock": "out_of_stock",
+      "track_url": "https://pctechvault.com/market-watch/geforce-rtx-5070-ti/?market=new-retail&region=CA",
+      "url": "https://www.memoryexpress.com/Products/MX00135516"
+    },
+    "board": {
+      "basis": "exact_sku",
+      "checked_at": "2026-11-23T07:20:27Z",
+      "date": "2026-11-23",
+      "note": "Retailer observation. Check current stock and local delivery on the product page.",
+      "price": 209.99,
+      "product": "GIGABYTE B850 EAGLE WIFI6E AMD AM5 LGA 1718 Motherboard, ATX, DDR5, 3x M.2, PCIe 5.0, USB-C, WIFI6E, 1GbE LAN, EZ-Latch, 5-Year Warranty",
+      "shop": "Canada Computers",
+      "stock": "out_of_stock",
+      "track_url": "https://www.canadacomputers.com/en/amd-motherboards/267132/gigabyte-b850-eagle-wifi6e-amd-am5-lga-1718-motherboard-atx-ddr5-b850-eagle-wifi6e.html",
+      "url": "https://www.canadacomputers.com/en/amd-motherboards/267132/gigabyte-b850-eagle-wifi6e-amd-am5-lga-1718-motherboard-atx-ddr5-b850-eagle-wifi6e.html"
+    },
+    "cpu": {
+      "basis": "lowest_in_stock_variant",
+      "checked_at": "2026-11-23T07:09:04Z",
+      "date": "2026-11-23",
+      "origin": "Release source review",
+      "price": 550,
+      "product": "Ryzen 7 9800X3D",
+      "shop": "Canada Computers",
+      "stock": "tracker_in_stock",
+      "track_url": "https://pctechvault.com/market-watch/amd-ryzen-7-9800x3d/?market=new-retail&region=CA",
+      "url": "https://www.canadacomputers.com/en/amd-desktop-processors/264908/amd-ryzen-7-9800x3d-8-core-4nm-am5-104mb-cache-120w-zen-5-cpu-100-100001084wof.html"
+    },
+    "kit": {
+      "basis": "exact_sku",
+      "checked_at": "2026-11-23T07:20:27Z",
+      "date": "2026-11-23",
+      "note": "Retailer observation. Check current stock and local delivery on the product page.",
+      "price": 1399.98,
+      "product": "AMD Ryzen 7 9800X3D CPU + ASUS TUF GAMING B850-E WIFI Motherboard + T-Force 32GB D5 6000MHz CL30 RAM",
+      "shop": "Canada Computers",
+      "stock": "in_stock",
+      "track_url": "https://www.canadacomputers.com/en/amd-desktop-processors/283326/amd-ryzen-7-9800x3d-cpu-asus-tuf-gaming-b850-e-wifi-motherboard-t-force-32gb-d5-6000mhz-cl30-ram.html",
+      "url": "https://www.canadacomputers.com/en/amd-desktop-processors/283326/amd-ryzen-7-9800x3d-cpu-asus-tuf-gaming-b850-e-wifi-motherboard-t-force-32gb-d5-6000mhz-cl30-ram.html"
+    },
+    "mlg": {
+      "basis": "exact_sku",
+      "checked_at": "2026-11-23T07:09:04Z",
+      "date": "2026-11-23",
+      "origin": "Release source review",
+      "price": 1609.99,
+      "product": "MSI MLG Edition OC",
+      "shop": "Memory Express",
+      "stock": "out_of_stock",
+      "track_url": "https://www.memoryexpress.com/Products/MX00135516",
+      "url": "https://www.memoryexpress.com/Products/MX00135516"
+    },
+    "nv3a": {
+      "basis": "exact_sku",
+      "checked_at": "2026-11-23T07:20:27Z",
+      "date": "2026-11-23",
+      "note": "Retailer observation. Check current stock and local delivery on the product page.",
+      "price": 219.99,
+      "product": "Kingston NV3 1TB NVMe PCIe 4x4 SSD Read: 6000MB/s; Write:4000MB/s M.2 2280 Solid State Drive (SNV3S/1000G)",
+      "shop": "Canada Computers",
+      "stock": "in_stock",
+      "track_url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/261114/kingston-nv3-1tb-nvme-pcie-4x4-ssd-snv3s-1000g.html",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/261114/kingston-nv3-1tb-nvme-pcie-4x4-ssd-snv3s-1000g.html"
+    },
+    "nv3b": {
+      "basis": "exact_sku",
+      "checked_at": "2026-11-23T07:20:27Z",
+      "date": "2026-11-23",
+      "note": "Retailer observation. Check current stock and local delivery on the product page.",
+      "price": 399.99,
+      "product": "Kingston NV3 2TB NVMe PCIe 4x4 SSD Read: 6000MB/s; Write:5000MB/s M.2 2280 Solid State Drive (SNV3S/2000G)",
+      "shop": "Canada Computers",
+      "stock": "in_stock",
+      "track_url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/261116/kingston-nv3-2tb-nvme-pcie-4x4-ssd-snv3s-2000g.html",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/261116/kingston-nv3-2tb-nvme-pcie-4x4-ssd-snv3s-2000g.html"
+    },
+    "sn850": {
+      "basis": "exact_sku",
+      "checked_at": "2026-11-23T07:20:27Z",
+      "date": "2026-11-23",
+      "note": "Retailer observation. Check current stock and local delivery on the product page.",
+      "price": 549.99,
+      "product": "WD Black SN850X 2TB PCIe Gen4 NVMe M.2 2280 Read:7,300MB/s, Write:6,600MB/s SSD (WDBB9G0020BNC)",
+      "shop": "Canada Computers",
+      "stock": "out_of_stock",
+      "track_url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/282003/wd-black-sn850x-2tb-pcie-gen4-nvme-m-2-ssd-wdbb9g0020bnc.html",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/282003/wd-black-sn850x-2tb-pcie-gen4-nvme-m-2-ssd-wdbb9g0020bnc.html"
+    },
+    "win": {
+      "basis": "exact_sku",
+      "checked_at": "2026-11-23T07:20:27Z",
+      "date": "2026-11-23",
+      "note": "Retailer observation. Check current stock and local delivery on the product page.",
+      "price": 1899.0,
+      "product": "GIGABYTE GeForce RTX 5070 Ti WINDFORCE OC SFF 16G Graphics Card, 16GB 256-bit GDDR7, PCIe 5.0, WINDFORCE cooling system, GV-N507TWF3OC-16GD Video Card",
+      "shop": "Canada Computers",
+      "stock": "out_of_stock",
+      "track_url": "https://www.canadacomputers.com/en/powered-by-nvidia/268823/gigabyte-geforce-rtx-5070-ti-windforce-oc-sff-16g-graphics-card-gv-n507twf3oc-16gd.html",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/268823/gigabyte-geforce-rtx-5070-ti-windforce-oc-sff-16g-graphics-card-gv-n507twf3oc-16gd.html"
+    }
+  },
+  "last_run_at": "2026-11-23T07:20:27Z",
+  "last_successful_run_at": "2026-11-23T07:20:27Z",
+  "run_summary": {
+    "attempted": 14,
+    "failed": 7,
+    "successful": 7
+  },
+  "schema": "canbuild-live.v1"
+}
