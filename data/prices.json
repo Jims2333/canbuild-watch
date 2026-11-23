@@ -1,12 +1,8 @@
 {
   "failures": {
     "best4070": {
-      "last_failure_at": "2026-11-23T07:25:58Z",
+      "last_failure_at": "2026-11-23T07:33:37Z",
       "reason": "403 Client Error: Forbidden for url: https://www.newegg.ca/p/pl?N=100007708+601432392"
-    },
-    "mlg": {
-      "last_failure_at": "2026-11-23T07:25:58Z",
-      "reason": "403 Client Error: Forbidden for url: https://www.memoryexpress.com/Products/MX00135516"
     }
   },
   "history": {
@@ -62,7 +58,7 @@
       {
         "date": "2026-11-23",
         "price": 1609.99,
-        "product": "MSI MLG Edition OC",
+        "product": "GeForce RTX 5070 Ti MLG EDITION OC 16GB PCI-E w/ HDMI, Triple DP",
         "url": "https://www.memoryexpress.com/Products/MX00135516"
       }
     ],
@@ -80,6 +76,14 @@
         "price": 399.99,
         "product": "Kingston NV3 2TB NVMe PCIe 4x4 SSD Read: 6000MB/s; Write:5000MB/s M.2 2280 Solid State Drive (SNV3S/2000G)",
         "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/261116/kingston-nv3-2tb-nvme-pcie-4x4-ssd-snv3s-2000g.html"
+      }
+    ],
+    "pny4070": [
+      {
+        "date": "2026-11-23",
+        "price": 1280.99,
+        "product": "PNY NVIDIA GeForce RTX 4070 Ti SUPER Graphic Card - 16 GB GDDR6X VCG4070TS16TFXPB1-O",
+        "url": "https://deploydepot.ca/products/pny-nvidia-geforce-rtx-4070-ti-super-graphic-card-16-gb-gddr6x-vcg4070ts16tfxpb1-o"
       }
     ],
     "ram": [
@@ -118,7 +122,7 @@
   "items": {
     "air903": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:25:58Z",
+      "checked_at": "2026-11-23T07:33:37Z",
       "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -131,7 +135,7 @@
     },
     "best5070": {
       "basis": "lowest_in_stock_variant",
-      "checked_at": "2026-11-23T07:25:58Z",
+      "checked_at": "2026-11-23T07:33:37Z",
       "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -144,7 +148,7 @@
     },
     "best9070": {
       "basis": "lowest_in_stock_variant",
-      "checked_at": "2026-11-23T07:25:58Z",
+      "checked_at": "2026-11-23T07:33:37Z",
       "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -157,7 +161,7 @@
     },
     "board": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:25:58Z",
+      "checked_at": "2026-11-23T07:33:37Z",
       "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -170,7 +174,7 @@
     },
     "cpu": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:25:58Z",
+      "checked_at": "2026-11-23T07:33:37Z",
       "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -183,7 +187,7 @@
     },
     "kit": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:25:58Z",
+      "checked_at": "2026-11-23T07:33:37Z",
       "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -196,11 +200,12 @@
     },
     "mlg": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:09:04Z",
+      "checked_at": "2026-11-23T07:33:37Z",
+      "currency": "CAD",
       "date": "2026-11-23",
-      "origin": "Release source review",
+      "note": "Retailer observation. Check current stock and local delivery on the product page.",
       "price": 1609.99,
-      "product": "MSI MLG Edition OC",
+      "product": "GeForce RTX 5070 Ti MLG EDITION OC 16GB PCI-E w/ HDMI, Triple DP",
       "shop": "Memory Express",
       "stock": "out_of_stock",
       "track_url": "https://www.memoryexpress.com/Products/MX00135516",
@@ -208,7 +213,7 @@
     },
     "nv3a": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:25:58Z",
+      "checked_at": "2026-11-23T07:33:37Z",
       "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -221,7 +226,7 @@
     },
     "nv3b": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:25:58Z",
+      "checked_at": "2026-11-23T07:33:37Z",
       "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -232,9 +237,21 @@
       "track_url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/261116/kingston-nv3-2tb-nvme-pcie-4x4-ssd-snv3s-2000g.html",
       "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/261116/kingston-nv3-2tb-nvme-pcie-4x4-ssd-snv3s-2000g.html"
     },
+    "pny4070": {
+      "basis": "exact_sku",
+      "checked_at": "2026-11-23T07:33:37Z",
+      "currency": "CAD",
+      "date": "2026-11-23",
+      "price": 1280.99,
+      "product": "PNY NVIDIA GeForce RTX 4070 Ti SUPER Graphic Card - 16 GB GDDR6X VCG4070TS16TFXPB1-O",
+      "shop": "DeployDepot",
+      "stock": "out_of_stock",
+      "track_url": "https://deploydepot.ca/products/pny-nvidia-geforce-rtx-4070-ti-super-graphic-card-16-gb-gddr6x-vcg4070ts16tfxpb1-o",
+      "url": "https://deploydepot.ca/products/pny-nvidia-geforce-rtx-4070-ti-super-graphic-card-16-gb-gddr6x-vcg4070ts16tfxpb1-o"
+    },
     "ram": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:25:58Z",
+      "checked_at": "2026-11-23T07:33:37Z",
       "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -247,7 +264,7 @@
     },
     "rme": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:25:58Z",
+      "checked_at": "2026-11-23T07:33:37Z",
       "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -260,7 +277,7 @@
     },
     "sn850": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:25:58Z",
+      "checked_at": "2026-11-23T07:33:37Z",
       "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -273,7 +290,7 @@
     },
     "win": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:25:58Z",
+      "checked_at": "2026-11-23T07:33:37Z",
       "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -285,12 +302,12 @@
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/268823/gigabyte-geforce-rtx-5070-ti-windforce-oc-sff-16g-graphics-card-gv-n507twf3oc-16gd.html"
     }
   },
-  "last_run_at": "2026-11-23T07:25:58Z",
-  "last_successful_run_at": "2026-11-23T07:25:58Z",
+  "last_run_at": "2026-11-23T07:33:37Z",
+  "last_successful_run_at": "2026-11-23T07:33:37Z",
   "run_summary": {
-    "attempted": 14,
-    "failed": 2,
-    "successful": 12
+    "attempted": 15,
+    "failed": 1,
+    "successful": 14
   },
   "schema": "canbuild-live.v1"
 }
