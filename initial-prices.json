@@ -1,0 +1,95 @@
+{
+  "schema": "canbuild-live.v1",
+  "items": {
+    "kit": {
+      "price": 1399.98,
+      "shop": "Canada Computers",
+      "product": "9800X3D + ASUS B850-E + T-Force 32GB CL30",
+      "stock": "in_stock",
+      "url": "https://www.canadacomputers.com/en/amd-desktop-processors/283326/amd-ryzen-7-9800x3d-cpu-asus-tuf-gaming-b850-e-wifi-motherboard-t-force-32gb-d5-6000mhz-cl30-ram.html",
+      "track_url": "https://www.canadacomputers.com/en/amd-desktop-processors/283326/amd-ryzen-7-9800x3d-cpu-asus-tuf-gaming-b850-e-wifi-motherboard-t-force-32gb-d5-6000mhz-cl30-ram.html",
+      "basis": "exact_sku",
+      "origin": "Release source review",
+      "checked_at": "2026-11-23T07:09:04Z",
+      "date": "2026-11-23"
+    },
+    "mlg": {
+      "price": 1609.99,
+      "shop": "Memory Express",
+      "product": "MSI MLG Edition OC",
+      "stock": "out_of_stock",
+      "url": "https://www.memoryexpress.com/Products/MX00135516",
+      "track_url": "https://www.memoryexpress.com/Products/MX00135516",
+      "basis": "exact_sku",
+      "origin": "Release source review",
+      "checked_at": "2026-11-23T07:09:04Z",
+      "date": "2026-11-23"
+    },
+    "best5070": {
+      "price": 1610,
+      "shop": "Memory Express",
+      "product": "MSI MLG Edition OC",
+      "stock": "out_of_stock",
+      "url": "https://www.memoryexpress.com/Products/MX00135516",
+      "track_url": "https://pctechvault.com/market-watch/geforce-rtx-5070-ti/?market=new-retail&region=CA",
+      "basis": "lowest_in_stock_variant",
+      "origin": "Release source review",
+      "checked_at": "2026-11-23T07:09:04Z",
+      "date": "2026-11-23"
+    },
+    "cpu": {
+      "price": 550,
+      "shop": "Canada Computers",
+      "product": "Ryzen 7 9800X3D",
+      "stock": "tracker_in_stock",
+      "url": "https://www.canadacomputers.com/en/amd-desktop-processors/264908/amd-ryzen-7-9800x3d-8-core-4nm-am5-104mb-cache-120w-zen-5-cpu-100-100001084wof.html",
+      "track_url": "https://pctechvault.com/market-watch/amd-ryzen-7-9800x3d/?market=new-retail&region=CA",
+      "basis": "lowest_in_stock_variant",
+      "origin": "Release source review",
+      "checked_at": "2026-11-23T07:09:04Z",
+      "date": "2026-11-23"
+    }
+  },
+  "history": {
+    "kit": [
+      {
+        "date": "2026-11-23",
+        "price": 1399.98,
+        "url": "https://www.canadacomputers.com/en/amd-desktop-processors/283326/amd-ryzen-7-9800x3d-cpu-asus-tuf-gaming-b850-e-wifi-motherboard-t-force-32gb-d5-6000mhz-cl30-ram.html",
+        "product": "9800X3D + ASUS B850-E + T-Force 32GB CL30"
+      }
+    ],
+    "mlg": [
+      {
+        "date": "2026-11-23",
+        "price": 1609.99,
+        "url": "https://www.memoryexpress.com/Products/MX00135516",
+        "product": "MSI MLG Edition OC"
+      }
+    ],
+    "best5070": [
+      {
+        "date": "2026-11-23",
+        "price": 1610,
+        "url": "https://www.memoryexpress.com/Products/MX00135516",
+        "product": "MSI MLG Edition OC"
+      }
+    ],
+    "cpu": [
+      {
+        "date": "2026-11-23",
+        "price": 550,
+        "url": "https://www.canadacomputers.com/en/amd-desktop-processors/264908/amd-ryzen-7-9800x3d-8-core-4nm-am5-104mb-cache-120w-zen-5-cpu-100-100001084wof.html",
+        "product": "Ryzen 7 9800X3D"
+      }
+    ]
+  },
+  "failures": {},
+  "last_run_at": null,
+  "last_successful_run_at": null,
+  "run_summary": {
+    "successful": 0,
+    "failed": 0,
+    "attempted": 0
+  }
+}
