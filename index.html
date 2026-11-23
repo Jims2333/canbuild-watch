@@ -25,6 +25,19 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
 
+
+@media(max-width:650px){
+  .side{display:block;padding:12px 13px 8px;min-width:0}
+  .side .nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2px;margin-top:7px}
+  .side .nav a{min-width:0;font-size:11px;align-items:center;gap:5px;line-height:1.2;padding:7px 5px}
+  .side .nav a span{font-size:14px}
+  .two,.selectors{grid-template-columns:minmax(0,1fr)}
+  .finder .filter-inner{display:grid;grid-template-columns:minmax(0,1fr)}
+  .finder .filter-inner .mini-btn{justify-self:start}
+  .field select,.chart-controls select{width:100%;max-width:100%;overflow:hidden}
+  .field,.head>div,.chart-controls,.row,.find-tools>*{min-width:0;max-width:100%}
+  .result-actions{flex-wrap:wrap}.result-actions details{min-width:0;max-width:100%;overflow-wrap:anywhere}
+}
 </style>
 </head>
 <body>
@@ -378,15 +391,15 @@
  },
  "g5080": {
   "kind": "GPU",
-  "name": "RTX 5080 · Gigabyte Windforce 16GB",
+  "name": "RTX 5080 · ASUS Prime OC 16GB",
   "spec": [
    "NVIDIA",
    16,
    "5080"
   ],
-  "url": "https://www.canadacomputers.com/en/powered-by-nvidia/269913/gigabyte-geforce-rtx-5080-windforce-oc-sff-16g-graphics-card-gv-n5080wf3oc-16gd.html",
-  "reference": null,
-  "referenceStock": "unknown"
+  "url": "https://www.canadacomputers.com/en/powered-by-nvidia/267147/asus-prime-geforce-rtx-5080-16gb-gddr7-oc-edition-sff-prime-rtx5080-o16g.html",
+  "reference": 2999,
+  "referenceStock": "out_of_stock"
  },
  "best4070": {
   "kind": "GPU",
@@ -420,15 +433,15 @@
  },
  "g9070": {
   "kind": "GPU",
-  "name": "RX 9070 · Sapphire Pulse 16GB",
+  "name": "RX 9070 · ASUS Prime OC 16GB",
   "spec": [
    "AMD",
    16,
    "9070"
   ],
-  "url": "https://www.canadacomputers.com/en/powered-by-amd/269147/sapphire-pulse-amd-radeon-rx-9070-16gb-gddr6-11349-03-20g.html",
-  "reference": null,
-  "referenceStock": "unknown"
+  "url": "https://www.canadacomputers.com/en/powered-by-amd/267255/asus-prime-radeon-rx-9070-oc-gddr6-triple-fans-prime-rx9070-o16g.html",
+  "reference": 1419.99,
+  "referenceStock": "out_of_stock"
  },
  "best9070": {
   "kind": "GPU",
@@ -693,7 +706,7 @@ function chosen(){
  const platform=kit==='custom'?['cpuPart','boardPart','memoryPart'].map(k=>$(k).value):kit==='singles'?['cpu','board','ram']:kit==='twokit'?['twokit','ram']:[kit];
  return platform.concat(['gpu','ssd','psu','cooler','case'].map(k=>$(k).value));
 }
-function refresh(){const ids=chosen(),nums=ids.map(price),missing=nums.some(n=>n===null||!Number.isFinite(n));const subtotal=missing?null:nums.reduce((sum,n)=>sum+Math.round(n*100),0)/100;const tax=subtotal===null?null:subtotal*.13;const total=subtotal===null?null:subtotal*1.13;const budget=Number($('budget').value)||3000;const delta=total===null?null:total-budget;
+function refresh(){const ids=chosen(),nums=ids.map(price),missing=nums.some(n=>n===null||!Number.isFinite(n));const subtotal=missing?null:nums.reduce((sum,n)=>sum+Math.round(n*100),0)/100;const tax=subtotal===null?null:Math.floor((Math.round(subtotal*100)*13+50)/100)/100;const total=subtotal===null?null:(Math.round(subtotal*100)+Math.round(tax*100))/100;const budget=Number($('budget').value)||3000;const delta=total===null?null:total-budget;
 $('subtotal').textContent=cad(subtotal);$('tax').textContent=cad(tax);$('total').textContent=cad(total);$('targetBudget').textContent=cad(budget);$('totalKpi').textContent=cad(total);$('subtotalCaption').textContent=missing?'One or more components need a quote':`Subtotal ${cad(subtotal)} · Parts and HST`;
 $('budgetKpi').textContent=missing?'Awaiting quote':(delta>=0?'+':'−')+cad(Math.abs(delta));$('budgetKpi').className='big '+(delta>0||missing?'warn':'lime');$('budgetCaption').textContent=missing?'Review the missing component prices':delta>0?'over budget':'under budget';const pct=missing?0:Math.round(total/budget*100);$('budgetFill').style.width=Math.min(100,pct)+'%';$('usage').textContent=missing?'Incomplete':pct+'%';const gpuid=$('gpu').value;let alerts=[];if(meta[gpuid].status==='unknown' && price(gpuid)===null) alerts.push('A verified GPU quote is pending.');if(ids.some(id=>meta[id].status==='old'))alerts.push('Some quotes are older. Check dates and retailer stock.');const unavailable=ids.filter(id=>meta[id].status==='unavailable');if(unavailable.length)alerts.push('Last reported out of stock: '+unavailable.map(id=>meta[id].name).join(', ')+'.');if(meta[gpuid].status==='old')alerts.push('GPU availability needs confirmation.');if(catalog[gpuid]?.spec[0]==='AMD')alerts.push('AMD GPUs use a different software stack from NVIDIA CUDA. Check compatibility with your PyTorch workloads.');if(gpuid==='super' && price(gpuid)!==null)alerts.push('The GPU price is a manual estimate.');if($('cpuKit').value==='twokit')alerts.push('CPU+motherboard bundle pricing is from an earlier promotion.');alerts.push('Shipping is extra. Check dimensions for the exact graphics card before ordering.');$('stockWarn').textContent='⚠ '+alerts.join(' ');
 const verdict=$('verdict');verdict.classList.toggle('warn',missing||delta>0);verdict.innerHTML=missing?'<b>Build total pending.</b> Review the selected parts and enter any missing prices.':delta>0?`<b>Over budget by ${cad(delta)}.</b> Check current stock and compare alternate parts.`:`<b>Within budget.</b> Verify stock and shipping for each part.`;
@@ -899,7 +912,8 @@ function runFinder() {
           const psu=accessory('PSU',id=>catalog[id].spec[0]>=(family==='5080'?850:750));if(!psu)continue;
           for(const ssd of ssds){
             const ids=[...base.ids,gpu,ssd,psu,cooler,box];
-            const total=Math.round(ids.reduce((sum,id)=>sum+Math.round(price(id)*100),0)*1.13)/100;
+            const cents=ids.reduce((sum,id)=>sum+Math.round(price(id)*100),0);
+            const total=(cents+Math.floor((cents*13+50)/100))/100;
             if(total<min||total>max)continue;
             const risks=ids.map(stockRisk),risk=Math.max(...risks),distance=Math.abs(total-budget);
             const score=distance+(capacity<32?budget*.09:0)+risks.filter(n=>n===1).length*budget*.007;

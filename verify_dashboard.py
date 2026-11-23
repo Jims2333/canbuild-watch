@@ -114,14 +114,14 @@ with sync_playwright() as pw:
     checks.append(f"The deployed feed returned {len(amounts)} default recommendations. Displayed totals: {', '.join(amounts)}.")
     page.set_viewport_size({"width":390,"height":844})
     page.locator("#filtersPanel summary").click()
-    assert page.evaluate("document.documentElement.scrollWidth <= window.innerWidth")
+    assert page.evaluate("document.documentElement.scrollWidth <= window.innerWidth"), page.evaluate("""() => [...document.querySelectorAll('body *')].filter(e=>e.getBoundingClientRect().right>innerWidth+1 && !e.closest('.tablewrap')).map(e=>[e.tagName,e.id,e.className,Math.round(e.getBoundingClientRect().right)]).slice(0,20)""")
     page.locator("#filtersPanel").screenshot(path=evidence / "filters-mobile.png")
     page.locator("#filtersPanel summary").click()
 
 
     page.set_viewport_size({"width":390,"height":844})
     page.goto(url, wait_until="networkidle")
-    assert page.evaluate("document.documentElement.scrollWidth <= window.innerWidth")
+    assert page.evaluate("document.documentElement.scrollWidth <= window.innerWidth"), page.evaluate("""() => [...document.querySelectorAll('body *')].filter(e=>e.getBoundingClientRect().right>innerWidth+1 && !e.closest('.tablewrap')).map(e=>[e.tagName,e.id,e.className,Math.round(e.getBoundingClientRect().right)]).slice(0,20)""")
     page.screenshot(path=evidence / "mobile.png")
     assert not errors, errors
     checks.append("At 390 px the page fits the viewport. No uncaught JavaScript errors were observed.")
