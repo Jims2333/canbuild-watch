@@ -1,49 +1,37 @@
 {
   "failures": {
     "best4070": {
-      "last_failure_at": "2026-11-23T07:20:27Z",
-      "reason": "Unexpected page size"
-    },
-    "best5070": {
-      "last_failure_at": "2026-11-23T07:20:27Z",
-      "reason": "Unexpected page size"
-    },
-    "best9070": {
-      "last_failure_at": "2026-11-23T07:20:27Z",
-      "reason": "Unexpected page size"
-    },
-    "cpu": {
-      "last_failure_at": "2026-11-23T07:20:27Z",
-      "reason": "Unexpected page size"
+      "last_failure_at": "2026-11-23T07:25:58Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.newegg.ca/p/pl?N=100007708+601432392"
     },
     "mlg": {
-      "last_failure_at": "2026-11-23T07:20:27Z",
-      "reason": "Could not isolate a valid product sale price (Memory Express)"
-    },
-    "ram": {
-      "last_failure_at": "2026-11-23T07:20:27Z",
-      "reason": "Unexpected page size"
-    },
-    "rme": {
-      "last_failure_at": "2026-11-23T07:20:27Z",
-      "reason": "Unexpected page size"
+      "last_failure_at": "2026-11-23T07:25:58Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.memoryexpress.com/Products/MX00135516"
     }
   },
   "history": {
     "air903": [
       {
         "date": "2026-11-23",
-        "price": 75.69,
+        "price": 106.24,
         "product": "Montech AIR 903 Base, E-ATX Mid Tower Case, High Airflow with Max Capacity, 3X 140mm PWM Fans Pre-Installed, Tempered Glass Side Panel, Mesh Front, Type-C_Black",
-        "url": "https://www.modcom.ca/collections/case/products/montech-air-903-base-e-atx-mid-tower-case-high-airflow-with-max-capacity-3x-140mm-pwm-fans-pre-installed-tempered-glass-side-panel-mesh-front-type-c_black"
+        "url": "https://www.modcom.ca/collections/case/products/montech-air-903-base-e-atx-mid-tower-case-high-airflow-with-max-capacity-3x-140mm-pwm-fans-pre-installed-tempered-glass-side-panel-mesh-front-type-c_black?country=CA&currency=CAD"
       }
     ],
     "best5070": [
       {
         "date": "2026-11-23",
-        "price": 1610,
-        "product": "MSI MLG Edition OC",
-        "url": "https://www.memoryexpress.com/Products/MX00135516"
+        "price": 1929.0,
+        "product": "MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC , 16GB GDDR7, 2482 Mhz, PCI-E 5.0, 256 bit, 16-pin x 1, HDMI 2.1b x 1, Display Port 2.1b x 3",
+        "url": "https://www.canadacomputers.com/en/powered-by-nvidia/268906/msi-geforce-rtx-5070-ti-16g-ventus-3x-oc-rtx-5070-ti-16g-ventus-3x-oc.html"
+      }
+    ],
+    "best9070": [
+      {
+        "date": "2026-11-23",
+        "price": 1399.0,
+        "product": "SAPPHIRE PULSE AMD RADEON RX 9070 XT 16GB GDDR6  GRAPHICS CARD OC 11348-03-20G",
+        "url": "https://www.canadacomputers.com/en/powered-by-amd/269139/sapphire-pulse-amd-radeon-rx-9070-xt-16gb-gddr6-11348-03-20g.html"
       }
     ],
     "board": [
@@ -57,8 +45,8 @@
     "cpu": [
       {
         "date": "2026-11-23",
-        "price": 550,
-        "product": "Ryzen 7 9800X3D",
+        "price": 549.99,
+        "product": "AMD Ryzen 7 9800X3D 8-Core/16-Thread 4nm 104MB Cache 120W ZEN 5 Processor | Socket AM5 5.2GHz boost, DDR5, PCIe 5.0, 100-100001084WOF",
         "url": "https://www.canadacomputers.com/en/amd-desktop-processors/264908/amd-ryzen-7-9800x3d-8-core-4nm-am5-104mb-cache-120w-zen-5-cpu-100-100001084wof.html"
       }
     ],
@@ -94,6 +82,22 @@
         "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/261116/kingston-nv3-2tb-nvme-pcie-4x4-ssd-snv3s-2000g.html"
       }
     ],
+    "ram": [
+      {
+        "date": "2026-11-23",
+        "price": 1089.99,
+        "product": "G.SKILL Trident Z5 Neo RGB 32GB (2x16GB) DDR5 6000MHz CL30 1.35V UDIMM INTEL XMP,AMD EXPO - Desktop Memory - Black (F5-6000J3038F16GX2-TZ5NR)",
+        "url": "https://www.canadacomputers.com/en/desktop-memory/227127/g-skill-trident-z5-neo-rgb-32gb-2x16gb-ddr5-6000mhz-cl30-udimm-f5-6000j3038f16gx2-tz5nr.html"
+      }
+    ],
+    "rme": [
+      {
+        "date": "2026-11-23",
+        "price": 111.99,
+        "product": "CORSAIR RMe Series RM850e Fully Modular Low-Noise ATX Power Supply Black(Open Box)",
+        "url": "https://www.canadacomputers.com/en/power-supplies/270519/corsair-corsair-rm850e-850w-gold-atx-power-supply-black-cp-9020296-na.html"
+      }
+    ],
     "sn850": [
       {
         "date": "2026-11-23",
@@ -114,32 +118,47 @@
   "items": {
     "air903": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:20:27Z",
+      "checked_at": "2026-11-23T07:25:58Z",
+      "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
-      "price": 75.69,
+      "price": 106.24,
       "product": "Montech AIR 903 Base, E-ATX Mid Tower Case, High Airflow with Max Capacity, 3X 140mm PWM Fans Pre-Installed, Tempered Glass Side Panel, Mesh Front, Type-C_Black",
       "shop": "Modcom",
       "stock": "unknown",
-      "track_url": "https://www.modcom.ca/collections/case/products/montech-air-903-base-e-atx-mid-tower-case-high-airflow-with-max-capacity-3x-140mm-pwm-fans-pre-installed-tempered-glass-side-panel-mesh-front-type-c_black",
-      "url": "https://www.modcom.ca/collections/case/products/montech-air-903-base-e-atx-mid-tower-case-high-airflow-with-max-capacity-3x-140mm-pwm-fans-pre-installed-tempered-glass-side-panel-mesh-front-type-c_black"
+      "track_url": "https://www.modcom.ca/collections/case/products/montech-air-903-base-e-atx-mid-tower-case-high-airflow-with-max-capacity-3x-140mm-pwm-fans-pre-installed-tempered-glass-side-panel-mesh-front-type-c_black?country=CA&currency=CAD",
+      "url": "https://www.modcom.ca/collections/case/products/montech-air-903-base-e-atx-mid-tower-case-high-airflow-with-max-capacity-3x-140mm-pwm-fans-pre-installed-tempered-glass-side-panel-mesh-front-type-c_black?country=CA&currency=CAD"
     },
     "best5070": {
       "basis": "lowest_in_stock_variant",
-      "checked_at": "2026-11-23T07:09:04Z",
+      "checked_at": "2026-11-23T07:25:58Z",
+      "currency": "CAD",
       "date": "2026-11-23",
-      "note": "The retailer reports this listing out of stock. It conflicts with the tracker observation.",
-      "origin": "Release source review",
-      "price": 1610,
-      "product": "MSI MLG Edition OC",
-      "shop": "Memory Express",
-      "stock": "out_of_stock",
+      "note": "Retailer observation. Check current stock and local delivery on the product page.",
+      "price": 1929.0,
+      "product": "MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC , 16GB GDDR7, 2482 Mhz, PCI-E 5.0, 256 bit, 16-pin x 1, HDMI 2.1b x 1, Display Port 2.1b x 3",
+      "shop": "Canada Computers",
+      "stock": "in_stock",
       "track_url": "https://pctechvault.com/market-watch/geforce-rtx-5070-ti/?market=new-retail&region=CA",
-      "url": "https://www.memoryexpress.com/Products/MX00135516"
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/268906/msi-geforce-rtx-5070-ti-16g-ventus-3x-oc-rtx-5070-ti-16g-ventus-3x-oc.html"
+    },
+    "best9070": {
+      "basis": "lowest_in_stock_variant",
+      "checked_at": "2026-11-23T07:25:58Z",
+      "currency": "CAD",
+      "date": "2026-11-23",
+      "note": "Retailer observation. Check current stock and local delivery on the product page.",
+      "price": 1399.0,
+      "product": "SAPPHIRE PULSE AMD RADEON RX 9070 XT 16GB GDDR6  GRAPHICS CARD OC 11348-03-20G",
+      "shop": "Canada Computers",
+      "stock": "in_stock",
+      "track_url": "https://pctechvault.com/market-watch/amd-radeon-rx-9070-xt/?market=new-retail&region=CA",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/269139/sapphire-pulse-amd-radeon-rx-9070-xt-16gb-gddr6-11348-03-20g.html"
     },
     "board": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:20:27Z",
+      "checked_at": "2026-11-23T07:25:58Z",
+      "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
       "price": 209.99,
@@ -150,20 +169,22 @@
       "url": "https://www.canadacomputers.com/en/amd-motherboards/267132/gigabyte-b850-eagle-wifi6e-amd-am5-lga-1718-motherboard-atx-ddr5-b850-eagle-wifi6e.html"
     },
     "cpu": {
-      "basis": "lowest_in_stock_variant",
-      "checked_at": "2026-11-23T07:09:04Z",
+      "basis": "exact_sku",
+      "checked_at": "2026-11-23T07:25:58Z",
+      "currency": "CAD",
       "date": "2026-11-23",
-      "origin": "Release source review",
-      "price": 550,
-      "product": "Ryzen 7 9800X3D",
+      "note": "Retailer observation. Check current stock and local delivery on the product page.",
+      "price": 549.99,
+      "product": "AMD Ryzen 7 9800X3D 8-Core/16-Thread 4nm 104MB Cache 120W ZEN 5 Processor | Socket AM5 5.2GHz boost, DDR5, PCIe 5.0, 100-100001084WOF",
       "shop": "Canada Computers",
-      "stock": "tracker_in_stock",
-      "track_url": "https://pctechvault.com/market-watch/amd-ryzen-7-9800x3d/?market=new-retail&region=CA",
+      "stock": "in_stock",
+      "track_url": "https://www.canadacomputers.com/en/amd-desktop-processors/264908/amd-ryzen-7-9800x3d-8-core-4nm-am5-104mb-cache-120w-zen-5-cpu-100-100001084wof.html",
       "url": "https://www.canadacomputers.com/en/amd-desktop-processors/264908/amd-ryzen-7-9800x3d-8-core-4nm-am5-104mb-cache-120w-zen-5-cpu-100-100001084wof.html"
     },
     "kit": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:20:27Z",
+      "checked_at": "2026-11-23T07:25:58Z",
+      "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
       "price": 1399.98,
@@ -187,7 +208,8 @@
     },
     "nv3a": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:20:27Z",
+      "checked_at": "2026-11-23T07:25:58Z",
+      "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
       "price": 219.99,
@@ -199,7 +221,8 @@
     },
     "nv3b": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:20:27Z",
+      "checked_at": "2026-11-23T07:25:58Z",
+      "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
       "price": 399.99,
@@ -209,9 +232,36 @@
       "track_url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/261116/kingston-nv3-2tb-nvme-pcie-4x4-ssd-snv3s-2000g.html",
       "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/261116/kingston-nv3-2tb-nvme-pcie-4x4-ssd-snv3s-2000g.html"
     },
+    "ram": {
+      "basis": "exact_sku",
+      "checked_at": "2026-11-23T07:25:58Z",
+      "currency": "CAD",
+      "date": "2026-11-23",
+      "note": "Retailer observation. Check current stock and local delivery on the product page.",
+      "price": 1089.99,
+      "product": "G.SKILL Trident Z5 Neo RGB 32GB (2x16GB) DDR5 6000MHz CL30 1.35V UDIMM INTEL XMP,AMD EXPO - Desktop Memory - Black (F5-6000J3038F16GX2-TZ5NR)",
+      "shop": "Canada Computers",
+      "stock": "in_stock",
+      "track_url": "https://www.canadacomputers.com/en/desktop-memory/227127/g-skill-trident-z5-neo-rgb-32gb-2x16gb-ddr5-6000mhz-cl30-udimm-f5-6000j3038f16gx2-tz5nr.html",
+      "url": "https://www.canadacomputers.com/en/desktop-memory/227127/g-skill-trident-z5-neo-rgb-32gb-2x16gb-ddr5-6000mhz-cl30-udimm-f5-6000j3038f16gx2-tz5nr.html"
+    },
+    "rme": {
+      "basis": "exact_sku",
+      "checked_at": "2026-11-23T07:25:58Z",
+      "currency": "CAD",
+      "date": "2026-11-23",
+      "note": "Retailer observation. Check current stock and local delivery on the product page.",
+      "price": 111.99,
+      "product": "CORSAIR RMe Series RM850e Fully Modular Low-Noise ATX Power Supply Black(Open Box)",
+      "shop": "Canada Computers",
+      "stock": "out_of_stock",
+      "track_url": "https://www.canadacomputers.com/en/power-supplies/270519/corsair-corsair-rm850e-850w-gold-atx-power-supply-black-cp-9020296-na.html",
+      "url": "https://www.canadacomputers.com/en/power-supplies/270519/corsair-corsair-rm850e-850w-gold-atx-power-supply-black-cp-9020296-na.html"
+    },
     "sn850": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:20:27Z",
+      "checked_at": "2026-11-23T07:25:58Z",
+      "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
       "price": 549.99,
@@ -223,7 +273,8 @@
     },
     "win": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:20:27Z",
+      "checked_at": "2026-11-23T07:25:58Z",
+      "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
       "price": 1899.0,
@@ -234,12 +285,12 @@
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/268823/gigabyte-geforce-rtx-5070-ti-windforce-oc-sff-16g-graphics-card-gv-n507twf3oc-16gd.html"
     }
   },
-  "last_run_at": "2026-11-23T07:20:27Z",
-  "last_successful_run_at": "2026-11-23T07:20:27Z",
+  "last_run_at": "2026-11-23T07:25:58Z",
+  "last_successful_run_at": "2026-11-23T07:25:58Z",
   "run_summary": {
     "attempted": 14,
-    "failed": 7,
-    "successful": 7
+    "failed": 2,
+    "successful": 12
   },
   "schema": "canbuild-live.v1"
 }
