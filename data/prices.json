@@ -1,7 +1,7 @@
 {
   "failures": {
     "best4070": {
-      "last_failure_at": "2026-11-23T07:33:37Z",
+      "last_failure_at": "2026-11-23T07:37:18Z",
       "reason": "403 Client Error: Forbidden for url: https://www.newegg.ca/p/pl?N=100007708+601432392"
     }
   },
@@ -97,9 +97,9 @@
     "rme": [
       {
         "date": "2026-11-23",
-        "price": 111.99,
-        "product": "CORSAIR RMe Series RM850e Fully Modular Low-Noise ATX Power Supply Black(Open Box)",
-        "url": "https://www.canadacomputers.com/en/power-supplies/270519/corsair-corsair-rm850e-850w-gold-atx-power-supply-black-cp-9020296-na.html"
+        "price": 139.99,
+        "product": "CORSAIR RMe Series RM850e Fully Modular Low-Noise ATX Power Supply Black",
+        "url": "https://www.canadacomputers.com/en/power-supplies/266815/corsair-corsair-rm850e-850w-gold-atx-power-supply-black-cp-9020296-na.html"
       }
     ],
     "sn850": [
@@ -122,7 +122,7 @@
   "items": {
     "air903": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:33:37Z",
+      "checked_at": "2026-11-23T07:37:18Z",
       "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -135,7 +135,7 @@
     },
     "best5070": {
       "basis": "lowest_in_stock_variant",
-      "checked_at": "2026-11-23T07:33:37Z",
+      "checked_at": "2026-11-23T07:37:18Z",
       "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -148,7 +148,7 @@
     },
     "best9070": {
       "basis": "lowest_in_stock_variant",
-      "checked_at": "2026-11-23T07:33:37Z",
+      "checked_at": "2026-11-23T07:37:18Z",
       "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -161,7 +161,7 @@
     },
     "board": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:33:37Z",
+      "checked_at": "2026-11-23T07:37:18Z",
       "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -174,7 +174,7 @@
     },
     "cpu": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:33:37Z",
+      "checked_at": "2026-11-23T07:37:18Z",
       "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -187,7 +187,7 @@
     },
     "kit": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:33:37Z",
+      "checked_at": "2026-11-23T07:37:18Z",
       "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -200,7 +200,7 @@
     },
     "mlg": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:33:37Z",
+      "checked_at": "2026-11-23T07:37:18Z",
       "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -213,7 +213,7 @@
     },
     "nv3a": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:33:37Z",
+      "checked_at": "2026-11-23T07:37:18Z",
       "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -226,7 +226,7 @@
     },
     "nv3b": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:33:37Z",
+      "checked_at": "2026-11-23T07:37:18Z",
       "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -239,7 +239,7 @@
     },
     "pny4070": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:33:37Z",
+      "checked_at": "2026-11-23T07:37:18Z",
       "currency": "CAD",
       "date": "2026-11-23",
       "price": 1280.99,
@@ -251,7 +251,7 @@
     },
     "ram": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:33:37Z",
+      "checked_at": "2026-11-23T07:37:18Z",
       "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -264,20 +264,20 @@
     },
     "rme": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:33:37Z",
+      "checked_at": "2026-11-23T07:37:18Z",
       "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
-      "price": 111.99,
-      "product": "CORSAIR RMe Series RM850e Fully Modular Low-Noise ATX Power Supply Black(Open Box)",
+      "price": 139.99,
+      "product": "CORSAIR RMe Series RM850e Fully Modular Low-Noise ATX Power Supply Black",
       "shop": "Canada Computers",
       "stock": "out_of_stock",
-      "track_url": "https://www.canadacomputers.com/en/power-supplies/270519/corsair-corsair-rm850e-850w-gold-atx-power-supply-black-cp-9020296-na.html",
-      "url": "https://www.canadacomputers.com/en/power-supplies/270519/corsair-corsair-rm850e-850w-gold-atx-power-supply-black-cp-9020296-na.html"
+      "track_url": "https://www.canadacomputers.com/en/power-supplies/266815/corsair-corsair-rm850e-850w-gold-atx-power-supply-black-cp-9020296-na.html",
+      "url": "https://www.canadacomputers.com/en/power-supplies/266815/corsair-corsair-rm850e-850w-gold-atx-power-supply-black-cp-9020296-na.html"
     },
     "sn850": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:33:37Z",
+      "checked_at": "2026-11-23T07:37:18Z",
       "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -290,7 +290,7 @@
     },
     "win": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T07:33:37Z",
+      "checked_at": "2026-11-23T07:37:18Z",
       "currency": "CAD",
       "date": "2026-11-23",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -302,8 +302,8 @@
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/268823/gigabyte-geforce-rtx-5070-ti-windforce-oc-sff-16g-graphics-card-gv-n507twf3oc-16gd.html"
     }
   },
-  "last_run_at": "2026-11-23T07:33:37Z",
-  "last_successful_run_at": "2026-11-23T07:33:37Z",
+  "last_run_at": "2026-11-23T07:37:18Z",
+  "last_successful_run_at": "2026-11-23T07:37:18Z",
   "run_summary": {
     "attempted": 15,
     "failed": 1,
