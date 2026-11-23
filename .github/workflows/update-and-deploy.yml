@@ -1,0 +1,72 @@
+name: Refresh prices, test dashboard and publish
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['data/prices.json']
+  schedule:
+    - cron: '17 */2 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: canbuild-pages
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install collector and browser tests
+        run: |
+          python -m pip install -r requirements.txt playwright
+          python -m playwright install --with-deps chromium
+      - name: Run parser tests
+        run: python -m unittest -v test_parsers
+      - name: Refresh price observations
+        id: collect
+        continue-on-error: true
+        run: |
+          mkdir -p data
+          if [ ! -f data/prices.json ]; then cp initial-prices.json data/prices.json; fi
+          python update_prices.py
+      - name: Verify dashboard and capture evidence
+        run: |
+          mkdir -p public/data
+          cp index.html public/
+          cp data/prices.json public/data/
+          python verify_dashboard.py public
+      - name: Save verified observations
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/prices.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record Canadian component price observations"
+            git push
+          fi
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Report collection status
+        run: |
+          python -c 'import json; print(json.load(open("data/prices.json"))["run_summary"])' >> "$GITHUB_STEP_SUMMARY"
+          if [ "${{ steps.collect.outcome }}" != success ]; then echo "::warning::No new prices. The dashboard identifies retained observations."; fi
+  publish:
+    needs: verify
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
