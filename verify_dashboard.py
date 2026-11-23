@@ -89,6 +89,11 @@ with sync_playwright() as pw:
         qa.select_option("#filter"+key,value)
     assert cards.count()==1
     expected=cards.locator(".rc-price").inner_text()
+    breakdown=cards.locator(".rc-breakdown")
+    assert breakdown.get_by_text("Parts subtotal", exact=False).count()==1
+    assert breakdown.get_by_text("Ontario HST", exact=False).count()==1
+    assert breakdown.get_by_text("Total after tax", exact=False).count()==1
+    assert breakdown.locator("b").nth(2).inner_text()==expected
     cards.locator("summary").click()
     assert cards.locator("li a").count() >= 6
     cards.get_by_role("button",name="Use build").click()
@@ -103,7 +108,7 @@ with sync_playwright() as pw:
     qa.select_option("#cpuKit","custom")
     qa.select_option("#cpuPart","i144")
     assert qa.input_value("#boardPart")=="b760" and qa.input_value("#memoryPart") in {"ddr4","ddr4s"}
-    checks.extend(["Ten distinct CPU/GPU recommendations near CA$3,000 are available with the release reference prices.",
+    checks.extend(["Ten distinct CPU/GPU recommendations near CA$3,000 show parts subtotal, Ontario HST and total after tax.",
         "All eight exact part filters combine, a conflicting socket yields zero results, and clearing filters restores results.",
         "Applying a recommendation preserves its after-tax total, power supply, cooler and case.",
         "The local-AI filter selects CUDA GPUs and the individual planner enforces socket and RAM generation."])
