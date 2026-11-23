@@ -44,6 +44,11 @@ class MonitorParserTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'Canadian-dollar'):
             parse_retail(html,'Modcom','https://www.modcom.ca/products/test')
 
+    def test_reject_open_box_primary_offer(self):
+        html='<h1>CORSAIR RM850e (Open Box)</h1><p>$111.99</p><a>Get it NEW $139.99</a>'
+        with self.assertRaisesRegex(ValueError,'new retail'):
+            parse_retail(html,'Canada Computers','https://www.canadacomputers.com/item')
+
     def test_split_retail_price(self):
         html='<h1>MSI MLG Edition OC 16GB</h1><span>Only</span><span>$1,609.99</span><p>Online Store: Out of Stock</p>'
         self.assertEqual(parse_retail(html,'Memory Express','https://www.memoryexpress.com/Products/test')['price'],1609.99)

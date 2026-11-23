@@ -16,7 +16,7 @@ HTML, CSS, JavaScript and SVG render the planner and history chart. GitHub Pages
 
 ## Release verification
 
-Each release runs seven parser fixtures with Python unittest, then opens the built site in Chromium with Playwright. The browser checks the feed, English interface, budget calculation, missing quote, reset, history link, JSON export/import, refresh and mobile width.
+Each release runs eight parser fixtures with Python unittest, then opens the built site in Chromium with Playwright. The browser checks the feed, English interface, budget calculation, missing quote, reset, history link, JSON export/import, refresh and mobile width.
 
 [Latest verification results](https://jims2333.github.io/canbuild-watch/verification/checks.json) · [Desktop screenshot](https://jims2333.github.io/canbuild-watch/verification/desktop.png) · [Budget test screenshot](https://jims2333.github.io/canbuild-watch/verification/budget.png) · [Mobile screenshot](https://jims2333.github.io/canbuild-watch/verification/mobile.png) · [Workflow runs](https://github.com/Jims2333/canbuild-watch/actions)
 

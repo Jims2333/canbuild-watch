@@ -48,7 +48,7 @@ CC = 'https://www.canadacomputers.com/en/'
 DIRECT_ALTERNATIVES = {
     'cpu': ['amd-desktop-processors/264908/amd-ryzen-7-9800x3d-8-core-4nm-am5-104mb-cache-120w-zen-5-cpu-100-100001084wof.html'],
     'ram': ['desktop-memory/227127/g-skill-trident-z5-neo-rgb-32gb-2x16gb-ddr5-6000mhz-cl30-udimm-f5-6000j3038f16gx2-tz5nr.html'],
-    'rme': ['power-supplies/270519/corsair-corsair-rm850e-850w-gold-atx-power-supply-black-cp-9020296-na.html'],
+    'rme': ['power-supplies/266815/corsair-corsair-rm850e-850w-gold-atx-power-supply-black-cp-9020296-na.html'],
     'best5070': [
         'powered-by-nvidia/268906/msi-geforce-rtx-5070-ti-16g-ventus-3x-oc-rtx-5070-ti-16g-ventus-3x-oc.html',
         'powered-by-nvidia/290028/msi-geforce-rtx-5070-ti-16g-frieren-edition-oc-rtx-5070-ti-16g-frieren-edition-oc.html',
@@ -166,6 +166,8 @@ def parse_retail(html: str, name: str, page_url: str) -> dict:
     # recommendations, protections, ads, or other components in a bundle.
     title_el = soup.find('h1')
     title = title_el.get_text(' ', strip=True) if title_el else ''
+    if re.search(r'\b(open[\s-]*box|refurbished|pre[\s-]*owned)\b', title, re.I):
+        raise ValueError('Listing is not a new retail unit')
     if not title or len(title)<10:
         raise ValueError('Product title missing; refusing unsafe price extraction')
     idx = next((i for i,s in enumerate(lines) if s == title), -1)
@@ -201,7 +203,7 @@ def parse_retail(html: str, name: str, page_url: str) -> dict:
         else:
             stock = 'unknown'
     elif name == 'Canada Computers':
-        if re.search(r'Delivery\s+(?:Unavailable|Not Available)|Online\s+0\b', plain, re.I):
+        if re.search(r'Delivery\s+(?:Unavailable|Not Available|Sold out online)|Online\s+0\b', plain, re.I):
             stock = 'out_of_stock'
         elif re.search(r'\bAvailable to Ship\b|Online\s+[1-9]\d*\+|Online\s+(?:In Stock|Available)', plain, re.I):
             stock = 'in_stock'
@@ -336,6 +338,11 @@ def main() -> None:
     except (OSError, ValueError):
         data = {'schema':'canbuild-live.v1','items':{},'history':{},'failures':{}}
     data.update(schema='canbuild-live.v1', last_run_at=STAMP)
+    open_box_psu = '/power-supplies/270519/'
+    if open_box_psu in data.get('items', {}).get('rme', {}).get('url', ''):
+        del data['items']['rme']
+    if 'rme' in data.get('history', {}):
+        data['history']['rme'] = [p for p in data['history']['rme'] if open_box_psu not in p.get('url', '')]
     # The original Shopify check did not verify the storefront currency.
     legacy = data.get('items', {}).get('air903', {})
     if legacy and legacy.get('shop') == 'Modcom' and not legacy.get('currency'):
