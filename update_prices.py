@@ -33,6 +33,7 @@ TRACKERS = {
     'rme': 'https://pctechvault.com/market-watch/corsair-rm850e/?market=new-retail&region=CA',
 }
 RETAIL = {
+    'pny4070': ('DeployDepot', 'https://deploydepot.ca/products/pny-nvidia-geforce-rtx-4070-ti-super-graphic-card-16-gb-gddr6x-vcg4070ts16tfxpb1-o'),
     'kit': ('Canada Computers', 'https://www.canadacomputers.com/en/amd-desktop-processors/283326/amd-ryzen-7-9800x3d-cpu-asus-tuf-gaming-b850-e-wifi-motherboard-t-force-32gb-d5-6000mhz-cl30-ram.html'),
     'board': ('Canada Computers', 'https://www.canadacomputers.com/en/amd-motherboards/267132/gigabyte-b850-eagle-wifi6e-amd-am5-lga-1718-motherboard-atx-ddr5-b850-eagle-wifi6e.html'),
     'mlg': ('Memory Express', 'https://www.memoryexpress.com/Products/MX00135516'),
@@ -274,6 +275,33 @@ def newegg_4070(html: str) -> dict:
 def observe(session, key, kind, item):
     if kind == 'retail':
         name, url = item
+        if key == 'pny4070':
+            response = session.get(url + '?country=CA&currency=CAD', timeout=(8,18))
+            response.raise_for_status()
+            soup = BeautifulSoup(response.text, 'html.parser')
+            for script in soup.select('script[type="application/ld+json"]'):
+                try:
+                    doc = json.loads(script.string or script.get_text())
+                except ValueError:
+                    continue
+                nodes = doc if isinstance(doc,list) else [doc]
+                for node in nodes:
+                    if not isinstance(node,dict):
+                        continue
+                    if '@graph' in node:
+                        nodes.extend(node['@graph'])
+                    if node.get('@type') != 'Product' or '4070 TI SUPER' not in str(node.get('name','')).upper():
+                        continue
+                    offers = node.get('offers', [])
+                    for offer in (offers if isinstance(offers,list) else [offers]):
+                        if offer.get('priceCurrency') != 'CAD':
+                            continue
+                        price = extract_amount(offer.get('price'))
+                        availability = str(offer.get('availability','')).split('/')[-1].lower()
+                        if price and availability in ('instock','outofstock','soldout'):
+                            return {'price':price,'currency':'CAD','stock':'in_stock' if availability=='instock' else 'out_of_stock',
+                                    'basis':'exact_sku','shop':name,'product':node['name'],'url':url,'track_url':url}
+            raise ValueError('No matching CAD offer with confirmed stock status')
         if name == 'Modcom':
             url += '?country=CA&currency=CAD'
         return parse_retail(fetch(session, url), name, url)

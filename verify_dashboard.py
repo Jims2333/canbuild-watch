@@ -30,6 +30,17 @@ with sync_playwright() as pw:
     assert not re.search(r"[\u3400-\u9fff]", page.locator("body").inner_text())
     checks.append("The English dashboard loads the published price feed.")
     page.screenshot(path=evidence / "desktop.png")
+    page.select_option("#gpu", "pny4070")
+    pny_row = page.locator("#partsBody tr").filter(has_text="PNY RTX 4070 Ti SUPER Verto OC")
+    assert pny_row.count() == 1
+    pny = feed["items"].get("pny4070")
+    if pny:
+        assert pny_row.locator(".price").inner_text() == f"${pny['price']:,.2f}"
+        if pny["stock"] == "out_of_stock":
+            assert "out of stock" in pny_row.inner_text().lower()
+    else:
+        assert page.inner_text("#total") == "—"
+    checks.append("The exact PNY 4070 Ti SUPER listing shows its own quote and stock status, or leaves the estimate pending.")
     page.select_option("#gpu", "super")
     page.fill("#overrideGPU", "1000")
     page.fill("#budget", "3000")
