@@ -20,9 +20,12 @@
 .find-tools .action{height:42px}.money-field{display:flex;align-items:center;border:1px solid #354a60;border-radius:10px;padding-inline:11px;background:#0d1c2d;color:var(--sub);gap:5px;font-size:13px}.money-field input{border:0;background:transparent;padding:0;height:40px;width:100%;outline:0}.money-field:focus-within{outline:2px solid var(--cyan);outline-offset:2px}.money-field input:focus-visible{outline:0}
 #filtersPanel{margin-top:15px;border:1px solid var(--edge);border-radius:12px;background:#102032}#filtersPanel summary,.result-card summary{cursor:pointer}#filtersPanel summary{padding:11px 14px;font-weight:650;font-size:13px}#filterCount{float:right;color:var(--sub);font-weight:500}.filter-inner{padding:4px 14px 14px;display:flex;align-items:end;flex-wrap:wrap;gap:12px}#filterGrid{width:100%;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}#findStatus{color:var(--sub);font-size:12px;margin:15px 0 9px}#findResults{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.result-card{min-width:0;border:1px solid #2b4155;border-radius:12px;background:#102033;padding:13px 15px}.result-card h3{font-size:15px;line-height:1.3;margin:0 0 6px}.result-card p{margin:3px 0;font-size:12px;color:var(--sub)}.result-card .rc-price{font-weight:750;color:var(--lime);font-size:17px;letter-spacing:-.4px}.result-card .delta{font-size:11px;color:var(--sub);margin-left:8px}.result-actions{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:8px}.result-actions button{padding:6px 10px;font-size:12px}.result-card summary{font-size:12px;color:var(--cyan)}.result-card ul{padding-left:18px;margin:10px 0 2px;font-size:12px}.result-card .offer-status{font-size:11px;color:#acc6d0}.result-card .offer-status.sold{color:var(--amber)}.finder .empty{grid-column:1/-1;border:1px dashed #385066;padding:22px;border-radius:12px;color:#c8d7de}.finder .empty p{margin:4px 0}.finder .empty button{margin-top:10px}
 .rc-breakdown{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:8px 0}.rc-breakdown span{display:block;padding:6px 7px;border:1px solid #293f53;border-radius:8px;background:#0c1928;color:var(--sub);font-size:10px;line-height:1.25}.rc-breakdown b{display:block;color:var(--text);font-size:12px;margin-top:2px;white-space:nowrap}
+.budget-presets{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-top:11px}.budget-presets span{font-size:11px;color:var(--sub);margin-right:2px}.budget-chip{border:1px solid #365069;background:#12263a;color:#cfe3ed;border-radius:999px;padding:6px 10px;font-size:11px}.budget-chip:hover,.budget-chip.on{border-color:var(--cyan);color:var(--cyan);background:#153343}.budget-chip.radeon{border-color:#794c4c;color:#ffb0a8;background:#32222a}
+.filter-toolbar{width:100%;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding-bottom:12px;border-bottom:1px solid #263c50}.check-field{display:flex;align-items:center;gap:9px;height:42px;border:1px solid #354a60;border-radius:10px;background:#0d1c2d;padding:0 12px;color:#d6e6ee;font-size:12px}.check-field input{width:16px;height:16px;accent-color:var(--cyan)}.check-field label{margin:0;cursor:pointer}.catalog-note{width:100%;display:flex;justify-content:space-between;gap:12px;align-items:center;color:var(--sub);font-size:11px}.catalog-note strong{color:var(--lime)}.part-tier,.value-pick{display:inline-block;border-radius:999px;padding:3px 7px;font-size:10px;font-weight:800;vertical-align:1px}.part-tier.high{background:#3b2740;color:#ffc0ef}.part-tier.mid{background:#253d4b;color:#9fe5f0}.part-tier.low{background:#293d2e;color:#b8e6ae}.value-pick{background:#3a3421;color:#ffe291}.result-flags{display:flex;gap:5px;flex-wrap:wrap;margin:6px 0}
 @media(max-width:1070px){.find-tools{grid-template-columns:1fr 1fr}#filterGrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){#findResults{grid-template-columns:1fr}.find-tools{grid-template-columns:repeat(2,minmax(0,1fr))}.find-tools .field:nth-child(2){grid-column:2}.filter-inner>.field{flex:1}.finder .head{margin-bottom:12px}}
 @media(max-width:420px){#filterGrid{grid-template-columns:minmax(0,1fr)}.result-card{padding:12px}.field label{font-size:11px}}
+@media(max-width:650px){.filter-toolbar{grid-template-columns:minmax(0,1fr)}.catalog-note{align-items:flex-start;flex-direction:column}.budget-presets{gap:5px}.budget-chip{padding:6px 8px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
 
@@ -52,12 +55,13 @@
   <div class="head"><div><h2 id="findTitle">Find a build</h2><p>Compare complete PCs around your Ontario after-tax budget. All prices in CAD.</p></div></div>
   <form id="findForm">
     <div class="find-tools">
-      <div class="field"><label for="findBudget">After-tax budget</label><div class="money-field"><span>CA$</span><input id="findBudget" type="number" value="3000" min="1" max="100000" step="any" required></div></div>
-      <div class="field"><label for="findUse">Workload</label><select id="findUse"><option value="">All workloads</option><option value="game">1440p gaming</option><option value="ai">Local AI · CUDA, 16GB+ VRAM</option><option value="x3d">High-refresh gaming · X3D</option><option value="storage">Game library · 2TB+</option></select></div>
+      <div class="field"><label for="findBudget">After-tax budget</label><div class="money-field"><span>CA$</span><input id="findBudget" type="number" value="3000" min="2000" max="5000" step="100" required></div></div>
+      <div class="field"><label for="findUse">Workload</label><select id="findUse"><option value="">All workloads</option><option value="game">1440p gaming</option><option value="radeon">RX 9070 / 9070 XT · 1000W · premium 2TB+</option><option value="ai">Local AI · CUDA, 16GB+ VRAM</option><option value="x3d">High-refresh gaming · X3D</option><option value="storage">Large game library · 2TB+</option></select></div>
       <div class="field"><label for="findRange">Budget range</label><select id="findRange"><option value="10">Within 10%</option><option value="5">Within 5%</option><option value="under">At or below budget</option><option value="20">Within 20%</option><option value="all">Any price</option></select></div>
-      <button type="submit" class="action">Find 10 builds</button>
+      <button type="submit" class="action">Find 20 builds</button>
     </div>
-    <details id="filtersPanel"><summary>Component filters <span id="filterCount">All parts</span></summary><div class="filter-inner"><div id="filterGrid"></div><div class="field"><label for="findStock">Availability</label><select id="findStock"><option value="possible">Exclude reported sellouts</option><option value="confirmed">Recently reported in stock</option><option value="all">Include sold-out offers</option></select></div><button id="clearFilters" class="mini-btn" type="button">Clear filters</button></div></details>
+    <div class="budget-presets" aria-label="Budget presets"><span>One-click budget</span><button type="button" class="budget-chip" data-budget="2000">$2,000</button><button type="button" class="budget-chip" data-budget="2500">$2,500</button><button type="button" class="budget-chip on" data-budget="3000">$3,000</button><button type="button" class="budget-chip" data-budget="3500">$3,500</button><button type="button" class="budget-chip" data-budget="4000">$4,000</button><button type="button" class="budget-chip" data-budget="5000">$5,000</button><button type="button" class="budget-chip radeon" id="radeonPreset">RX 9070 build 👍</button></div>
+    <details id="filtersPanel"><summary>Component filters &amp; sorting <span id="filterCount">All parts</span></summary><div class="filter-inner"><div class="filter-toolbar"><div class="field"><label for="findTier">Performance tier</label><select id="findTier"><option value="">All tiers</option><option value="high">High-end</option><option value="mid">Mid-range</option><option value="low">Entry / value</option></select></div><div class="field"><label for="findSort">Sort candidates</label><select id="findSort"><option value="value">Best value first 👍</option><option value="priceAsc">Price · low to high</option><option value="priceDesc">Price · high to low</option><option value="performance">Performance tier first</option></select></div><div class="check-field"><input id="findValue" type="checkbox"><label for="findValue">Only show value picks 👍</label></div></div><div class="catalog-note"><span id="catalogCount">Loading expanded catalogue…</span><span>High / mid / entry labels use model class, capacity, efficiency and interface—not price alone.</span></div><div id="filterGrid"></div><div class="field"><label for="findStock">Availability</label><select id="findStock"><option value="possible">Exclude reported sellouts</option><option value="confirmed">Recently reported in stock</option><option value="all">Include sold-out offers</option></select></div><button id="clearFilters" class="mini-btn" type="button">Clear filters</button></div></details>
   </form>
   <p id="findStatus" role="status" aria-live="polite"></p>
   <div id="findResults"></div>
@@ -480,8 +484,12 @@
   "kind": "SSD",
   "name": "WD Black SN850X 2TB",
   "spec": [
-   2
-  ]
+   2,
+   "Gen4"
+  ],
+  "tier": "high",
+  "value": true,
+  "valueScore": 88
  },
  "ssd990": {
   "kind": "SSD",
@@ -519,6 +527,34 @@
   "spec": [
    850
   ]
+ },
+ "rm1000x": {
+  "kind": "PSU",
+  "name": "Corsair RM1000x 1000W Gold ATX 3.1",
+  "spec": [
+   1000,
+   "Gold"
+  ],
+  "url": "https://www.canadacomputers.com/en/power-supplies/263829/corsair-rmx-series-rm1000x-cp-9020271-na.html",
+  "reference": 224.99,
+  "referenceStock": "in_stock",
+  "tier": "high",
+  "value": true,
+  "valueScore": 92
+ },
+ "pure1000": {
+  "kind": "PSU",
+  "name": "be quiet! Pure Power 13 M 1000W Gold ATX 3.1",
+  "spec": [
+   1000,
+   "Gold"
+  ],
+  "url": "https://www.canadacomputers.com/en/power-supplies/272694/be-quiet-pure-power-13-m-1000w-gold-atx-power-supply-black-bp028u2.html",
+  "reference": 179.99,
+  "referenceStock": "in_stock",
+  "tier": "high",
+  "value": true,
+  "valueScore": 96
  },
  "a750": {
   "kind": "PSU",
@@ -801,10 +837,41 @@ const catalog = JSON.parse($('partCatalog').textContent);
 const groups = ['CPU','Motherboard','Memory','GPU','SSD','PSU','Cooler','Case'];
 const selectors = {CPU:'cpuPart',Motherboard:'boardPart',Memory:'memoryPart',GPU:'gpu',SSD:'ssd',PSU:'psu',Cooler:'cooler',Case:'case'};
 const platformKeys = groups.slice(0,3);
-const entries = Object.keys(catalog);
+let entries = Object.keys(catalog);
 const ofKind = kind => entries.filter(id => catalog[id].kind === kind);
-const bundleFor = new Map(ofKind('Bundle').map(id => [catalog[id].spec.join('/'),id]));
+let bundleFor = new Map(ofKind('Bundle').map(id => [catalog[id].spec.join('/'),id]));
 let displayed = [];
+const tierOrder={high:3,mid:2,low:1};
+const tierName={high:'High-end',mid:'Mid-range',low:'Entry / value'};
+function normalizePart(part){
+  if(!part.brand)part.brand=(part.name||'Other').split(' ')[0];
+  if(!part.tier){
+    if(part.kind==='GPU')part.tier=['5080','5090','7900','9070'].some(x=>String(part.spec?.[2]).includes(x))?'high':['5070','5060','7800','7700','9060'].some(x=>String(part.spec?.[2]).includes(x))?'mid':'low';
+    else if(part.kind==='SSD')part.tier=part.spec?.[1]==='Gen5'||part.spec?.[0]>=4?'high':part.spec?.[0]>=1?'mid':'low';
+    else if(part.kind==='PSU')part.tier=part.spec?.[0]>=1000?'high':part.spec?.[0]>=750?'mid':'low';
+  }
+  if(!Number.isFinite(part.valueScore))part.valueScore=part.value?90:50;
+}
+function partLabel(id){const p=catalog[id],flags=(p.value?'👍 ':'')+(p.tier?tierName[p.tier]+' · ':'');return flags+p.name+(Number.isFinite(price(id))?' · '+cad(price(id)):' · quote pending')}
+function partComparator(sort='value'){
+  return (a,b)=>sort==='priceAsc'?(price(a)??Infinity)-(price(b)??Infinity):sort==='priceDesc'?(price(b)??-1)-(price(a)??-1):sort==='performance'?(tierOrder[catalog[b].tier]||0)-(tierOrder[catalog[a].tier]||0)||(price(a)??Infinity)-(price(b)??Infinity):(catalog[b].valueScore||0)-(catalog[a].valueScore||0)||(price(a)??Infinity)-(price(b)??Infinity);
+}
+async function loadExpandedCatalog(){
+  try{
+    const response=await fetch('./data/catalog.json?check='+Date.now(),{cache:'no-store'});
+    if(!response.ok)throw Error('HTTP '+response.status);
+    const data=await response.json();
+    if(data.schema!=='canbuild-catalog.v1'||!data.parts)throw Error('Invalid catalogue feed');
+    Object.assign(catalog,data.parts);
+    entries=Object.keys(catalog);bundleFor=new Map(ofKind('Bundle').map(id=>[catalog[id].spec.join('/'),id]));
+    for(const part of Object.values(catalog))normalizePart(part);
+    const counts=['GPU','SSD','PSU'].map(kind=>kind+' '+ofKind(kind).length+'+').join(' · ');
+    $('catalogCount').innerHTML='<strong>'+safe(counts)+'</strong> · batch 1 catalogue · '+safe((data.generated_at||'').slice(0,10));
+  }catch(error){
+    for(const part of Object.values(catalog))normalizePart(part);
+    $('catalogCount').textContent='Expanded catalogue unavailable · showing '+entries.length+' retained parts';
+  }
+}
 function bestPlatform(cpu,board,memory,stockMode) {
   const singles = [cpu,board,memory], bundle = bundleFor.get(singles.join('/'));
   const choices = bundle ? [[bundle],singles] : [singles];
@@ -828,7 +895,7 @@ function setupFinder() {
         tag:sold?'Last seen out of stock':part.reference===null?'Quote pending':'Reference · verify stock',date:'2026-11-23'};
       liveKeys.add(id);
     }
-    if(!curveFromItem[id] && part.url){
+    if(!curveFromItem[id] && part.url && !id.startsWith('cc_')){
       curveFromItem[id]=id;
       curves[id]={title:part.name,desc:'Scheduled price observations',link:part.url,values:[]};
       $('series').add(new Option(part.name,id));
@@ -839,10 +906,10 @@ function setupFinder() {
     const label=document.createElement('label'),select=document.createElement('select');
     select.id='filter'+kind;label.htmlFor=select.id;label.textContent=kind==='PSU'?'Power supply':kind;
     select.add(new Option('Any '+(kind==='PSU'?'power supply':kind.toLowerCase()),''));
-    for(const id of ofKind(kind)) {
-      select.add(new Option(catalog[id].name,id));
+    for(const id of ofKind(kind).sort(partComparator('value'))) {
+      select.add(new Option(partLabel(id),id));
       const planner=$(selectors[kind]);
-      if(!Array.from(planner.options).some(o=>o.value===id))planner.add(new Option(catalog[id].name,id));
+      if(!Array.from(planner.options).some(o=>o.value===id))planner.add(new Option(partLabel(id),id));
     }
     field.append(label,select);$('filterGrid').append(field);
   }
@@ -851,7 +918,10 @@ function setupFinder() {
   $('cpuPart').value='cpu';$('boardPart').value='board';$('memoryPart').value='ram';
   $('findForm').addEventListener('submit',e=>{e.preventDefault();runFinder()});
   $('findForm').addEventListener('change',runFinder);
-  $('clearFilters').addEventListener('click',()=>{for(const k of groups)$('filter'+k).value='';$('findStock').value='possible';$('findUse').value='';runFinder()});
+  $('clearFilters').addEventListener('click',()=>{for(const k of groups)$('filter'+k).value='';$('findStock').value='possible';$('findUse').value='';$('findTier').value='';$('findSort').value='value';$('findValue').checked=false;runFinder()});
+  document.querySelectorAll('[data-budget]').forEach(button=>button.addEventListener('click',()=>{$('findBudget').value=button.dataset.budget;document.querySelectorAll('[data-budget]').forEach(x=>x.classList.toggle('on',x===button));runFinder()}));
+  $('findBudget').addEventListener('input',()=>document.querySelectorAll('[data-budget]').forEach(x=>x.classList.toggle('on',x.dataset.budget===$('findBudget').value)));
+  $('radeonPreset').addEventListener('click',()=>{$('findUse').value='radeon';$('findBudget').value='3500';$('findRange').value='20';$('findTier').value='';$('findValue').checked=false;document.querySelectorAll('[data-budget]').forEach(x=>x.classList.toggle('on',x.dataset.budget==='3500'));runFinder()});
   $('findResults').addEventListener('click',e=>{
     const btn=e.target.closest('button');if(!btn)return;
     if(btn.hasAttribute('data-widen')){$('findRange').value='all';runFinder();return}
@@ -885,16 +955,30 @@ function alignPlatform() {
 }
 function runFinder() {
   const budget=$('findBudget').valueAsNumber;
-  if(!(budget>0) || budget>100000){displayed=[];$('findStatus').textContent='Enter a budget from CA$1 to CA$100,000.';$('findResults').replaceChildren();return}
-  const mode=$('findStock').value,use=$('findUse').value,range=$('findRange').value;
+  if(budget<2000 || budget>5000){displayed=[];$('findStatus').textContent='Enter an after-tax budget from CA$2,000 to CA$5,000.';$('findResults').replaceChildren();return}
+  const mode=$('findStock').value,use=$('findUse').value,range=$('findRange').value,tier=$('findTier').value,sort=$('findSort').value,valueOnly=$('findValue').checked;
   const options={},locked=groups.filter(k=>$('filter'+k).value);
-  for(const k of groups)options[k]=$('filter'+k).value?[$('filter'+k).value]:ofKind(k);
-  $('filterCount').textContent=locked.length?locked.length+' selected':'All parts';
+  for(const k of groups){
+    const exact=$('filter'+k).value;
+    options[k]=(exact?[exact]:ofKind(k)).filter(id=>(!tier||!catalog[id].tier||catalog[id].tier===tier)&&(!valueOnly||catalog[id].value===undefined||catalog[id].value));
+  }
+  const advanced=Number(Boolean(tier))+Number(valueOnly);
+  $('filterCount').textContent=locked.length+advanced?(locked.length+advanced)+' active':'All parts';
   const min=range==='all'||range==='under'?0:budget*(1-Number(range)/100);
   const max=range==='all'?Infinity:range==='under'?budget:budget*(1+Number(range)/100);
   function offered(k,test=()=>true){return options[k].filter(id=>Number.isFinite(price(id)) && acceptable(stockRisk(id),mode) && test(id));}
-  function accessory(k,test){return offered(k,test).sort((a,b)=>stockRisk(a)-stockRisk(b)||price(a)-price(b))[0]}
-  const box=accessory('Case'),ssds=offered('SSD',id=>use!=='storage'||catalog[id].spec[0]>=2);
+  function accessory(k,test=()=>true){return offered(k,test).sort((a,b)=>stockRisk(a)-stockRisk(b)||partComparator(sort)(a,b))[0]}
+  const box=accessory('Case');
+  const ssdPool=offered('SSD',id=>(!['storage','radeon'].includes(use)||catalog[id].spec[0]>=2)&&(use!=='radeon'||catalog[id].tier!=='low')).sort(partComparator(sort)).slice(0,$('filterSSD').value?1:24);
+  const gpuPool=offered('GPU',id=>{
+    const [maker,vram,family]=catalog[id].spec;
+    if(use==='ai')return maker==='NVIDIA'&&vram>=16;
+    if(use==='game')return vram>=12;
+    if(use==='radeon')return maker==='AMD'&&String(family).includes('9070');
+    return true;
+  }).sort(partComparator(sort)).slice(0,$('filterGPU').value?1:50);
+  const psuCache=new Map();
+  function choosePsu(required){if(!psuCache.has(required))psuCache.set(required,accessory('PSU',id=>catalog[id].spec[0]>=required));return psuCache.get(required)}
   const candidates=new Map();
   for(const cpu of options.CPU){
     if(use==='x3d'&&!catalog[cpu].name.includes('X3D'))continue;
@@ -907,35 +991,37 @@ function runFinder() {
         const [type,capacity]=catalog[mem].spec;
         if(type!==catalog[board].spec[1] || (use==='ai' && capacity<32))continue;
         const base=bestPlatform(cpu,board,mem,mode);if(!base)continue;
-        for(const gpu of offered('GPU')){
+        for(const gpu of gpuPool){
           const [maker,vram,family]=catalog[gpu].spec;
-          if(use==='ai' && (maker!=='NVIDIA'||vram<16) || use==='game' && vram<12)continue;
-          const psu=accessory('PSU',id=>catalog[id].spec[0]>=(family==='5080'?850:750));if(!psu)continue;
-          for(const ssd of ssds){
+          const requiredPsu=use==='radeon'?1000:/5090/.test(family)?1000:/5080|7900|9070/.test(family)?850:750;
+          const psu=choosePsu(requiredPsu);if(!psu)continue;
+          for(const ssd of ssdPool){
             const ids=[...base.ids,gpu,ssd,psu,cooler,box];
             const cents=ids.reduce((sum,id)=>sum+Math.round(price(id)*100),0);
             const total=(cents+Math.floor((cents*13+50)/100))/100;
             if(total<min||total>max)continue;
             const risks=ids.map(stockRisk),risk=Math.max(...risks),distance=Math.abs(total-budget);
-            const score=distance+(capacity<32?budget*.09:0)+risks.filter(n=>n===1).length*budget*.007;
-            const key=cpu+'/'+family;
+            const thumbs=ids.filter(id=>catalog[id].value).length,valueScore=ids.reduce((sum,id)=>sum+(catalog[id].valueScore||50),0)/ids.length;
+            const score=distance+(capacity<32?budget*.09:0)+risks.filter(n=>n===1).length*budget*.007-thumbs*budget*.004-valueScore;
+            const key=cpu+'/'+family+'/'+catalog[ssd].tier+'/'+catalog[psu].spec[0];
             const previous=candidates.get(key);
             if(previous && (previous.risk<risk || (previous.risk===risk && previous.score<=score)))continue;
-            candidates.set(key,{CPU:cpu,Motherboard:board,Memory:mem,GPU:gpu,SSD:ssd,PSU:psu,Cooler:cooler,Case:box,platform:base.ids,ids,total,risk,score});
+            candidates.set(key,{CPU:cpu,Motherboard:board,Memory:mem,GPU:gpu,SSD:ssd,PSU:psu,Cooler:cooler,Case:box,platform:base.ids,ids,total,risk,score,thumbs,valueScore});
           }
         }
       }
     }
   }
-  displayed=[...candidates.values()].sort((a,b)=>a.risk-b.risk||a.score-b.score).slice(0,10);
+  displayed=[...candidates.values()].sort((a,b)=>a.risk-b.risk||a.score-b.score).slice(0,20);
   const scope=Number.isFinite(max)?(min?cad(min)+' – '+cad(max):'up to '+cad(max)):'all prices';
-  $('findStatus').textContent=displayed.length+' of '+candidates.size+' matching CPU/GPU pairings · '+scope+' after 13% HST · shipping extra';
+  $('findStatus').textContent=displayed.length+' of '+candidates.size+' matching builds · '+scope+' after 13% HST · searched '+gpuPool.length+' GPUs, '+ssdPool.length+' SSDs and '+offered('PSU').length+' PSUs';
   function render(b,index) {
     const c=catalog[b.CPU],g=catalog[b.GPU],ram=catalog[b.Memory],ssd=catalog[b.SSD];
-    const focus=c.name.includes('X3D')?'High-refresh gaming':g.spec[0]==='NVIDIA'&&g.spec[1]>=16?'CUDA · 16GB+ VRAM':ssd.spec[0]>=2?'2TB game library':g.spec[0]==='AMD'?'Radeon gaming':'Gaming & everyday use';
+    const focus=use==='radeon'?'RX 9070 series · 1000W headroom · premium storage':c.name.includes('X3D')?'High-refresh gaming':g.spec[0]==='NVIDIA'&&g.spec[1]>=16?'CUDA · 16GB+ VRAM':ssd.spec[0]>=2?'2TB+ game library':g.spec[0]==='AMD'?'Radeon gaming':'Gaming & everyday use';
     const stock=['All offers recently reported in stock','Check stock on one or more offers','Includes a reported sellout'][b.risk];
     const lines=b.ids.map(id=>'<li><a target="_blank" rel="noopener noreferrer" href="'+safe(SHOPURL[id])+'">'+safe(meta[id].name)+'</a> · '+cad(price(id))+' · '+safe(meta[id].tag)+'</li>').join('');
-    return '<article class="result-card"><h3>'+safe(c.name)+' + '+safe(g.name.split(' · ')[0].split(' 16GB')[0])+'</h3><p>'+safe(focus)+' · '+ram.spec[1]+'GB '+ram.spec[0]+' · '+ssd.spec[0]+'TB SSD</p><div><span class="rc-price">'+cad(b.total)+'</span><span class="delta">'+cad(Math.abs(b.total-budget))+(b.total<=budget?' under':' over')+'</span></div><p class="offer-status '+(b.risk===2?'sold':'')+'">'+stock+'</p><div class="result-actions"><details><summary>Parts &amp; offers</summary><ul>'+lines+'</ul></details><button class="mini-btn" type="button" data-build="'+index+'">Use build</button></div></article>';
+    const flags='<div class="result-flags"><span class="part-tier '+safe(g.tier||'mid')+'">GPU '+safe(tierName[g.tier]||'Classified')+'</span><span class="part-tier '+safe(ssd.tier||'mid')+'">SSD '+safe(tierName[ssd.tier]||'Classified')+'</span>'+(b.thumbs?'<span class="value-pick">👍 '+b.thumbs+' value picks</span>':'')+'</div>';
+    return '<article class="result-card"><h3>'+safe(c.name)+' + '+safe(g.name.split(' · ')[0].split(' 16GB')[0])+'</h3>'+flags+'<p>'+safe(focus)+' · '+ram.spec[1]+'GB '+ram.spec[0]+' · '+ssd.spec[0]+'TB SSD · '+catalog[b.PSU].spec[0]+'W PSU</p><div><span class="rc-price">'+cad(b.total)+'</span><span class="delta">'+cad(Math.abs(b.total-budget))+(b.total<=budget?' under':' over')+'</span></div><p class="offer-status '+(b.risk===2?'sold':'')+'">'+stock+'</p><div class="result-actions"><details><summary>Parts &amp; offers</summary><ul>'+lines+'</ul></details><button class="mini-btn" type="button" data-build="'+index+'">Use build</button></div></article>';
   }
   $('findResults').innerHTML=displayed.length?displayed.map(render).join(''):'<div class="empty"><strong>No matching builds</strong><p>Try another component, workload or availability setting.</p>'+(range!=='all'?'<button class="mini-btn" type="button" data-widen>Search any price</button>':'')+'</div>';
   document.querySelectorAll('#findResults .result-card').forEach((card,index)=>{
@@ -952,10 +1038,11 @@ function updatePartLabels(){
  for(const [id,part] of Object.entries(catalog)){
   const field=part.kind==='Bundle'?'cpuKit':selectors[part.kind];
   const option=Array.from($(field).options).find(o=>o.value===id);
-  if(option)option.textContent=part.name+' · '+(Number.isFinite(price(id))?cad(price(id)):'quote pending')+(meta[id].status==='unavailable'?' · sold out':'');
+  if(option)option.textContent=partLabel(id)+(meta[id]?.status==='unavailable'?' · sold out':'');
  }
 }
-setupFinder();init();updatePartLabels();runFinder();initSync();
+async function bootstrap(){await loadExpandedCatalog();setupFinder();init();updatePartLabels();runFinder();initSync()}
+bootstrap();
 })();
 </script>
 </body>
