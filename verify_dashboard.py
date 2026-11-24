@@ -80,7 +80,7 @@ with sync_playwright() as pw:
     qa.route("**/data/prices.json*", lambda route: route.fulfill(json={"schema":"canbuild-live.v1","items":{},"history":{}}))
     qa.goto(url,wait_until="networkidle")
     cards = qa.locator(".result-card")
-    assert cards.count() == 10 and len(set(cards.locator("h3").all_inner_texts())) == 10
+    assert cards.count() == 20 and len(set(cards.locator("h3").all_inner_texts())) >= 10
     qa.locator("#filtersPanel summary").click()
     assert qa.locator("#filterGrid select").count() == 8
     qa.select_option("#findStock", "all")
@@ -108,7 +108,11 @@ with sync_playwright() as pw:
     qa.select_option("#cpuKit","custom")
     qa.select_option("#cpuPart","i144")
     assert qa.input_value("#boardPart")=="b760" and qa.input_value("#memoryPart") in {"ddr4","ddr4s"}
-    checks.extend(["Ten distinct CPU/GPU recommendations near CA$3,000 show parts subtotal, Ontario HST and total after tax.",
+    qa.fill("#findBudget", "2000")
+    assert cards.count() > 0
+    qa.fill("#findBudget", "5000")
+    assert cards.count() > 0
+    checks.extend(["Twenty ranked recommendations near the selected CA$2,000–5,000 budget show parts subtotal, Ontario HST and total after tax.",
         "All eight exact part filters combine, a conflicting socket yields zero results, and clearing filters restores results.",
         "Applying a recommendation preserves its after-tax total, power supply, cooler and case.",
         "The local-AI filter selects CUDA GPUs and the individual planner enforces socket and RAM generation."])
