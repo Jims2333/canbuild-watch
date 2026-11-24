@@ -5,7 +5,7 @@
     "SSD": 100
   },
   "errors": {},
-  "generated_at": "2026-11-24T08:25:27Z",
+  "generated_at": "2026-11-24T17:51:52Z",
   "parts": {
     "cc_gpu_108604": {
       "brand": "ASUS",
@@ -75,6 +75,23 @@
       "value": false,
       "valueScore": 99
     },
+    "cc_gpu_242414": {
+      "brand": "GIGABYTE",
+      "kind": "GPU",
+      "name": "GIGABYTE GeForce RTX 3060 WINDFORCE OC 12G (rev. 2.0) GDDR6 Graphics Card",
+      "reference": 649.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "3060"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/242414/gigabyte-geforce-rtx-3060-windforce-oc-12g-rev-2-0-gddr6-graphics-card-gv-n3060wf2oc-12gd-g20.html",
+      "value": true,
+      "valueScore": 99
+    },
     "cc_gpu_252696": {
       "brand": "Online",
       "kind": "GPU",
@@ -90,7 +107,7 @@
       "tier": "low",
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/252696/msi-geforce-rtx-3050-ventus-2x-6g-oc-rtx-3050-ventus-2x-6g-oc.html",
       "value": false,
-      "valueScore": 99
+      "valueScore": 95
     },
     "cc_gpu_253381": {
       "brand": "NVIDIA",
@@ -107,7 +124,7 @@
       "tier": "low",
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/253381/asus-dual-nvidia-geforce-rtx-3050-6gb-oc-edition-hmdi-dp-dvi-dual-rtx3050-o6g.html",
       "value": true,
-      "valueScore": 99
+      "valueScore": 98
     },
     "cc_gpu_267147": {
       "brand": "ASUS",
@@ -549,7 +566,7 @@
       "tier": "mid",
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/269555/msi-geforce-rtx-5070-12g-ventus-2x-oc-12gb-gddr7-rtx-5070-12g-ventus-2x-oc.html",
       "value": false,
-      "valueScore": 80
+      "valueScore": 95
     },
     "cc_gpu_269556": {
       "brand": "Online",
@@ -704,6 +721,23 @@
       "value": false,
       "valueScore": 75
     },
+    "cc_gpu_271858": {
+      "brand": "MSI",
+      "kind": "GPU",
+      "name": "MSI GeForce RTX 5060 8G GAMING OC, GDDR6 8G, PCI-E 5.0, 128 bit, 8-pin",
+      "reference": 779.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "5060"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/271858/msi-geforce-rtx-5060-8g-gaming-oc-gddr6-8g-pci-e-5-0-128-bit-8-pin-rtx-5060-8g-gaming-oc.html",
+      "value": false,
+      "valueScore": 80
+    },
     "cc_gpu_271874": {
       "brand": "MSI",
       "kind": "GPU",
@@ -718,8 +752,8 @@
       ],
       "tier": "mid",
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/271874/msi-geforce-rtx-5060-8g-ventus-2x-oc-gddr7-8gb-pci-e-5-0-128-bit-rtx-5060-8g-ventus-2x-oc.html",
-      "value": true,
-      "valueScore": 99
+      "value": false,
+      "valueScore": 75
     },
     "cc_gpu_272216": {
       "brand": "Online",
@@ -770,7 +804,7 @@
       "tier": "mid",
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/272221/gigabyte-gv-n506twf2oc-16gd-gddr7-double-fans-gv-n506twf2oc-16gd.html",
       "value": false,
-      "valueScore": 60
+      "valueScore": 55
     },
     "cc_gpu_272235": {
       "brand": "GIGABYTE",
@@ -820,8 +854,8 @@
       ],
       "tier": "mid",
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/272909/msi-geforce-rtx-5060-8g-gaming-trio-oc-gddr7-8gb-pci-e-5-0-128-bit-rtx-5060-8g-gaming-trio-oc.html",
-      "value": true,
-      "valueScore": 88
+      "value": false,
+      "valueScore": 80
     },
     "cc_gpu_273034": {
       "brand": "Online",
@@ -838,7 +872,7 @@
       "tier": "mid",
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/273034/asus-prime-geforce-rtx-5060-8gb-gddr7-prime-rtx5060-8g.html",
       "value": false,
-      "valueScore": 85
+      "valueScore": 80
     },
     "cc_gpu_273047": {
       "brand": "Online",
@@ -855,7 +889,7 @@
       "tier": "mid",
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/273047/asus-tuf-rtx5060-o8g-gaming-gddr7-triple-fans-tuf-rtx5060-o8g-gaming.html",
       "value": false,
-      "valueScore": 70
+      "valueScore": 65
     },
     "cc_gpu_273070": {
       "brand": "Online",
@@ -872,7 +906,7 @@
       "tier": "mid",
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/273070/asus-dual-geforce-rtx-5060-ti-8gb-gddr7-oc-edition-dual-rtx5060ti-o8g.html",
       "value": false,
-      "valueScore": 95
+      "valueScore": 99
     },
     "cc_gpu_273071": {
       "brand": "Online",
@@ -889,7 +923,7 @@
       "tier": "mid",
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/273071/asus-dual-geforce-rtx-5060-ti-16gb-gddr7-oc-edition-dual-rtx5060ti-o16g.html",
       "value": false,
-      "valueScore": 75
+      "valueScore": 70
     },
     "cc_gpu_273456": {
       "brand": "XFX",
@@ -906,7 +940,7 @@
       "tier": "mid",
       "url": "https://www.canadacomputers.com/en/powered-by-amd/273456/xfx-swift-amd-radeon-rx-9060-xt-oc-white-gaming-edition-16gb-rx-96tsw16wq.html",
       "value": true,
-      "valueScore": 88
+      "valueScore": 83
     },
     "cc_gpu_273457": {
       "brand": "Online",
@@ -991,7 +1025,7 @@
       "tier": "mid",
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/273661/gigabyte-geforce-rtx-5060-windforce-oc-8g-graphics-card-gv-n5060wf2oc-8gd.html",
       "value": true,
-      "valueScore": 99
+      "valueScore": 98
     },
     "cc_gpu_273692": {
       "brand": "Online",
@@ -1042,7 +1076,7 @@
       "tier": "mid",
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/273897/msi-geforce-rtx-5060-8g-ventus-2x-oc-white-rtx-5060-8g-ventus-2x-oc-white.html",
       "value": false,
-      "valueScore": 90
+      "valueScore": 85
     },
     "cc_gpu_273942": {
       "brand": "Online",
@@ -1060,23 +1094,6 @@
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/273942/zotac-gaming-geforce-rtx-5060-amp-8gb-gddr7-zt-b50600f-10m.html",
       "value": false,
       "valueScore": 80
-    },
-    "cc_gpu_273989": {
-      "brand": "SAPPHIRE",
-      "kind": "GPU",
-      "name": "SAPPHIRE NITRO+ AMD RADEON RX 9060 XT GAMING OC 16GB GDDR6",
-      "reference": 1199.0,
-      "referenceStock": "unknown",
-      "source": "Canada Computers",
-      "spec": [
-        "AMD",
-        16,
-        "9060 XT"
-      ],
-      "tier": "mid",
-      "url": "https://www.canadacomputers.com/en/powered-by-amd/273989/sapphire-nitro-amd-radeon-rx-9060-xt-gaming-oc-16gb-gddr6-11350-01-20g.html",
-      "value": true,
-      "valueScore": 68
     },
     "cc_gpu_273993": {
       "brand": "Online",
@@ -1212,7 +1229,7 @@
       "tier": "low",
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/276379/gigabyte-geforce-rtx-5050-gaming-oc-8g-graphics-card-8gb-128-bit-gv-n5050gaming-oc-8gd.html",
       "value": true,
-      "valueScore": 98
+      "valueScore": 99
     },
     "cc_gpu_276395": {
       "brand": "GIGABYTE",
@@ -1229,7 +1246,7 @@
       "tier": "low",
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/276395/gigabyte-geforce-rtx-5050-oc-low-profile-8g-graphics-card-8gb-128-bit-gv-n5050oc-8gl.html",
       "value": true,
-      "valueScore": 98
+      "valueScore": 93
     },
     "cc_gpu_276403": {
       "brand": "ASUS",
@@ -1280,7 +1297,7 @@
       "tier": "mid",
       "url": "https://www.canadacomputers.com/en/powered-by-amd/279701/asus-dual-radeon-rx-9060-xt-16gb-gddr6-white-edition-dual-rx9060xt-16g-white.html",
       "value": false,
-      "valueScore": 65
+      "valueScore": 60
     },
     "cc_gpu_279726": {
       "brand": "ASUS",
@@ -1297,7 +1314,7 @@
       "tier": "mid",
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/279726/asus-prime-geforce-rtx-5070-white-oc-edition-gddr7-triple-fans-prime-rtx5070-o12g-white.html",
       "value": true,
-      "valueScore": 88
+      "valueScore": 83
     },
     "cc_gpu_280464": {
       "brand": "Online",
@@ -1314,7 +1331,7 @@
       "tier": "mid",
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/280464/asus-dual-geforce-rtx-5070-12gb-gddr7-oc-dual-rtx5070-o12g.html",
       "value": false,
-      "valueScore": 70
+      "valueScore": 65
     },
     "cc_gpu_280858": {
       "brand": "XFX",
@@ -1331,7 +1348,7 @@
       "tier": "high",
       "url": "https://www.canadacomputers.com/en/powered-by-amd/280858/xfx-swift-amd-radeon-rx-9070-xt-triple-fan-gaming-edition-black-rx-97tswf3b9.html",
       "value": true,
-      "valueScore": 68
+      "valueScore": 63
     },
     "cc_gpu_281410": {
       "brand": "ASUS",
@@ -1365,7 +1382,7 @@
       "tier": "high",
       "url": "https://www.canadacomputers.com/en/powered-by-amd/281960/asus-prime-radeon-rx-9070-oc-edition-graphics-card-prime-rx9070-o16g-evo.html",
       "value": false,
-      "valueScore": 65
+      "valueScore": 60
     },
     "cc_gpu_282429": {
       "brand": "MSI",
@@ -1399,7 +1416,7 @@
       "tier": "high",
       "url": "https://www.canadacomputers.com/en/powered-by-amd/282569/gigabyte-radeon-rx-9070-xt-gaming-oc-ice-gddr6-triple-fans-gv-r907xgamingocice-16gd.html",
       "value": false,
-      "valueScore": 60
+      "valueScore": 55
     },
     "cc_gpu_287504": {
       "brand": "Online",
@@ -1416,7 +1433,7 @@
       "tier": "high",
       "url": "https://www.canadacomputers.com/en/powered-by-intel/287504/intel-arc-pro-b70-32gb-gddr6-33p01ib0bb.html",
       "value": false,
-      "valueScore": 65
+      "valueScore": 60
     },
     "cc_gpu_289589": {
       "brand": "Online",
@@ -1433,7 +1450,7 @@
       "tier": "high",
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/289589/asus-prime-geforce-rtx-5080-evo-gddr7-triple-fans-prime-rtx5080-o16g-evo.html",
       "value": false,
-      "valueScore": 60
+      "valueScore": 50
     },
     "cc_gpu_289824": {
       "brand": "XFX",
@@ -1449,8 +1466,8 @@
       ],
       "tier": "high",
       "url": "https://www.canadacomputers.com/en/powered-by-amd/289824/xfx-swift-amd-radeon-rx-9070-gre-white-triple-fan-12gb-gddr6-rx-97gre29w7.html",
-      "value": true,
-      "valueScore": 93
+      "value": false,
+      "valueScore": 95
     },
     "cc_gpu_289825": {
       "brand": "Online",
@@ -1467,7 +1484,7 @@
       "tier": "mid",
       "url": "https://www.canadacomputers.com/en/powered-by-amd/289825/xfx-swift-amd-radeon-rx-9070-gre-triple-fan-12gb-gddr6-rx-97gre29b7.html",
       "value": false,
-      "valueScore": 90
+      "valueScore": 95
     },
     "cc_gpu_289915": {
       "brand": "Online",
@@ -1484,7 +1501,7 @@
       "tier": "mid",
       "url": "https://www.canadacomputers.com/en/powered-by-amd/289915/gigabyte-radeon-rx-9070-gre-gaming-oc-gddr6-gv-r907gregaming-oc-12gd.html",
       "value": false,
-      "valueScore": 95
+      "valueScore": 99
     },
     "cc_gpu_290027": {
       "brand": "SAPPHIRE",
@@ -1501,7 +1518,7 @@
       "tier": "high",
       "url": "https://www.canadacomputers.com/en/powered-by-amd/290027/sapphire-pulse-amd-radeon-rx-9070-gre-graphics-card-oc-12-double-fans-s88-he491-000sa.html",
       "value": true,
-      "valueScore": 98
+      "valueScore": 99
     },
     "cc_gpu_290517": {
       "brand": "Online",
@@ -1518,7 +1535,7 @@
       "tier": "high",
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/290517/zotac-gaming-geforce-rtx-5070-ti-solid-sff-oc-gddr7-zt-b50710j3-10a.html",
       "value": false,
-      "valueScore": 50
+      "valueScore": 55
     },
     "cc_gpu_290519": {
       "brand": "Online",
@@ -1569,7 +1586,7 @@
       "tier": "high",
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/290942/msi-geforce-rtx-5070-ti-16g-ventus-3x-oc-gddr7-triple-fans-rtx-5070-ti-16g-ventus-3x-oc-black.html",
       "value": true,
-      "valueScore": 63
+      "valueScore": 68
     },
     "cc_gpu_290943": {
       "brand": "MSI",
@@ -1603,7 +1620,7 @@
       "tier": "high",
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/292021/msi-geforce-rtx-5080-16g-ventus-3x-oc-gddr7-triple-fans-rtx-5080-16g-ventus-3x-oc.html",
       "value": true,
-      "valueScore": 53
+      "valueScore": 58
     },
     "cc_gpu_292132": {
       "brand": "Online",
@@ -1637,24 +1654,24 @@
       "tier": "mid",
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/292444/gigabyte-aorus-geforce-rtx-5070-infinity-gddr7-triple-fans-gv-n5070aorus-if-12gd.html",
       "value": true,
-      "valueScore": 68
+      "valueScore": 73
     },
     "cc_gpu_294048": {
-      "brand": "Online",
+      "brand": "ZOTAC",
       "kind": "GPU",
-      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "name": "ZOTAC GeForce RTX 5060 AMP Core GDDR7 Double Fans",
       "reference": 669.99,
-      "referenceStock": "unknown",
+      "referenceStock": "out_of_stock",
       "source": "Canada Computers",
       "spec": [
-        "Intel",
+        "NVIDIA",
         8,
-        "Other"
+        "5060"
       ],
       "tier": "mid",
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/294048/zotac-geforce-rtx-5060-amp-core-gddr7-double-fans-zt-b50600f2-10a.html",
-      "value": false,
-      "valueScore": 99
+      "value": true,
+      "valueScore": 98
     },
     "cc_gpu_294744": {
       "brand": "ZOTAC",
@@ -1689,23 +1706,6 @@
       "url": "https://www.canadacomputers.com/en/powered-by-nvidia/295264/zotac-gaming-geforce-rtx-5060-ti-8gb-twin-edge-oc-dlss-4-gddr7-128-bit-zt-b50610h-10a.html",
       "value": false,
       "valueScore": 75
-    },
-    "cc_gpu_296075": {
-      "brand": "SAPPHIRE",
-      "kind": "GPU",
-      "name": "SAPPHIRE NITRO+ AMD Radeon RX 9070 XT OC PhantomLink Edition POLAR",
-      "reference": 1799.0,
-      "referenceStock": "unknown",
-      "source": "Canada Computers",
-      "spec": [
-        "AMD",
-        8,
-        "9070 XT"
-      ],
-      "tier": "high",
-      "url": "https://www.canadacomputers.com/en/powered-by-amd/296075/sapphire-nitro-amd-radeon-rx-9070-xt-oc-phantomlink-edition-polar-11348-09-20g.html",
-      "value": false,
-      "valueScore": 50
     },
     "cc_psu_103029": {
       "brand": "Thermaltake",
@@ -2233,7 +2233,7 @@
       "tier": "mid",
       "url": "https://www.canadacomputers.com/en/power-supplies/253007/asus-prime-850w-gold-power-supply-ap-850g.html",
       "value": false,
-      "valueScore": 60
+      "valueScore": 61
     },
     "cc_psu_253022": {
       "brand": "Online",
@@ -2345,7 +2345,7 @@
       "tier": "mid",
       "url": "https://www.canadacomputers.com/en/power-supplies/257975/super-flower-combat-fg-750w-atx-3-1-gold-power-supply-sf-750c12fg.html",
       "value": false,
-      "valueScore": 65
+      "valueScore": 66
     },
     "cc_psu_257977": {
       "brand": "SUPERFLOWER",
@@ -2361,7 +2361,7 @@
       "tier": "mid",
       "url": "https://www.canadacomputers.com/en/power-supplies/257977/superflower-850w-gold-atx-power-supply-black-sf-850f14ge.html",
       "value": false,
-      "valueScore": 62
+      "valueScore": 63
     },
     "cc_psu_257978": {
       "brand": "Super Flower",
@@ -2377,7 +2377,7 @@
       "tier": "high",
       "url": "https://www.canadacomputers.com/en/power-supplies/257978/super-flower-1000w-gold-atx-power-supply-black-sf-1000f14ge.html",
       "value": false,
-      "valueScore": 61
+      "valueScore": 62
     },
     "cc_psu_257979": {
       "brand": "Super Flower",
@@ -2521,7 +2521,7 @@
       "tier": "low",
       "url": "https://www.canadacomputers.com/en/power-supplies/262934/azza-psaz-850g-atx3-1-gaming-power-supply-psaz-850g-31.html",
       "value": false,
-      "valueScore": 64
+      "valueScore": 65
     },
     "cc_psu_262938": {
       "brand": "AZZA",
@@ -2585,7 +2585,7 @@
       "tier": "low",
       "url": "https://www.canadacomputers.com/en/power-supplies/263595/deepcool-bronze-atx-power-supply-black-r-pl750d-fc0b-us-v2.html",
       "value": false,
-      "valueScore": 64
+      "valueScore": 65
     },
     "cc_psu_263824": {
       "brand": "Corsair",
@@ -3291,21 +3291,21 @@
       "value": false,
       "valueScore": 72
     },
-    "cc_psu_295762": {
+    "cc_psu_295773": {
       "brand": "Cooler Master",
       "kind": "PSU",
-      "name": "COOLER MASTER ELITE GOLD 1000W Gold ATX Power Supply, Black",
+      "name": "COOLER MASTER MWE GOLD V4 850W 80 PLUS Gold ATX Power Supply, Black",
       "reference": 189.99,
       "referenceStock": "unknown",
       "source": "Canada Computers",
       "spec": [
-        1000,
+        850,
         "Gold"
       ],
-      "tier": "high",
-      "url": "https://www.canadacomputers.com/en/power-supplies/295762/cooler-master-elite-gold-1000w-gold-atx-power-supply-black-mpx-a005-afag-bus.html",
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/power-supplies/295773/cooler-master-mwe-gold-v4-850w-80-plus-gold-atx-power-supply-black-mpm-85f4-afg-c3b0cus.html",
       "value": false,
-      "valueScore": 66
+      "valueScore": 61
     },
     "cc_ssd_105078": {
       "brand": "Kingston",
@@ -3497,7 +3497,7 @@
       "tier": "low",
       "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/221048/wd-blue-sa510-500gb-sataiii-ssd-wds500g3b0a.html",
       "value": false,
-      "valueScore": 72
+      "valueScore": 73
     },
     "cc_ssd_221049": {
       "brand": "WD",
@@ -3817,7 +3817,7 @@
       "tier": "high",
       "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/261559/wd-black-sn850x-8tb-pcie-gen4-nvme-m-2-ssd-wds800t2x0e.html",
       "value": false,
-      "valueScore": 69
+      "valueScore": 70
     },
     "cc_ssd_262546": {
       "brand": "Online",
@@ -4137,7 +4137,7 @@
       "tier": "high",
       "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/273064/wd-black-sn8100-2tb-pcie-gen5x4-nvme-m-2-2280-ssd-wds200t1x0m.html",
       "value": false,
-      "valueScore": 77
+      "valueScore": 76
     },
     "cc_ssd_273066": {
       "brand": "WD",
@@ -4313,7 +4313,7 @@
       "tier": "high",
       "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/281227/samsung-9100-pro-with-heatsink-series-8tb-m-2-nvme-2-0-pcie-gen5-x4-mz-vap8t0cw.html",
       "value": false,
-      "valueScore": 54
+      "valueScore": 50
     },
     "cc_ssd_281987": {
       "brand": "WD",
@@ -4761,7 +4761,7 @@
       "tier": "mid",
       "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/296087/samsung-990-1tb-pcie-gen-4-0-x4-nvme-2-0-ssd-mz-v9v1t0b-am.html",
       "value": false,
-      "valueScore": 76
+      "valueScore": 75
     },
     "cc_ssd_296088": {
       "brand": "Online",
@@ -4825,7 +4825,7 @@
       "tier": "low",
       "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/296490/klevv-c910g-500gb-pcie-gen4-m-2-2280-read-5000mb-s-write-3700-mbs-ssd-k500gm2sp0-10g.html",
       "value": false,
-      "valueScore": 73
+      "valueScore": 74
     },
     "cc_ssd_296491": {
       "brand": "KLEVV",
@@ -4889,7 +4889,7 @@
       "tier": "mid",
       "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/296497/klevv-c925g-1tb-pcie-gen4-m-2-2280-read-7400-mb-s-write-6800-mb-s-ssd-k01tbm2sp0-25g.html",
       "value": false,
-      "valueScore": 76
+      "valueScore": 80
     },
     "cc_ssd_296498": {
       "brand": "KLEVV",
