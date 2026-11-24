@@ -1,0 +1,4918 @@
+{
+  "counts": {
+    "GPU": 100,
+    "PSU": 100,
+    "SSD": 100
+  },
+  "errors": {},
+  "generated_at": "2026-11-24T08:25:27Z",
+  "parts": {
+    "cc_gpu_108604": {
+      "brand": "ASUS",
+      "kind": "GPU",
+      "name": "ASUS GeForce GT 1030 LP 2GB (GT1030-2G-CSM) Video Card",
+      "reference": 179.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        2,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/108604/asus-geforce-gt-1030-lp-2gb-gt1030-2g-csm-video-card-gt1030-2g-csm.html",
+      "value": false,
+      "valueScore": 99
+    },
+    "cc_gpu_196518": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 159.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/196518/gigabyte-geforce-gt-1030-low-profile-d4-graphics-card-gv-n1030d4-2gl.html",
+      "value": false,
+      "valueScore": 95
+    },
+    "cc_gpu_216677": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 119.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/216677/asus-geforce-gt-730-2gb-gddr5-low-profile-gt730-sl-2gd5-brk.html",
+      "value": false,
+      "valueScore": 99
+    },
+    "cc_gpu_241115": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 579.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/241115/gigabyte-radeon-rx-7600-gaming-oc-8gb-gddr6-graphics-card-gv-r76gaming-oc-8gd.html",
+      "value": false,
+      "valueScore": 99
+    },
+    "cc_gpu_252696": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 379.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/252696/msi-geforce-rtx-3050-ventus-2x-6g-oc-rtx-3050-ventus-2x-6g-oc.html",
+      "value": false,
+      "valueScore": 99
+    },
+    "cc_gpu_253381": {
+      "brand": "NVIDIA",
+      "kind": "GPU",
+      "name": "ASUS Dual NVIDIA GeForce RTX 3050 6GB OC Edition HMDI DP DVI",
+      "reference": 419.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        6,
+        "3050"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/253381/asus-dual-nvidia-geforce-rtx-3050-6gb-oc-edition-hmdi-dp-dvi-dual-rtx3050-o6g.html",
+      "value": true,
+      "valueScore": 99
+    },
+    "cc_gpu_267147": {
+      "brand": "ASUS",
+      "kind": "GPU",
+      "name": "ASUS PRIME GeForce RTX 5080 16GB GDDR7 OC Edition SFF",
+      "reference": 2999.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        16,
+        "5080"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/267147/asus-prime-geforce-rtx-5080-16gb-gddr7-oc-edition-sff-prime-rtx5080-o16g.html",
+      "value": true,
+      "valueScore": 68
+    },
+    "cc_gpu_267624": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1349.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/267624/gigabyte-radeon-rx-9070-xt-gaming-oc-gddr6-triple-fans-gv-r9070xtgaming-oc-16gd.html",
+      "value": false,
+      "valueScore": 60
+    },
+    "cc_gpu_267626": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1369.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/267626/gigabyte-radeon-rx-9070-gaming-oc-gddr6-triple-fans-gv-r9070gaming-oc-16gd.html",
+      "value": false,
+      "valueScore": 50
+    },
+    "cc_gpu_267678": {
+      "brand": "GIGABYTE",
+      "kind": "GPU",
+      "name": "GIGABYTE GeForce RTX 3050 WINDFORCE OC V2 6G Graphics Card",
+      "reference": 359.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "3050"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/267678/gigabyte-geforce-rtx-3050-windforce-oc-v2-6g-graphics-card-gv-n3050wf2ocv2-6gd.html",
+      "value": true,
+      "valueScore": 99
+    },
+    "cc_gpu_267968": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1539.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/267968/asus-prime-radeon-rx-9070-xt-oc-edition-gddr6-triple-fans-prime-rx9070xt-o16g.html",
+      "value": false,
+      "valueScore": 45
+    },
+    "cc_gpu_268138": {
+      "brand": "GIGABYTE",
+      "kind": "GPU",
+      "name": "GIGABYTE GeForce RTX 5080 GAMING OC AI Gaming Graphics Card",
+      "reference": 2999.0,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "5080"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/268138/gigabyte-geforce-rtx-5080-gaming-oc-ai-gaming-graphics-card-gv-n5080gaming-oc-16gd.html",
+      "value": false,
+      "valueScore": 60
+    },
+    "cc_gpu_268141": {
+      "brand": "GIGABYTE",
+      "kind": "GPU",
+      "name": "GIGABYTE GeForce RTX 5080 WINDFORCE OC SFF 16G Graphics Card",
+      "reference": 2899.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "5080"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/268141/gigabyte-geforce-rtx-5080-windforce-oc-sff-16g-graphics-card-gv-n5080wf3oc-16gd.html",
+      "value": true,
+      "valueScore": 73
+    },
+    "cc_gpu_268300": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1299.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/268300/asus-prime-geforce-rtx-5070-12gb-gddr7-graphics-card-prime-rtx5070-12g.html",
+      "value": false,
+      "valueScore": 70
+    },
+    "cc_gpu_268301": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1299.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/268301/prime-geforce-rtx-5070-oc-edition-12gb-gddr7-prime-rtx5070-o12g.html",
+      "value": false,
+      "valueScore": 70
+    },
+    "cc_gpu_268304": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1999.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/268304/asus-prime-geforce-rtx-5070-ti-16gb-gddr-prime-rtx5070ti-16g.html",
+      "value": false,
+      "valueScore": 75
+    },
+    "cc_gpu_268305": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1999.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/268305/asus-prime-geforce-rtx-5070-ti-oc-edition-16gb-gddr7-prime-rtx5070ti-o16g.html",
+      "value": false,
+      "valueScore": 75
+    },
+    "cc_gpu_268819": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1999.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/268819/gigabyte-geforce-rtx-5070-ti-gaming-oc-16g-graphics-card-gv-n507tgaming-oc-16gd.html",
+      "value": false,
+      "valueScore": 75
+    },
+    "cc_gpu_268823": {
+      "brand": "GIGABYTE",
+      "kind": "GPU",
+      "name": "GIGABYTE GeForce RTX 5070 Ti WINDFORCE OC SFF 16G Graphics Card",
+      "reference": 1899.0,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "5070 TI"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/268823/gigabyte-geforce-rtx-5070-ti-windforce-oc-sff-16g-graphics-card-gv-n507twf3oc-16gd.html",
+      "value": true,
+      "valueScore": 93
+    },
+    "cc_gpu_268826": {
+      "brand": "GIGABYTE",
+      "kind": "GPU",
+      "name": "GIGABYTE GeForce RTX 5070 GAMING OC 12G Graphics Card",
+      "reference": 1299.0,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "5070"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/268826/gigabyte-geforce-rtx-5070-gaming-oc-12g-graphics-card-gv-n5070gaming-oc-12gd.html",
+      "value": false,
+      "valueScore": 55
+    },
+    "cc_gpu_268827": {
+      "brand": "GIGABYTE",
+      "kind": "GPU",
+      "name": "GIGABYTE GeForce RTX 5070 EAGLE OC ICE SFF 12G Graphics Card",
+      "reference": 1269.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "5070"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/268827/gigabyte-geforce-rtx-5070-eagle-oc-ice-sff-12g-graphics-card-gv-n5070eagleoc-ice-12gd.html",
+      "value": false,
+      "valueScore": 60
+    },
+    "cc_gpu_268828": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1329.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/268828/gigabyte-geforce-rtx-5070-eagle-oc-sff-12g-graphics-card-gv-n5070eagle-oc-12gd.html",
+      "value": false,
+      "valueScore": 50
+    },
+    "cc_gpu_268829": {
+      "brand": "GIGABYTE",
+      "kind": "GPU",
+      "name": "GIGABYTE GeForce RTX 5070 WINDFORCE OC SFF 12G Graphics Card",
+      "reference": 1259.0,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "5070"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/268829/gigabyte-geforce-rtx-5070-windforce-oc-sff-12g-graphics-card-gv-n5070wf3oc-12gd.html",
+      "value": true,
+      "valueScore": 78
+    },
+    "cc_gpu_268906": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Sold Out In Store - Available for Pickup",
+      "reference": 1929.0,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/268906/msi-geforce-rtx-5070-ti-16g-ventus-3x-oc-rtx-5070-ti-16g-ventus-3x-oc.html",
+      "value": false,
+      "valueScore": 70
+    },
+    "cc_gpu_268988": {
+      "brand": "XFX",
+      "kind": "GPU",
+      "name": "XFX Swift AMD Radeon RX 9070 XT White Triple fan Gaming Edition with 16GB GDDR6",
+      "reference": 1399.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "AMD",
+        16,
+        "9070 XT"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/268988/xfx-swift-amd-radeon-rx-9070-xt-white-triple-fan-gaming-edition-with-16gb-gddr6-rx-97tswf3w9.html",
+      "value": true,
+      "valueScore": 53
+    },
+    "cc_gpu_269135": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1499.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/269135/sapphire-nitro-amd-radeon-rx-9070-xt-16gb-gddr6-11348-01-20g.html",
+      "value": false,
+      "valueScore": 90
+    },
+    "cc_gpu_269136": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Sold Out In Store - Available for Pickup",
+      "reference": 1449.0,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/269136/sapphire-pure-amd-radeon-rx-9070-xt-16gb-gddr6-11348-02-20g.html",
+      "value": false,
+      "valueScore": 50
+    },
+    "cc_gpu_269139": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1399.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/269139/sapphire-pulse-amd-radeon-rx-9070-xt-16gb-gddr6-11348-03-20g.html",
+      "value": false,
+      "valueScore": 55
+    },
+    "cc_gpu_269437": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 99.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/269437/gigabyte-gv-n710d3-2gl-ddr3-gv-n710d3-2gl-rev20.html",
+      "value": false,
+      "valueScore": 99
+    },
+    "cc_gpu_269441": {
+      "brand": "MSI",
+      "kind": "GPU",
+      "name": "MSI RTX 5070 TI 16G SHADOW 3X OC GDDR7 Triple Fans",
+      "reference": 1929.0,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "5070 TI"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/269441/msi-rtx-5070-ti-16g-shadow-3x-oc-gddr7-triple-fans-rtx-5070-ti-16g-shadow-3x-oc.html",
+      "value": false,
+      "valueScore": 80
+    },
+    "cc_gpu_269554": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1369.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/269554/msi-geforce-rtx-5070-12g-gaming-trio-oc-rtx-5070-12g-gaming-trio-oc.html",
+      "value": false,
+      "valueScore": 45
+    },
+    "cc_gpu_269555": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1309.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/269555/msi-geforce-rtx-5070-12g-ventus-2x-oc-12gb-gddr7-rtx-5070-12g-ventus-2x-oc.html",
+      "value": false,
+      "valueScore": 80
+    },
+    "cc_gpu_269556": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Sold Out In Store - Available for Pickup",
+      "reference": 1289.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/269556/msi-g5070-12s2c-gddr7-double-fans-rtx-5070-12g-shadow-2x-oc.html",
+      "value": false,
+      "valueScore": 60
+    },
+    "cc_gpu_269557": {
+      "brand": "MSI",
+      "kind": "GPU",
+      "name": "MSI GeForce  RTX 5070 12G SHADOW 3X OC, 12GB GDDR7",
+      "reference": 1329.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        12,
+        "5070"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/269557/msi-geforce-rtx-5070-12g-shadow-3x-oc-12gb-gddr7-rtx-5070-12g-shadow-3x-oc.html",
+      "value": true,
+      "valueScore": 63
+    },
+    "cc_gpu_269805": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1339.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/269805/msi-geforce-rtx-5070-ventus-3x-oc-gddr7-triple-fans-rtx-5070-12g-ventus-3x-oc.html",
+      "value": false,
+      "valueScore": 50
+    },
+    "cc_gpu_270411": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 2999.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/270411/msi-geforce-rtx-5080-16g-ventus-3x-oc-white-rtx-5080-16g-ventus-3x-oc-white.html",
+      "value": false,
+      "valueScore": 60
+    },
+    "cc_gpu_271220": {
+      "brand": "MSI",
+      "kind": "GPU",
+      "name": "MSI GeForce RTX 5060 Ti 16G VENTUS 2X OC PLUS GDDR7 Double Fans",
+      "reference": 1259.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "5060 TI"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/271220/msi-geforce-rtx-5060-ti-16g-ventus-2x-oc-plus-gddr7-double-fans-rtx-5060-ti-16g-ventus-2x-oc-plus.html",
+      "value": false,
+      "valueScore": 65
+    },
+    "cc_gpu_271350": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 799.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/271350/asus-prime-geforce-rtx-5060-ti-8gb-gddr7-triple-fans-prime-rtx5060ti-8g.html",
+      "value": false,
+      "valueScore": 80
+    },
+    "cc_gpu_271351": {
+      "brand": "ASUS",
+      "kind": "GPU",
+      "name": "ASUS Prime GeForce RTX 5060 Ti 8GB OC GDDR7 Triple Fans",
+      "reference": 849.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "5060 TI"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/271351/asus-prime-geforce-rtx-5060-ti-8gb-oc-gddr7-triple-fans-prime-rtx5060ti-o8g.html",
+      "value": true,
+      "valueScore": 98
+    },
+    "cc_gpu_271352": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1239.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/271352/asus-prime-geforce-rtx-5060-ti-16gb-gddr7-triple-fans-prime-rtx5060ti-16g.html",
+      "value": false,
+      "valueScore": 75
+    },
+    "cc_gpu_271353": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Sold Out In Store - Available for Pickup",
+      "reference": 1279.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/271353/asus-tuf-rtx5060ti-o16g-gaming-gddr7-triple-fans-tuf-rtx5060ti-o16g-gaming.html",
+      "value": false,
+      "valueScore": 75
+    },
+    "cc_gpu_271874": {
+      "brand": "MSI",
+      "kind": "GPU",
+      "name": "MSI GeForce RTX 5060 8G VENTUS 2X OC, GDDR7 8GB, PCI-E 5.0, 128 bit",
+      "reference": 749.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "5060"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/271874/msi-geforce-rtx-5060-8g-ventus-2x-oc-gddr7-8gb-pci-e-5-0-128-bit-rtx-5060-8g-ventus-2x-oc.html",
+      "value": true,
+      "valueScore": 99
+    },
+    "cc_gpu_272216": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1229.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/272216/gigabyte-gv-n506tgaming-oc-16gd-gddr7-triple-fans-gv-n506tgaming-oc-16gd.html",
+      "value": false,
+      "valueScore": 65
+    },
+    "cc_gpu_272217": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1209.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/272217/gigabyte-gv-n506teagleoc-ice-16gd-gddr7-double-fans-gv-n506teagleoc-ice-16gd.html",
+      "value": false,
+      "valueScore": 80
+    },
+    "cc_gpu_272221": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1199.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/272221/gigabyte-gv-n506twf2oc-16gd-gddr7-double-fans-gv-n506twf2oc-16gd.html",
+      "value": false,
+      "valueScore": 60
+    },
+    "cc_gpu_272235": {
+      "brand": "GIGABYTE",
+      "kind": "GPU",
+      "name": "GIGABYTE GeForce RTX 5060 Ti WINDFORCE OC 8G Graphics Card, 8GB 128-bit GDDR7, PCIe 5.0, WINDFORCE cooling system, GV-N506TWF2O",
+      "reference": 769.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "5060 TI"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/272235/gigabyte-geforce-rtx-5060-ti-windforce-oc-8g-graphics-card-8gb-128-bit-gddr7-pcie-5-0-windforce-cooling-system-gv-n506twf2oc-8g-gv-n506twf2oc-8gd.html",
+      "value": true,
+      "valueScore": 93
+    },
+    "cc_gpu_272908": {
+      "brand": "MSI",
+      "kind": "GPU",
+      "name": "MSI GeForce RTX 5060 8G SHADOW 2X OC, GDDR7 8GB, PCI-E 5.0, 128 bit,",
+      "reference": 749.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "5060"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/272908/msi-geforce-rtx-5060-8g-shadow-2x-oc-gddr7-8gb-pci-e-5-0-128-bit-rtx-5060-8g-shadow-2x-oc.html",
+      "value": true,
+      "valueScore": 83
+    },
+    "cc_gpu_272909": {
+      "brand": "MSI",
+      "kind": "GPU",
+      "name": "MSI GeForce RTX 5060 8G GAMING TRIO OC, GDDR7 8GB, PCI-E 5.0, 128 bit",
+      "reference": 774.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "5060"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/272909/msi-geforce-rtx-5060-8g-gaming-trio-oc-gddr7-8gb-pci-e-5-0-128-bit-rtx-5060-8g-gaming-trio-oc.html",
+      "value": true,
+      "valueScore": 88
+    },
+    "cc_gpu_273034": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 739.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/273034/asus-prime-geforce-rtx-5060-8gb-gddr7-prime-rtx5060-8g.html",
+      "value": false,
+      "valueScore": 85
+    },
+    "cc_gpu_273047": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Sold Out In Store - Available for Pickup",
+      "reference": 809.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/273047/asus-tuf-rtx5060-o8g-gaming-gddr7-triple-fans-tuf-rtx5060-o8g-gaming.html",
+      "value": false,
+      "valueScore": 70
+    },
+    "cc_gpu_273070": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 799.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/273070/asus-dual-geforce-rtx-5060-ti-8gb-gddr7-oc-edition-dual-rtx5060ti-o8g.html",
+      "value": false,
+      "valueScore": 95
+    },
+    "cc_gpu_273071": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1199.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/273071/asus-dual-geforce-rtx-5060-ti-16gb-gddr7-oc-edition-dual-rtx5060ti-o16g.html",
+      "value": false,
+      "valueScore": 75
+    },
+    "cc_gpu_273456": {
+      "brand": "XFX",
+      "kind": "GPU",
+      "name": "XFX Swift AMD Radeon RX 9060 XT OC White Gaming Edition 16GB",
+      "reference": 1089.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "AMD",
+        16,
+        "9060 XT"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/273456/xfx-swift-amd-radeon-rx-9060-xt-oc-white-gaming-edition-16gb-rx-96tsw16wq.html",
+      "value": true,
+      "valueScore": 88
+    },
+    "cc_gpu_273457": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1069.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/273457/xfx-swift-amd-radeon-rx-9060-xt-oc-gaming-edition-16gb-rx-96tsw16bq.html",
+      "value": false,
+      "valueScore": 85
+    },
+    "cc_gpu_273461": {
+      "brand": "XFX",
+      "kind": "GPU",
+      "name": "XFX SWIFT AMD Radeon RX 9060 XT OC Triple Fan Gaming Edition 16GB",
+      "reference": 1079.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "AMD",
+        16,
+        "9060 XT"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/273461/xfx-swift-amd-radeon-rx-9060-xt-oc-triple-fan-gaming-edition-16gb-rx-96ts316b7.html",
+      "value": true,
+      "valueScore": 99
+    },
+    "cc_gpu_273657": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Sold Out In Store - Available for Pickup",
+      "reference": 669.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/273657/gigabyte-geforce-rtx-5060-eagle-oc-ice-8g-gv-n5060eagleoc-ice-8gd.html",
+      "value": false,
+      "valueScore": 90
+    },
+    "cc_gpu_273660": {
+      "brand": "GIGABYTE",
+      "kind": "GPU",
+      "name": "GIGABYTE GeForce RTX 5060 EAGLE OC 8G Graphics Card,",
+      "reference": 669.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "5060"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/273660/gigabyte-geforce-rtx-5060-eagle-oc-8g-graphics-card-gv-n5060eagle-oc-8gd.html",
+      "value": true,
+      "valueScore": 98
+    },
+    "cc_gpu_273661": {
+      "brand": "GIGABYTE",
+      "kind": "GPU",
+      "name": "GIGABYTE GeForce RTX 5060 WINDFORCE OC 8G Graphics Card",
+      "reference": 739.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "5060"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/273661/gigabyte-geforce-rtx-5060-windforce-oc-8g-graphics-card-gv-n5060wf2oc-8gd.html",
+      "value": true,
+      "valueScore": 99
+    },
+    "cc_gpu_273692": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Sold Out In Store - Available for Pickup",
+      "reference": 669.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/273692/asus-dual-geforce-rtx-5060-8gb-gddr7-oc-edition-dual-rtx5060-o8g.html",
+      "value": false,
+      "valueScore": 95
+    },
+    "cc_gpu_273883": {
+      "brand": "MSI",
+      "kind": "GPU",
+      "name": "MSI GeForce RTX 5060 Ti 16G SHADOW 2X OC PLUS, GDDR7 16GB",
+      "reference": 1259.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        16,
+        "5060 TI"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/273883/msi-geforce-rtx-5060-ti-16g-shadow-2x-oc-plus-gddr7-16gb-rtx-5060-ti-16g-shadow-2x-oc-plus.html",
+      "value": false,
+      "valueScore": 70
+    },
+    "cc_gpu_273897": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Sold Out In Store - Available for Pickup",
+      "reference": 749.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/273897/msi-geforce-rtx-5060-8g-ventus-2x-oc-white-rtx-5060-8g-ventus-2x-oc-white.html",
+      "value": false,
+      "valueScore": 90
+    },
+    "cc_gpu_273942": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Sold Out In Store - Available for Pickup",
+      "reference": 669.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/273942/zotac-gaming-geforce-rtx-5060-amp-8gb-gddr7-zt-b50600f-10m.html",
+      "value": false,
+      "valueScore": 80
+    },
+    "cc_gpu_273989": {
+      "brand": "SAPPHIRE",
+      "kind": "GPU",
+      "name": "SAPPHIRE NITRO+ AMD RADEON RX 9060 XT GAMING OC 16GB GDDR6",
+      "reference": 1199.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "AMD",
+        16,
+        "9060 XT"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/273989/sapphire-nitro-amd-radeon-rx-9060-xt-gaming-oc-16gb-gddr6-11350-01-20g.html",
+      "value": true,
+      "valueScore": 68
+    },
+    "cc_gpu_273993": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1159.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/273993/sapphire-pure-amd-radeon-rx-9060-xt-gaming-oc-16gb-gddr6-11350-02-20g.html",
+      "value": false,
+      "valueScore": 80
+    },
+    "cc_gpu_273994": {
+      "brand": "SAPPHIRE",
+      "kind": "GPU",
+      "name": "SAPPHIRE PULSE AMD RADEON RX 9060 XT GAMING OC 16GB  GDDR6",
+      "reference": 1149.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "AMD",
+        16,
+        "9060 XT"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/273994/sapphire-pulse-amd-radeon-rx-9060-xt-gaming-oc-16gb-gddr6-11350-03-20g.html",
+      "value": false,
+      "valueScore": 85
+    },
+    "cc_gpu_274099": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1099.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/274099/gigabyte-radeon-rx-9060-xt-gaming-oc-16g-graphics-card-gv-r9060xtgaming-oc-16gd.html",
+      "value": false,
+      "valueScore": 90
+    },
+    "cc_gpu_274612": {
+      "brand": "ASUS",
+      "kind": "GPU",
+      "name": "ASUS Prime Radeon RX 9060 XT 16GB GDDR6 OC Edition Graphics Card",
+      "reference": 1169.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "AMD",
+        16,
+        "9060 XT"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/274612/asus-prime-radeon-rx-9060-xt-16gb-gddr6-oc-edition-graphics-card-prime-rx9060xt-o16g.html",
+      "value": false,
+      "valueScore": 70
+    },
+    "cc_gpu_276318": {
+      "brand": "MSI",
+      "kind": "GPU",
+      "name": "MSI GeForce RTX 5050 8G SHADOW 2X OC, GDDR6 8GB Black",
+      "reference": 594.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "5050"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/276318/msi-geforce-rtx-5050-8g-shadow-2x-oc-gddr6-8gb-black-rtx-5050-8g-shadow-2x-oc.html",
+      "value": false,
+      "valueScore": 85
+    },
+    "cc_gpu_276355": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Sold Out In Store - Available for Pickup",
+      "reference": 589.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/276355/asus-dual-geforce-rtx-5050-8gb-gddr6-oc-edition-dual-rtx5050-o8g.html",
+      "value": false,
+      "valueScore": 95
+    },
+    "cc_gpu_276358": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 589.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/276358/zotac-gaming-geforce-rtx-5050-solo-8gb-gddr6-zt-b50500g-10l.html",
+      "value": false,
+      "valueScore": 95
+    },
+    "cc_gpu_276379": {
+      "brand": "GIGABYTE",
+      "kind": "GPU",
+      "name": "GIGABYTE GeForce RTX 5050 GAMING OC 8G Graphics Card, 8GB 128-bit",
+      "reference": 599.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "5050"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/276379/gigabyte-geforce-rtx-5050-gaming-oc-8g-graphics-card-8gb-128-bit-gv-n5050gaming-oc-8gd.html",
+      "value": true,
+      "valueScore": 98
+    },
+    "cc_gpu_276395": {
+      "brand": "GIGABYTE",
+      "kind": "GPU",
+      "name": "GIGABYTE GeForce RTX 5050 OC Low Profile 8G Graphics Card, 8GB 128-bit",
+      "reference": 589.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "5050"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/276395/gigabyte-geforce-rtx-5050-oc-low-profile-8g-graphics-card-8gb-128-bit-gv-n5050oc-8gl.html",
+      "value": true,
+      "valueScore": 98
+    },
+    "cc_gpu_276403": {
+      "brand": "ASUS",
+      "kind": "GPU",
+      "name": "ASUS Dual GeForce RTX 5050 8GB GDDR6 DUAL-RTX5050-8G Black",
+      "reference": 569.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "5050"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/276403/asus-dual-geforce-rtx-5050-8gb-gddr6-dual-rtx5050-8g-black-dual-rtx5050-8g.html",
+      "value": true,
+      "valueScore": 99
+    },
+    "cc_gpu_279679": {
+      "brand": "ASUS",
+      "kind": "GPU",
+      "name": "ASUS Dual Radeon RX 9060 XT 16GB GDDR6 Graphics Card , black",
+      "reference": 1129.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "AMD",
+        16,
+        "9060 XT"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/279679/asus-dual-radeon-rx-9060-xt-16gb-gddr6-graphics-card-black-dual-rx9060xt-16g.html",
+      "value": true,
+      "valueScore": 83
+    },
+    "cc_gpu_279701": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1139.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/279701/asus-dual-radeon-rx-9060-xt-16gb-gddr6-white-edition-dual-rx9060xt-16g-white.html",
+      "value": false,
+      "valueScore": 65
+    },
+    "cc_gpu_279726": {
+      "brand": "ASUS",
+      "kind": "GPU",
+      "name": "ASUS PRIME GeForce RTX 5070 White OC Edition GDDR7 Triple Fans",
+      "reference": 1309.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "5070"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/279726/asus-prime-geforce-rtx-5070-white-oc-edition-gddr7-triple-fans-prime-rtx5070-o12g-white.html",
+      "value": true,
+      "valueScore": 88
+    },
+    "cc_gpu_280464": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1269.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/280464/asus-dual-geforce-rtx-5070-12gb-gddr7-oc-dual-rtx5070-o12g.html",
+      "value": false,
+      "valueScore": 70
+    },
+    "cc_gpu_280858": {
+      "brand": "XFX",
+      "kind": "GPU",
+      "name": "XFX Swift AMD Radeon RX 9070 XT Triple fan Gaming Edition - Black",
+      "reference": 1499.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "AMD",
+        8,
+        "9070 XT"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/280858/xfx-swift-amd-radeon-rx-9070-xt-triple-fan-gaming-edition-black-rx-97tswf3b9.html",
+      "value": true,
+      "valueScore": 68
+    },
+    "cc_gpu_281410": {
+      "brand": "ASUS",
+      "kind": "GPU",
+      "name": "ASUS Prime Radeon RX 9070 XT White OC Edition GDDR6 Triple Fans",
+      "reference": 1569.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "AMD",
+        8,
+        "9070 XT"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/281410/asus-prime-radeon-rx-9070-xt-white-oc-edition-gddr6-triple-fans-prime-rx9070xt-o16g-white.html",
+      "value": true,
+      "valueScore": 53
+    },
+    "cc_gpu_281960": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1449.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/281960/asus-prime-radeon-rx-9070-oc-edition-graphics-card-prime-rx9070-o16g-evo.html",
+      "value": false,
+      "valueScore": 65
+    },
+    "cc_gpu_282429": {
+      "brand": "MSI",
+      "kind": "GPU",
+      "name": "MSI GeForce RTX 5070 Ti 16G VENTUS 3X PZ, 16GB GDDR7, Graphics card",
+      "reference": 1989.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        16,
+        "5070 TI"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/282429/msi-geforce-rtx-5070-ti-16g-ventus-3x-pz-16gb-gddr7-graphics-card-rtx-5070-ti-16g-ventus-3x-pz-oc.html",
+      "value": true,
+      "valueScore": 53
+    },
+    "cc_gpu_282569": {
+      "brand": "GIGABYTE",
+      "kind": "GPU",
+      "name": "GIGABYTE Radeon RX 9070 XT GAMING OC ICE GDDR6 Triple Fans",
+      "reference": 1499.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "AMD",
+        8,
+        "9070 XT"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/282569/gigabyte-radeon-rx-9070-xt-gaming-oc-ice-gddr6-triple-fans-gv-r907xgamingocice-16gd.html",
+      "value": false,
+      "valueScore": 60
+    },
+    "cc_gpu_287504": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 2799.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/powered-by-intel/287504/intel-arc-pro-b70-32gb-gddr6-33p01ib0bb.html",
+      "value": false,
+      "valueScore": 65
+    },
+    "cc_gpu_289589": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 2999.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/289589/asus-prime-geforce-rtx-5080-evo-gddr7-triple-fans-prime-rtx5080-o16g-evo.html",
+      "value": false,
+      "valueScore": 60
+    },
+    "cc_gpu_289824": {
+      "brand": "XFX",
+      "kind": "GPU",
+      "name": "XFX Swift AMD Radeon RX 9070 GRE White Triple Fan 12GB GDDR6",
+      "reference": 1049.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "AMD",
+        12,
+        "9070 GRE"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/289824/xfx-swift-amd-radeon-rx-9070-gre-white-triple-fan-12gb-gddr6-rx-97gre29w7.html",
+      "value": true,
+      "valueScore": 93
+    },
+    "cc_gpu_289825": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1049.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/289825/xfx-swift-amd-radeon-rx-9070-gre-triple-fan-12gb-gddr6-rx-97gre29b7.html",
+      "value": false,
+      "valueScore": 90
+    },
+    "cc_gpu_289915": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 899.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/289915/gigabyte-radeon-rx-9070-gre-gaming-oc-gddr6-gv-r907gregaming-oc-12gd.html",
+      "value": false,
+      "valueScore": 95
+    },
+    "cc_gpu_290027": {
+      "brand": "SAPPHIRE",
+      "kind": "GPU",
+      "name": "SAPPHIRE PULSE AMD RADEON RX 9070 GRE GRAPHICS CARD OC 12 Double Fans",
+      "reference": 1049.0,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "AMD",
+        8,
+        "9070 GRE"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/290027/sapphire-pulse-amd-radeon-rx-9070-gre-graphics-card-oc-12-double-fans-s88-he491-000sa.html",
+      "value": true,
+      "valueScore": 98
+    },
+    "cc_gpu_290517": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 2129.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/290517/zotac-gaming-geforce-rtx-5070-ti-solid-sff-oc-gddr7-zt-b50710j3-10a.html",
+      "value": false,
+      "valueScore": 50
+    },
+    "cc_gpu_290519": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1279.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/290519/zotac-gaming-geforce-rtx-5060-ti-16gb-twin-edge-oc-gddr7-zt-b50620h-10a.html",
+      "value": false,
+      "valueScore": 70
+    },
+    "cc_gpu_290881": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1109.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/290881/asus-prime-radeon-rx-9070-gre-evo-oc-edition-prime-rx9070gre-o12g-evo.html",
+      "value": false,
+      "valueScore": 80
+    },
+    "cc_gpu_290942": {
+      "brand": "MSI",
+      "kind": "GPU",
+      "name": "MSI GeForce RTX 5070 Ti 16G VENTUS 3X OC GDDR7 Triple Fans",
+      "reference": 1929.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "5070 TI"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/290942/msi-geforce-rtx-5070-ti-16g-ventus-3x-oc-gddr7-triple-fans-rtx-5070-ti-16g-ventus-3x-oc-black.html",
+      "value": true,
+      "valueScore": 63
+    },
+    "cc_gpu_290943": {
+      "brand": "MSI",
+      "kind": "GPU",
+      "name": "MSI GeForce RTX 5060 Ti 16G VENTUS 2X OC GDDR7 Double Fans",
+      "reference": 1259.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "5060 TI"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/290943/msi-geforce-rtx-5060-ti-16g-ventus-2x-oc-gddr7-double-fans-rtx-5060-ti-16g-ventus-2x-oc-black-plus.html",
+      "value": true,
+      "valueScore": 83
+    },
+    "cc_gpu_292021": {
+      "brand": "MSI",
+      "kind": "GPU",
+      "name": "MSI GeForce RTX 5080 16G VENTUS 3X OC GDDR7 Triple Fans",
+      "reference": 2999.0,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "5080"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/292021/msi-geforce-rtx-5080-16g-ventus-3x-oc-gddr7-triple-fans-rtx-5080-16g-ventus-3x-oc.html",
+      "value": true,
+      "valueScore": 53
+    },
+    "cc_gpu_292132": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1299.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/292132/asus-t1-geforce-rtx-5070-oc-edition-gddr7-triple-fans-t1-rtx5070-o12g-gaming.html",
+      "value": false,
+      "valueScore": 65
+    },
+    "cc_gpu_292444": {
+      "brand": "GIGABYTE",
+      "kind": "GPU",
+      "name": "GIGABYTE AORUS GeForce RTX 5070 INFINITY GDDR7 Triple Fans",
+      "reference": 1379.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "5070"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/292444/gigabyte-aorus-geforce-rtx-5070-infinity-gddr7-triple-fans-gv-n5070aorus-if-12gd.html",
+      "value": true,
+      "valueScore": 68
+    },
+    "cc_gpu_294048": {
+      "brand": "Online",
+      "kind": "GPU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 669.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "Intel",
+        8,
+        "Other"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/294048/zotac-geforce-rtx-5060-amp-core-gddr7-double-fans-zt-b50600f2-10a.html",
+      "value": false,
+      "valueScore": 99
+    },
+    "cc_gpu_294744": {
+      "brand": "ZOTAC",
+      "kind": "GPU",
+      "name": "ZOTAC GAMING GeForce RTX 3050 Twin Edge OC GDDR6 Double Fans",
+      "reference": 399.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "3050"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/294744/zotac-gaming-geforce-rtx-3050-twin-edge-oc-gddr6-double-fans-zt-a30510h-10a.html",
+      "value": true,
+      "valueScore": 99
+    },
+    "cc_gpu_295264": {
+      "brand": "ZOTAC",
+      "kind": "GPU",
+      "name": "ZOTAC GAMING GeForce RTX 5060 Ti 8GB Twin Edge OC DLSS 4 GDDR7 128-bit",
+      "reference": 809.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "NVIDIA",
+        8,
+        "5060 TI"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/powered-by-nvidia/295264/zotac-gaming-geforce-rtx-5060-ti-8gb-twin-edge-oc-dlss-4-gddr7-128-bit-zt-b50610h-10a.html",
+      "value": false,
+      "valueScore": 75
+    },
+    "cc_gpu_296075": {
+      "brand": "SAPPHIRE",
+      "kind": "GPU",
+      "name": "SAPPHIRE NITRO+ AMD Radeon RX 9070 XT OC PhantomLink Edition POLAR",
+      "reference": 1799.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        "AMD",
+        8,
+        "9070 XT"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/powered-by-amd/296075/sapphire-nitro-amd-radeon-rx-9070-xt-oc-phantomlink-edition-polar-11348-09-20g.html",
+      "value": false,
+      "valueScore": 50
+    },
+    "cc_psu_103029": {
+      "brand": "Thermaltake",
+      "kind": "PSU",
+      "name": "THERMALTAKE Smart White 500W 80 PLUS Certified Power Supply",
+      "reference": 64.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        500,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/103029/thermaltake-smart-white-500w-80-plus-certified-power-supply-ps-spd-0500npcwus-w.html",
+      "value": false,
+      "valueScore": 72
+    },
+    "cc_psu_103030": {
+      "brand": "Thermaltake",
+      "kind": "PSU",
+      "name": "THERMALTAKE Smart White 600W 80 PLUS Certified Power Supply",
+      "reference": 67.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        600,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/103030/thermaltake-smart-white-600w-80-plus-certified-power-supply-ps-spd-0600npcwus-w.html",
+      "value": false,
+      "valueScore": 75
+    },
+    "cc_psu_103031": {
+      "brand": "Thermaltake",
+      "kind": "PSU",
+      "name": "THERMALTAKE Smart White 700W 80 PLUS Certified Power Supply",
+      "reference": 79.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        700,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/103031/thermaltake-smart-white-700w-80-plus-certified-power-supply-ps-spd-0700npcwus-w.html",
+      "value": false,
+      "valueScore": 74
+    },
+    "cc_psu_235341": {
+      "brand": "Online",
+      "kind": "PSU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 179.88,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/235341/fsp-1000w-platinum-atx-power-supply-black-hpt3-1000m-gen5.html",
+      "value": false,
+      "valueScore": 48
+    },
+    "cc_psu_235358": {
+      "brand": "GIGABYTE",
+      "kind": "PSU",
+      "name": "GIGABYTE GP-UD850GM PG5 REV2.0  Gold ATX Power Supply, Black",
+      "reference": 214.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Gold"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/235358/gigabyte-gp-ud850gm-pg5-rev2-0-gold-atx-power-supply-black-gp-ud850gm-pg5-rev20.html",
+      "value": false,
+      "valueScore": 48
+    },
+    "cc_psu_235365": {
+      "brand": "FSP",
+      "kind": "PSU",
+      "name": "FSP Hydro G Pro 1000W Power Supply",
+      "reference": 50.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1000,
+        "Unrated"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/235365/fsp-hydro-g-pro-1000w-power-supply-hg2-1000-gen5.html",
+      "value": true,
+      "valueScore": 99
+    },
+    "cc_psu_235366": {
+      "brand": "FSP",
+      "kind": "PSU",
+      "name": "FSP Hydro G Pro 850W ATX Power Supply",
+      "reference": 40.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        850,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/235366/fsp-hydro-g-pro-850w-atx-power-supply-hg2-850-gen5.html",
+      "value": true,
+      "valueScore": 99
+    },
+    "cc_psu_235374": {
+      "brand": "Online",
+      "kind": "PSU",
+      "name": "Online - Sold Out In Store - Available for Pickup",
+      "reference": 99.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/235374/fsp-ha2-750-bronze-atx-power-supply-black-ha2-750.html",
+      "value": false,
+      "valueScore": 65
+    },
+    "cc_psu_235376": {
+      "brand": "Online",
+      "kind": "PSU",
+      "name": "Online - Sold Out In Store - Available for Pickup",
+      "reference": 79.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/235376/fsp-ha2-550-bronze-atx-power-supply-black-ha2-550.html",
+      "value": false,
+      "valueScore": 69
+    },
+    "cc_psu_239504": {
+      "brand": "ASUS",
+      "kind": "PSU",
+      "name": "ASUS TUF Gaming 850W Gold ATX Power Supply, Black",
+      "reference": 199.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        850,
+        "Gold"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/power-supplies/239504/asus-tuf-gaming-850w-gold-atx-power-supply-black-tuf-gaming-850g.html",
+      "value": false,
+      "valueScore": 59
+    },
+    "cc_psu_239506": {
+      "brand": "ASUS",
+      "kind": "PSU",
+      "name": "ASUS TUF Gaming 1000W Gold ATX Power Supply, Black",
+      "reference": 239.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        1000,
+        "Gold"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/239506/asus-tuf-gaming-1000w-gold-atx-power-supply-black-tuf-gaming-1000g.html",
+      "value": false,
+      "valueScore": 55
+    },
+    "cc_psu_239507": {
+      "brand": "Online",
+      "kind": "PSU",
+      "name": "Online - Sold Out In Store - Available for Pickup",
+      "reference": 169.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/239507/asus-tuf-gaming-750w-gold-power-supply-tuf-gaming-750g.html",
+      "value": false,
+      "valueScore": 51
+    },
+    "cc_psu_239524": {
+      "brand": "Online",
+      "kind": "PSU",
+      "name": "Online - Sold Out In Store - Available for Pickup",
+      "reference": 344.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/239524/asus-rog-thor-850w-platinum-ii-rog-thor-850p2-gaming.html",
+      "value": false,
+      "valueScore": 45
+    },
+    "cc_psu_241298": {
+      "brand": "Corsair",
+      "kind": "PSU",
+      "name": "CORSAIR HXi Series HX1000i Fully Modular Ultra-Low Noise ATX Digital",
+      "reference": 369.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/241298/corsair-hxi-series-hx1000i-fully-modular-ultra-low-noise-atx-digital-cp-9020259-na.html",
+      "value": false,
+      "valueScore": 45
+    },
+    "cc_psu_241559": {
+      "brand": "MSI",
+      "kind": "PSU",
+      "name": "MSI MAG A850GL PCIE5, Fully Modular Compact, 80+ Gold, Power Supply",
+      "reference": 50.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Gold"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/241559/msi-mag-a850gl-pcie5-fully-modular-compact-80-gold-power-supply-mag-a850gl-pcie5.html",
+      "value": false,
+      "valueScore": 85
+    },
+    "cc_psu_241562": {
+      "brand": "MSI",
+      "kind": "PSU",
+      "name": "MSI MAG A750GL PCIE5, Fully Modular Compact, 80+ Gold, Power Supply",
+      "reference": 35.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Gold"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/241562/msi-mag-a750gl-pcie5-fully-modular-compact-80-gold-power-supply-mag-a750gl-pcie5.html",
+      "value": false,
+      "valueScore": 92
+    },
+    "cc_psu_241567": {
+      "brand": "MSI",
+      "kind": "PSU",
+      "name": "MSI MAG A650GL, Fully Modular Compact, 80+ Gold, Power Supply",
+      "reference": 50.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Gold"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/241567/msi-mag-a650gl-fully-modular-compact-80-gold-power-supply-mag-a650gl.html",
+      "value": false,
+      "valueScore": 85
+    },
+    "cc_psu_242300": {
+      "brand": "be quiet!",
+      "kind": "PSU",
+      "name": "be quiet! Dark Power Pro 13 1300W 80+ Titanium Power Supply",
+      "reference": 379.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        1300,
+        "Titanium"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/242300/be-quiet-dark-power-pro-13-1300w-80-titanium-power-supply-bn500.html",
+      "value": false,
+      "valueScore": 50
+    },
+    "cc_psu_243485": {
+      "brand": "ASUS",
+      "kind": "PSU",
+      "name": "ASUS ROG Loki Series SFX-L 850W Power Supply, 80+ Platinum, ATX 3.0 C",
+      "reference": 299.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        850,
+        "Platinum"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/243485/asus-rog-loki-series-sfx-l-850w-power-supply-80-platinum-atx-3-0-c-rog-loki-850p-sfx-l-gaming.html",
+      "value": false,
+      "valueScore": 50
+    },
+    "cc_psu_243486": {
+      "brand": "ASUS",
+      "kind": "PSU",
+      "name": "ASUS ROG Loki Series SFX-L 1000W Power Supply, 80+ Platinum, ATX 3.0",
+      "reference": 339.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1000,
+        "Platinum"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/243486/asus-rog-loki-series-sfx-l-1000w-power-supply-80-platinum-atx-3-0-rog-loki-1000p-sfx-l-gaming.html",
+      "value": false,
+      "valueScore": 52
+    },
+    "cc_psu_243662": {
+      "brand": "FSP",
+      "kind": "PSU",
+      "name": "FSP Hydro PTM Pro 1200W ATX 3.0 PCIe 5 Power Supply, 80 Plus Platinum",
+      "reference": 299.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        1200,
+        "Platinum"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/243662/fsp-hydro-ptm-pro-1200w-atx-3-0-pcie-5-power-supply-80-plus-platinum-hpt-1200m-gen5.html",
+      "value": false,
+      "valueScore": 58
+    },
+    "cc_psu_246758": {
+      "brand": "FSP",
+      "kind": "PSU",
+      "name": "FSP Hydro PTM Pro 1350W Power Supply, 80 Plus Platinum, Full Modular",
+      "reference": 329.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        1350,
+        "Platinum"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/246758/fsp-hydro-ptm-pro-1350w-power-supply-80-plus-platinum-full-modular-hpt2-1350m.html",
+      "value": false,
+      "valueScore": 58
+    },
+    "cc_psu_248846": {
+      "brand": "Thermaltake",
+      "kind": "PSU",
+      "name": "THERMALTAKE Toughpower GF A3 850W ATX 3.0 & PCIe 5 PSU, White",
+      "reference": 179.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        850,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/248846/thermaltake-toughpower-gf-a3-850w-atx-3-0-pcie-5-psu-white-ps-tpd-0850fnfagu-n.html",
+      "value": false,
+      "valueScore": 59
+    },
+    "cc_psu_249665": {
+      "brand": "Super Flower",
+      "kind": "PSU",
+      "name": "SUPER FLOWER Leadex VII XG 1000W Power Supply, ATX 3.1 Compatible",
+      "reference": 40.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1000,
+        "Unrated"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/249665/super-flower-leadex-vii-xg-1000w-power-supply-atx-3-1-compatible-sf-1000f14xg.html",
+      "value": true,
+      "valueScore": 99
+    },
+    "cc_psu_249666": {
+      "brand": "Super Flower",
+      "kind": "PSU",
+      "name": "SUPER FLOWER Leadex VII XG 1300W Power Supply, ATX 3.1 Compatible",
+      "reference": 80.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1300,
+        "Unrated"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/249666/super-flower-leadex-vii-xg-1300w-power-supply-atx-3-1-compatible-sf-1300f14xg.html",
+      "value": true,
+      "valueScore": 98
+    },
+    "cc_psu_250151": {
+      "brand": "MSI",
+      "kind": "PSU",
+      "name": "MSI MAG A650BN, Non-Modular Compact , 80+ Bronze, Power Supply",
+      "reference": 25.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Bronze"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/250151/msi-mag-a650bn-non-modular-compact-80-bronze-power-supply-mag-a650bn.html",
+      "value": false,
+      "valueScore": 97
+    },
+    "cc_psu_250153": {
+      "brand": "MSI",
+      "kind": "PSU",
+      "name": "MSI MAG A550BN, Non-Modular Compact , 80+ Bronze,  Power supply",
+      "reference": 69.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Bronze"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/250153/msi-mag-a550bn-non-modular-compact-80-bronze-power-supply-mag-a550bn.html",
+      "value": false,
+      "valueScore": 74
+    },
+    "cc_psu_251060": {
+      "brand": "Online",
+      "kind": "PSU",
+      "name": "Online - Sold Out In Store - Available for Pickup",
+      "reference": 84.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/251060/corsair-cx550-550-watt-80-plus-bronze-cp-9020277-na.html",
+      "value": false,
+      "valueScore": 68
+    },
+    "cc_psu_251065": {
+      "brand": "Corsair",
+      "kind": "PSU",
+      "name": "CORSAIR CX Series, CX750, 750 Watt, 80 PLUS Bronze",
+      "reference": 114.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Bronze"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/251065/corsair-cx-series-cx750-750-watt-80-plus-bronze-cp-9020279-na.html",
+      "value": false,
+      "valueScore": 64
+    },
+    "cc_psu_251068": {
+      "brand": "MSI",
+      "kind": "PSU",
+      "name": "MSI MAG A850GL PCIE5 WHITE, Fully Modular Compact, Power Supply",
+      "reference": 65.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/251068/msi-mag-a850gl-pcie5-white-fully-modular-compact-power-supply-mag-a850gl-pcie5-white.html",
+      "value": false,
+      "valueScore": 76
+    },
+    "cc_psu_252456": {
+      "brand": "MSI",
+      "kind": "PSU",
+      "name": "MSI MAG A1000GL PCIE5, Fully Modular Compact, 80+ Gold, Power Supply",
+      "reference": 174.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Gold"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/252456/msi-mag-a1000gl-pcie5-fully-modular-compact-80-gold-power-supply-mag-a1000gl-pcie5.html",
+      "value": false,
+      "valueScore": 50
+    },
+    "cc_psu_252459": {
+      "brand": "MSI",
+      "kind": "PSU",
+      "name": "MSI MAG A1250GL PCIE5, Fully Modular Compact, 80+ Gold, Power Supply",
+      "reference": 299.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Gold"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/252459/msi-mag-a1250gl-pcie5-fully-modular-compact-80-gold-power-supply-mag-a1250gl-pcie5.html",
+      "value": false,
+      "valueScore": 47
+    },
+    "cc_psu_253007": {
+      "brand": "ASUS",
+      "kind": "PSU",
+      "name": "ASUS Prime 850W Gold Power supply",
+      "reference": 189.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        850,
+        "Gold"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/power-supplies/253007/asus-prime-850w-gold-power-supply-ap-850g.html",
+      "value": false,
+      "valueScore": 60
+    },
+    "cc_psu_253022": {
+      "brand": "Online",
+      "kind": "PSU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 159.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/253022/asus-prime-750w-gold-power-supply-ap-750g.html",
+      "value": false,
+      "valueScore": 53
+    },
+    "cc_psu_253669": {
+      "brand": "ASUS",
+      "kind": "PSU",
+      "name": "ASUS ROG STRIX 1000W Gold Aura Edition Fully Modular Power Supply, 80",
+      "reference": 299.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        1000,
+        "Gold"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/253669/asus-rog-strix-1000w-gold-aura-edition-fully-modular-power-supply-80-rog-strix-1000g-aura-gaming.html",
+      "value": false,
+      "valueScore": 51
+    },
+    "cc_psu_253950": {
+      "brand": "FSP",
+      "kind": "PSU",
+      "name": "FSP VITA 750W 80 PLUS Gold Certified ATX Power Supply, Black",
+      "reference": 139.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        750,
+        "Gold"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/power-supplies/253950/fsp-vita-750w-80-plus-gold-certified-atx-power-supply-black-vita-750gm.html",
+      "value": false,
+      "valueScore": 63
+    },
+    "cc_psu_253951": {
+      "brand": "FSP",
+      "kind": "PSU",
+      "name": "FSP VITA  80 PLUS Gold Certified ATX Power Supply, Black",
+      "reference": 154.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Gold"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/253951/fsp-vita-80-plus-gold-certified-atx-power-supply-black-vita-850gm.html",
+      "value": false,
+      "valueScore": 58
+    },
+    "cc_psu_253952": {
+      "brand": "FSP",
+      "kind": "PSU",
+      "name": "FSP VITA 1000W 80 PLUS Gold Certified ATX Power Supply, Black",
+      "reference": 199.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1000,
+        "Gold"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/253952/fsp-vita-1000w-80-plus-gold-certified-atx-power-supply-black-vita-1000gm.html",
+      "value": false,
+      "valueScore": 61
+    },
+    "cc_psu_257974": {
+      "brand": "Super Flower",
+      "kind": "PSU",
+      "name": "SUPER FLOWER Combat FG 650W ATX 3.1 Gold Power Supply",
+      "reference": 129.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Gold"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/257974/super-flower-combat-fg-650w-atx-3-1-gold-power-supply-sf-650c12fg.html",
+      "value": false,
+      "valueScore": 62
+    },
+    "cc_psu_257975": {
+      "brand": "Super Flower",
+      "kind": "PSU",
+      "name": "SUPER FLOWER Combat FG 750W ATX 3.1 Gold Power Supply",
+      "reference": 144.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        750,
+        "Gold"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/power-supplies/257975/super-flower-combat-fg-750w-atx-3-1-gold-power-supply-sf-750c12fg.html",
+      "value": false,
+      "valueScore": 65
+    },
+    "cc_psu_257977": {
+      "brand": "SUPERFLOWER",
+      "kind": "PSU",
+      "name": "SUPERFLOWER 850W Gold ATX Power Supply, Black",
+      "reference": 164.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        850,
+        "Gold"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/power-supplies/257977/superflower-850w-gold-atx-power-supply-black-sf-850f14ge.html",
+      "value": false,
+      "valueScore": 62
+    },
+    "cc_psu_257978": {
+      "brand": "Super Flower",
+      "kind": "PSU",
+      "name": "SUPER FLOWER 1000W Gold ATX Power Supply, Black",
+      "reference": 199.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1000,
+        "Gold"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/257978/super-flower-1000w-gold-atx-power-supply-black-sf-1000f14ge.html",
+      "value": false,
+      "valueScore": 61
+    },
+    "cc_psu_257979": {
+      "brand": "Super Flower",
+      "kind": "PSU",
+      "name": "SUPER FLOWER Leadex III Gold UP ATX 1300W ATX 3.1 Gold Power Supply,",
+      "reference": 234.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1300,
+        "Gold"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/257979/super-flower-leadex-iii-gold-up-atx-1300w-atx-3-1-gold-power-supply-sf-1300f14ge.html",
+      "value": false,
+      "valueScore": 67
+    },
+    "cc_psu_257980": {
+      "brand": "Super Flower",
+      "kind": "PSU",
+      "name": "SUPER FLOWER Leadex VII XP 1000W ATX 3.1 Platinum Power Supply, Black",
+      "reference": 189.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        1000,
+        "Platinum"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/257980/super-flower-leadex-vii-xp-1000w-atx-3-1-platinum-power-supply-black-sf-1000f14xp.html",
+      "value": false,
+      "valueScore": 65
+    },
+    "cc_psu_257981": {
+      "brand": "Super Flower",
+      "kind": "PSU",
+      "name": "SUPER FLOWER Leadex VII XP 1200W ATX 3.1 Platinum Power Supply, Black",
+      "reference": 105.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1200,
+        "Platinum"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/257981/super-flower-leadex-vii-xp-1200w-atx-3-1-platinum-power-supply-black-sf-1200f14xp.html",
+      "value": false,
+      "valueScore": 83
+    },
+    "cc_psu_262838": {
+      "brand": "Online",
+      "kind": "PSU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 209.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/262838/corsair-corsair-sf750-platinum-atx-power-supply-black-cp-9020284-na.html",
+      "value": false,
+      "valueScore": 47
+    },
+    "cc_psu_262853": {
+      "brand": "Corsair",
+      "kind": "PSU",
+      "name": "CORSAIR CORSAIR SF1000 1000W Platinum ATX Power Supply, Black",
+      "reference": 269.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        1000,
+        "Platinum"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/262853/corsair-corsair-sf1000-1000w-platinum-atx-power-supply-black-cp-9020257-na.html",
+      "value": false,
+      "valueScore": 58
+    },
+    "cc_psu_262854": {
+      "brand": "Corsair",
+      "kind": "PSU",
+      "name": "CORSAIR CORSAIR SF850 850W Platinum ATX Power Supply, Black",
+      "reference": 229.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        850,
+        "Platinum"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/262854/corsair-corsair-sf850-850w-platinum-atx-power-supply-black-cp-9020256-na.html",
+      "value": false,
+      "valueScore": 54
+    },
+    "cc_psu_262887": {
+      "brand": "AZZA",
+      "kind": "PSU",
+      "name": "AZZA PSAZ-550W ATX Gaming Power Supply",
+      "reference": 54.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        550,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/262887/azza-psaz-550w-atx-gaming-power-supply-psazz00110.html",
+      "value": false,
+      "valueScore": 78
+    },
+    "cc_psu_262888": {
+      "brand": "AZZA",
+      "kind": "PSU",
+      "name": "AZZA PSAZ-650W ATX Gaming Power Supply - 80 PLUS BRONZE Certified",
+      "reference": 59.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Bronze"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/262888/azza-psaz-650w-atx-gaming-power-supply-80-plus-bronze-certified-psazz00111.html",
+      "value": false,
+      "valueScore": 80
+    },
+    "cc_psu_262934": {
+      "brand": "AZZA",
+      "kind": "PSU",
+      "name": "AZZA PSAZ-850G ATX3.1  Gaming Power Supply",
+      "reference": 119.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/262934/azza-psaz-850g-atx3-1-gaming-power-supply-psaz-850g-31.html",
+      "value": false,
+      "valueScore": 64
+    },
+    "cc_psu_262938": {
+      "brand": "AZZA",
+      "kind": "PSU",
+      "name": "AZZA PSAZ-750W, 750W ATX 80 PLUS BRONZE Certified Gaming Power Supply",
+      "reference": 74.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        750,
+        "Bronze"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/262938/azza-psaz-750w-750w-atx-80-plus-bronze-certified-gaming-power-supply-psazz00116.html",
+      "value": false,
+      "valueScore": 77
+    },
+    "cc_psu_263593": {
+      "brand": "DeepCool",
+      "kind": "PSU",
+      "name": "DeepCool PL550D 550w non-modular ATX3.1 Power Supply",
+      "reference": 69.88,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        550,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/263593/deepcool-pl550d-550w-non-modular-atx3-1-power-supply-r-pl550d-fc0b-us-v2.html",
+      "value": false,
+      "valueScore": 70
+    },
+    "cc_psu_263594": {
+      "brand": "DeepCool",
+      "kind": "PSU",
+      "name": "DeepCool PL650D 650w non-modular ATX3.1 Power Supply",
+      "reference": 79.88,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/263594/deepcool-pl650d-650w-non-modular-atx3-1-power-supply-r-pl650d-fc0b-us-v2.html",
+      "value": false,
+      "valueScore": 70
+    },
+    "cc_psu_263595": {
+      "brand": "Online",
+      "kind": "PSU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 119.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/263595/deepcool-bronze-atx-power-supply-black-r-pl750d-fc0b-us-v2.html",
+      "value": false,
+      "valueScore": 64
+    },
+    "cc_psu_263824": {
+      "brand": "Corsair",
+      "kind": "PSU",
+      "name": "CORSAIR RMx Series RM850x Power Supply",
+      "reference": 45.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/263824/corsair-rmx-series-rm850x-power-supply-cp-9020270-na.html",
+      "value": false,
+      "valueScore": 87
+    },
+    "cc_psu_263829": {
+      "brand": "Corsair",
+      "kind": "PSU",
+      "name": "CORSAIR RMx Series RM1000x",
+      "reference": 50.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/263829/corsair-rmx-series-rm1000x-cp-9020271-na.html",
+      "value": false,
+      "valueScore": 84
+    },
+    "cc_psu_263831": {
+      "brand": "Corsair",
+      "kind": "PSU",
+      "name": "CORSAIR RMx Series RM750x",
+      "reference": 164.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/263831/corsair-rmx-series-rm750x-cp-9020285-na.html",
+      "value": false,
+      "valueScore": 54
+    },
+    "cc_psu_264777": {
+      "brand": "Super Flower",
+      "kind": "PSU",
+      "name": "SUPER FLOWER Leadex VII XG 1000W Gold Power Supply, ATX 3.1 Compatibl",
+      "reference": 70.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1000,
+        "Gold"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/264777/super-flower-leadex-vii-xg-1000w-gold-power-supply-atx-3-1-compatibl-sf-1000f14xgwh.html",
+      "value": false,
+      "valueScore": 88
+    },
+    "cc_psu_264778": {
+      "brand": "Super Flower",
+      "kind": "PSU",
+      "name": "SUPER FLOWER Leadex VII XG 1300W Gold Power Supply, ATX 3.1 Compatibl",
+      "reference": 189.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1300,
+        "Gold"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/264778/super-flower-leadex-vii-xg-1300w-gold-power-supply-atx-3-1-compatibl-sf-1300f14xgwh.html",
+      "value": false,
+      "valueScore": 67
+    },
+    "cc_psu_264783": {
+      "brand": "Super Flower",
+      "kind": "PSU",
+      "name": "SUPER FLOWER Leadex VII XP 1200W ATX 3.1 Platinum Power Supply, White",
+      "reference": 204.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1200,
+        "Platinum"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/264783/super-flower-leadex-vii-xp-1200w-atx-3-1-platinum-power-supply-white-sf-1200f14xpwh.html",
+      "value": false,
+      "valueScore": 68
+    },
+    "cc_psu_265984": {
+      "brand": "Online",
+      "kind": "PSU",
+      "name": "Online - Sold Out In Store - Available for Pickup",
+      "reference": 304.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/265984/asus-tuf-gaming-1200w-gold-power-supply-tuf-gaming-1200g.html",
+      "value": false,
+      "valueScore": 45
+    },
+    "cc_psu_266814": {
+      "brand": "Corsair",
+      "kind": "PSU",
+      "name": "CORSAIR CORSAIR RM1000e 1000W Gold ATX Power Supply, Black",
+      "reference": 50.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1000,
+        "Gold"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/266814/corsair-corsair-rm1000e-1000w-gold-atx-power-supply-black-cp-9020297-na.html",
+      "value": true,
+      "valueScore": 99
+    },
+    "cc_psu_266815": {
+      "brand": "Corsair",
+      "kind": "PSU",
+      "name": "CORSAIR CORSAIR RM850e 850W Gold ATX Power Supply, Black",
+      "reference": 45.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        850,
+        "Gold"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/power-supplies/266815/corsair-corsair-rm850e-850w-gold-atx-power-supply-black-cp-9020296-na.html",
+      "value": true,
+      "valueScore": 99
+    },
+    "cc_psu_266816": {
+      "brand": "Corsair",
+      "kind": "PSU",
+      "name": "CORSAIR RMe Series RM750e Fully Modular Low-Noise ATX Power Supply Bl",
+      "reference": 144.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/266816/corsair-rme-series-rm750e-fully-modular-low-noise-atx-power-supply-bl-cp-9020295-na.html",
+      "value": false,
+      "valueScore": 58
+    },
+    "cc_psu_267257": {
+      "brand": "Super Flower",
+      "kind": "PSU",
+      "name": "SUPER FLOWER Leadex VII XP 1000W ATX 3.1 Platinum Power Supply, White",
+      "reference": 70.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1000,
+        "Platinum"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/267257/super-flower-leadex-vii-xp-1000w-atx-3-1-platinum-power-supply-white-sf-1000f14xpwh.html",
+      "value": false,
+      "valueScore": 89
+    },
+    "cc_psu_268226": {
+      "brand": "ASUS",
+      "kind": "PSU",
+      "name": "ASUS ROG STRIX 1200W Platinum  Platinum ATX Power Supply, Black",
+      "reference": 339.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        1200,
+        "Platinum"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/268226/asus-rog-strix-1200w-platinum-platinum-atx-power-supply-black-rog-strix-1200p-gaming.html",
+      "value": false,
+      "valueScore": 55
+    },
+    "cc_psu_268228": {
+      "brand": "ASUS",
+      "kind": "PSU",
+      "name": "ASUS ROG-STRIX 1000W Platinum ATX Power Supply, Black",
+      "reference": 279.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1000,
+        "Platinum"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/268228/asus-rog-strix-1000w-platinum-atx-power-supply-black-rog-strix-1000p-gaming.html",
+      "value": false,
+      "valueScore": 55
+    },
+    "cc_psu_268268": {
+      "brand": "MSI",
+      "kind": "PSU",
+      "name": "MSI MPG A1000GS PCIE5, Fully Modular, 80+ Gold, Power Supply",
+      "reference": 289.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Gold"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/268268/msi-mpg-a1000gs-pcie5-fully-modular-80-gold-power-supply-mpg-a1000gs-pcie5.html",
+      "value": false,
+      "valueScore": 45
+    },
+    "cc_psu_268270": {
+      "brand": "MSI",
+      "kind": "PSU",
+      "name": "MSI MPG A850GS PCIE5, Fully Modular, 80+ Gold, Low-Noise, Power Supply",
+      "reference": 65.02,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Gold"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/268270/msi-mpg-a850gs-pcie5-fully-modular-80-gold-low-noise-power-supply-mpg-a850gs-pcie5.html",
+      "value": false,
+      "valueScore": 79
+    },
+    "cc_psu_268477": {
+      "brand": "be quiet!",
+      "kind": "PSU",
+      "name": "be quiet! BP006US  Platinum ATX Power Supply, Black",
+      "reference": 144.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Platinum"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/268477/be-quiet-bp006us-platinum-atx-power-supply-black-bp006us.html",
+      "value": false,
+      "valueScore": 59
+    },
+    "cc_psu_268478": {
+      "brand": "Online",
+      "kind": "PSU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 159.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/268478/be-quiet-bp007us-platinum-atx-power-supply-black-bp007.html",
+      "value": false,
+      "valueScore": 54
+    },
+    "cc_psu_268479": {
+      "brand": "Online",
+      "kind": "PSU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 209.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/268479/be-quiet-bp008us-platinum-atx-power-supply-black-bp008us.html",
+      "value": false,
+      "valueScore": 49
+    },
+    "cc_psu_268492": {
+      "brand": "FSP",
+      "kind": "PSU",
+      "name": "FSP Mega Ti Pro 1350W ATX 3.1 PCIe 5 Power Supply, 80 Plus Titanium,",
+      "reference": 399.88,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1350,
+        "Titanium"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/268492/fsp-mega-ti-pro-1350w-atx-3-1-pcie-5-power-supply-80-plus-titanium-mega-1350ti.html",
+      "value": false,
+      "valueScore": 48
+    },
+    "cc_psu_269037": {
+      "brand": "Online",
+      "kind": "PSU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 294.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/269037/corsair-corsair-rm1200e-gold-atx-power-supply-black-cp-9020258-na.html",
+      "value": false,
+      "valueScore": 46
+    },
+    "cc_psu_269117": {
+      "brand": "Online",
+      "kind": "PSU",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 194.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/269117/corsair-850w-gold-atx-power-supply-white-cp-9020293-na.html",
+      "value": false,
+      "valueScore": 47
+    },
+    "cc_psu_269121": {
+      "brand": "Corsair",
+      "kind": "PSU",
+      "name": "CORSAIR RM1000e White 1000W Gold ATX Power Supply, White",
+      "reference": 249.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1000,
+        "Gold"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/269121/corsair-rm1000e-white-1000w-gold-atx-power-supply-white-cp-9020294-na.html",
+      "value": false,
+      "valueScore": 57
+    },
+    "cc_psu_269155": {
+      "brand": "Corsair",
+      "kind": "PSU",
+      "name": "CORSAIR RMe Series RM750e White Fully Modular Low-Noise ATX Power Sup",
+      "reference": 45.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/269155/corsair-rme-series-rm750e-white-fully-modular-low-noise-atx-power-sup-cp-9020292-na.html",
+      "value": false,
+      "valueScore": 87
+    },
+    "cc_psu_270604": {
+      "brand": "Corsair",
+      "kind": "PSU",
+      "name": "CORSAIR HXi Series HX1200i 80 PLUS Platinum Cybenetics Platinum ATX P",
+      "reference": 364.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Platinum"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/270604/corsair-hxi-series-hx1200i-80-plus-platinum-cybenetics-platinum-atx-p-cp-9020307-na.html",
+      "value": false,
+      "valueScore": 46
+    },
+    "cc_psu_270605": {
+      "brand": "Corsair",
+      "kind": "PSU",
+      "name": "CORSAIR HXi Series HX1500i (C20) Fully Modular Ultra-Low Noise ATX Di",
+      "reference": 414.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/270605/corsair-hxi-series-hx1500i-c20-fully-modular-ultra-low-noise-atx-di-cp-9020309-na.html",
+      "value": false,
+      "valueScore": 45
+    },
+    "cc_psu_272689": {
+      "brand": "be quiet!",
+      "kind": "PSU",
+      "name": "be quiet! PURE POWER 13 M 750W Gold ATX Power Supply, Black",
+      "reference": 45.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        750,
+        "Gold"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/power-supplies/272689/be-quiet-pure-power-13-m-750w-gold-atx-power-supply-black-bp026u2.html",
+      "value": true,
+      "valueScore": 99
+    },
+    "cc_psu_272692": {
+      "brand": "be quiet!",
+      "kind": "PSU",
+      "name": "be quiet! PURE POWER 13 M 850W Gold ATX Power Supply, Black",
+      "reference": 70.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        850,
+        "Gold"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/power-supplies/272692/be-quiet-pure-power-13-m-850w-gold-atx-power-supply-black-bp027u2.html",
+      "value": false,
+      "valueScore": 82
+    },
+    "cc_psu_272694": {
+      "brand": "be quiet!",
+      "kind": "PSU",
+      "name": "be quiet! PURE POWER 13 M 1000W Gold ATX Power Supply, Black",
+      "reference": 90.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1000,
+        "Gold"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/272694/be-quiet-pure-power-13-m-1000w-gold-atx-power-supply-black-bp028u2.html",
+      "value": false,
+      "valueScore": 81
+    },
+    "cc_psu_272810": {
+      "brand": "DeepCool",
+      "kind": "PSU",
+      "name": "DeepCool GAMER STORM PN1200M ATX3.1 80 PLUS Gold Fully Modular 1200W",
+      "reference": 174.88,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        1200,
+        "Gold"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/272810/deepcool-gamer-storm-pn1200m-atx3-1-80-plus-gold-fully-modular-1200w-r-pnc00m-fc0b-jgus.html",
+      "value": false,
+      "valueScore": 68
+    },
+    "cc_psu_272830": {
+      "brand": "MSI",
+      "kind": "PSU",
+      "name": "MSI MAG A1000GLS PCIE5, Fully Modular Compact, 80+ Gold, Power Supply",
+      "reference": 239.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Gold"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/272830/msi-mag-a1000gls-pcie5-fully-modular-compact-80-gold-power-supply-mag-a1000gls-pcie5.html",
+      "value": false,
+      "valueScore": 50
+    },
+    "cc_psu_272836": {
+      "brand": "MSI",
+      "kind": "PSU",
+      "name": "MSI MAG A850GLS PCIE5, Fully Modular Compact, 80+ Gold, Power Supply",
+      "reference": 209.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Gold"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/272836/msi-mag-a850gls-pcie5-fully-modular-compact-80-gold-power-supply-mag-a850gls-pcie5.html",
+      "value": false,
+      "valueScore": 51
+    },
+    "cc_psu_272842": {
+      "brand": "MSI",
+      "kind": "PSU",
+      "name": "MSI MAG A750GLS PCIE5, Fully Modular Compact, 80+ Gold, Power Supply",
+      "reference": 179.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Gold"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/272842/msi-mag-a750gls-pcie5-fully-modular-compact-80-gold-power-supply-mag-a750gls-pcie5.html",
+      "value": false,
+      "valueScore": 53
+    },
+    "cc_psu_272851": {
+      "brand": "MSI",
+      "kind": "PSU",
+      "name": "MSI MAG A650GLS PCIE5, Fully Modular Compact, 80+ Gold, Power Supply",
+      "reference": 164.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Gold"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/272851/msi-mag-a650gls-pcie5-fully-modular-compact-80-gold-power-supply-mag-a650gls-pcie5.html",
+      "value": false,
+      "valueScore": 56
+    },
+    "cc_psu_273199": {
+      "brand": "AZZA",
+      "kind": "PSU",
+      "name": "AZZA PSAZ-1000G ATX3.1 Fully Modular, Power supply",
+      "reference": 159.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Unrated"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/273199/azza-psaz-1000g-atx3-1-fully-modular-power-supply-psaz-1000g-31.html",
+      "value": false,
+      "valueScore": 52
+    },
+    "cc_psu_275700": {
+      "brand": "ASUS",
+      "kind": "PSU",
+      "name": "ASUS ROG-STRIX 1000W Platinum Full Modular ATX PSU -White",
+      "reference": 279.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        1000,
+        "Platinum"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/275700/asus-rog-strix-1000w-platinum-full-modular-atx-psu-white-rog-strix-1000p-gaming-white.html",
+      "value": false,
+      "valueScore": 54
+    },
+    "cc_psu_285692": {
+      "brand": "MSI",
+      "kind": "PSU",
+      "name": "MSI 750W Bronze ATX Power Supply, Black",
+      "reference": 119.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        750,
+        "Bronze"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/285692/msi-750w-bronze-atx-power-supply-black-mag-a750bn-pcie5-iii.html",
+      "value": false,
+      "valueScore": 69
+    },
+    "cc_psu_285695": {
+      "brand": "MSI",
+      "kind": "PSU",
+      "name": "MSI 650W Bronze ATX Power Supply, Black",
+      "reference": 104.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Bronze"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/285695/msi-650w-bronze-atx-power-supply-black-mag-a650bn-pcie5-iii.html",
+      "value": false,
+      "valueScore": 68
+    },
+    "cc_psu_285944": {
+      "brand": "DeepCool",
+      "kind": "PSU",
+      "name": "DeepCool PQ1000G 1000W Gold ATX Power Supply, Black",
+      "reference": 30.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1000,
+        "Gold"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/285944/deepcool-pq1000g-1000w-gold-atx-power-supply-black-r-pqa00g-fd1b-jgus-v1.html",
+      "value": true,
+      "valueScore": 99
+    },
+    "cc_psu_285986": {
+      "brand": "DeepCool",
+      "kind": "PSU",
+      "name": "DeepCool PQ850G 850W Gold ATX Power Supply, Black",
+      "reference": 129.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        850,
+        "Gold"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/power-supplies/285986/deepcool-pq850g-850w-gold-atx-power-supply-black-r-pq850g-fd1b-jgus-v1.html",
+      "value": false,
+      "valueScore": 71
+    },
+    "cc_psu_286015": {
+      "brand": "DeepCool",
+      "kind": "PSU",
+      "name": "DeepCool PQ750G 750W Gold ATX Power Supply, Black",
+      "reference": 119.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        750,
+        "Gold"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/power-supplies/286015/deepcool-pq750g-750w-gold-atx-power-supply-black-r-pq750g-fd1b-jgus-v1.html",
+      "value": false,
+      "valueScore": 70
+    },
+    "cc_psu_293982": {
+      "brand": "Corsair",
+      "kind": "PSU",
+      "name": "CORSAIR RM850e 850W Platinum ATX Power Supply, Black",
+      "reference": 35.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        850,
+        "Platinum"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/293982/corsair-rm850e-850w-platinum-atx-power-supply-black-cp-9020336-na.html",
+      "value": true,
+      "valueScore": 99
+    },
+    "cc_psu_293984": {
+      "brand": "Corsair",
+      "kind": "PSU",
+      "name": "CORSAIR RM850e 850W Platinum ATX Power Supply, White",
+      "reference": 35.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        850,
+        "Platinum"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/293984/corsair-rm850e-850w-platinum-atx-power-supply-white-cp-9020338-na.html",
+      "value": true,
+      "valueScore": 99
+    },
+    "cc_psu_295415": {
+      "brand": "DeepCool",
+      "kind": "PSU",
+      "name": "DeepCool PK-D V2 650W Gold ATX Power Supply, Black",
+      "reference": 79.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        650,
+        "Gold"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/power-supplies/295415/deepcool-pk-d-v2-650w-gold-atx-power-supply-black-r-pk650d-ff0b-jgus-v2.html",
+      "value": false,
+      "valueScore": 73
+    },
+    "cc_psu_295416": {
+      "brand": "DeepCool",
+      "kind": "PSU",
+      "name": "DeepCool PK-D V2 750W Gold ATX Power Supply, Black",
+      "reference": 94.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        750,
+        "Gold"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/power-supplies/295416/deepcool-pk-d-v2-750w-gold-atx-power-supply-black-r-pk750d-ff0b-jgus-v2.html",
+      "value": false,
+      "valueScore": 72
+    },
+    "cc_psu_295762": {
+      "brand": "Cooler Master",
+      "kind": "PSU",
+      "name": "COOLER MASTER ELITE GOLD 1000W Gold ATX Power Supply, Black",
+      "reference": 189.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1000,
+        "Gold"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/295762/cooler-master-elite-gold-1000w-gold-atx-power-supply-black-mpx-a005-afag-bus.html",
+      "value": false,
+      "valueScore": 66
+    },
+    "cc_ssd_105078": {
+      "brand": "Kingston",
+      "kind": "SSD",
+      "name": "Kingston A400 240GB SATA3 6Gb/s 2.5\"",
+      "reference": 109.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        0.24,
+        "SATA"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/105078/kingston-a400-240gb-sata3-6gb-s-2-5-sa400s37-240g.html",
+      "value": false,
+      "valueScore": 57
+    },
+    "cc_ssd_105079": {
+      "brand": "Kingston",
+      "kind": "SSD",
+      "name": "Kingston A400 480GB SATA3 Solid State Drive 6Gb/s",
+      "reference": 164.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        0.48,
+        "SATA"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/105079/kingston-a400-480gb-sata3-solid-state-drive-6gb-s-sa400s37-480g.html",
+      "value": false,
+      "valueScore": 66
+    },
+    "cc_ssd_122034": {
+      "brand": "Kingston",
+      "kind": "SSD",
+      "name": "Kingston A400 960GB SATA3 6Gb/s 2.5\"",
+      "reference": 259.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        0.96,
+        "SATA"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/122034/kingston-a400-960gb-sata3-6gb-s-2-5-sa400s37-960g.html",
+      "value": false,
+      "valueScore": 75
+    },
+    "cc_ssd_139180": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 64.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/139180/lexar-ns100-128gb-2-5-sata-iii-ssd-lns100-128rb.html",
+      "value": true,
+      "valueScore": 99
+    },
+    "cc_ssd_139181": {
+      "brand": "Lexar",
+      "kind": "SSD",
+      "name": "LEXAR NS100 256GB 2.5” SATA III Solid State Drive (SSD)",
+      "reference": 62.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        0.256,
+        "SATA"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/139181/lexar-ns100-256gb-2-5-sata-iii-solid-state-drive-ssd-lns100-256rb.html",
+      "value": false,
+      "valueScore": 76
+    },
+    "cc_ssd_188065": {
+      "brand": "Samsung",
+      "kind": "SSD",
+      "name": "Samsung 870 EVO 500GB SATA III Solid State Drive",
+      "reference": 409.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        0.5,
+        "SATA"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/188065/samsung-870-evo-500gb-sata-iii-solid-state-drive-mz-77e500b-am.html",
+      "value": false,
+      "valueScore": 45
+    },
+    "cc_ssd_188066": {
+      "brand": "Samsung",
+      "kind": "SSD",
+      "name": "Samsung 870 EVO 1TB SATA III Solid State Drive",
+      "reference": 554.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "SATA"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/188066/samsung-870-evo-1tb-sata-iii-solid-state-drive-mz-77e1t0b-am.html",
+      "value": false,
+      "valueScore": 48
+    },
+    "cc_ssd_188067": {
+      "brand": "Samsung",
+      "kind": "SSD",
+      "name": "Samsung 870 EVO 2TB SATA III Solid State Drive",
+      "reference": 1179.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        2.0,
+        "SATA"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/188067/samsung-870-evo-2tb-sata-iii-solid-state-drive-mz-77e2t0b-am.html",
+      "value": false,
+      "valueScore": 47
+    },
+    "cc_ssd_188068": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 2354.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/188068/samsung-870-evo-4tb-sata-iii-solid-state-drive-mz-77e4t0b-am.html",
+      "value": false,
+      "valueScore": 45
+    },
+    "cc_ssd_201449": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Sold Out In Store - Available for Pickup",
+      "reference": 98.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/201449/kingston-a400-240gb-sata3-6gb-s-2-5-sa400s37-240g.html",
+      "value": false,
+      "valueScore": 84
+    },
+    "cc_ssd_209417": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Sold Out In Store - Available for Pickup",
+      "reference": 233.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/209417/kingston-a400-960gb-sata3-6gb-s-2-5-sa400s37-960g.html",
+      "value": false,
+      "valueScore": 78
+    },
+    "cc_ssd_221048": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Sold Out In Store - Available for Pickup",
+      "reference": 279.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/221048/wd-blue-sa510-500gb-sataiii-ssd-wds500g3b0a.html",
+      "value": false,
+      "valueScore": 72
+    },
+    "cc_ssd_221049": {
+      "brand": "WD",
+      "kind": "SSD",
+      "name": "WD Blue™ SA510 1TB SATAIII SSD",
+      "reference": 319.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "SATA"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/221049/wd-blue-sa510-1tb-sataiii-ssd-wds100t3b0a.html",
+      "value": false,
+      "valueScore": 70
+    },
+    "cc_ssd_223499": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Sold Out In Store - Available for Pickup",
+      "reference": 287.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/223499/wd-blue-sa510-1tb-sataiii-ssd-wds100t3b0a.html",
+      "value": false,
+      "valueScore": 73
+    },
+    "cc_ssd_226016": {
+      "brand": "WD",
+      "kind": "SSD",
+      "name": "WD Black SN850X 1TB PCIe Gen4 NVMe M.2 SSD",
+      "reference": 50.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Gen4"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/226016/wd-black-sn850x-1tb-pcie-gen4-nvme-m-2-ssd-wds100t2x0e.html",
+      "value": true,
+      "valueScore": 99
+    },
+    "cc_ssd_226019": {
+      "brand": "WD",
+      "kind": "SSD",
+      "name": "WD Black SN850X 2TB PCIe Gen4 NVMe M.2 SSD",
+      "reference": 180.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        2.0,
+        "Gen4"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/226019/wd-black-sn850x-2tb-pcie-gen4-nvme-m-2-ssd-wds200t2x0e.html",
+      "value": false,
+      "valueScore": 87
+    },
+    "cc_ssd_226020": {
+      "brand": "WD",
+      "kind": "SSD",
+      "name": "WD Black SN850X 4TB PCIe Gen4 NVMe M.2 SSD",
+      "reference": 520.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        4.0,
+        "Gen4"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/226020/wd-black-sn850x-4tb-pcie-gen4-nvme-m-2-ssd-wds400t2x0e.html",
+      "value": false,
+      "valueScore": 83
+    },
+    "cc_ssd_226022": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Sold Out In Store - Available for Pickup",
+      "reference": 399.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/226022/wd-black-sn850x-1tb-pcie-gen4-nvme-m-2-ssd-wds100t2xhe.html",
+      "value": false,
+      "valueScore": 61
+    },
+    "cc_ssd_226023": {
+      "brand": "WD",
+      "kind": "SSD",
+      "name": "WD Black SN850X 2TB PCIe Gen4 NVMe M.2 SSD",
+      "reference": 185.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        2.0,
+        "Gen4"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/226023/wd-black-sn850x-2tb-pcie-gen4-nvme-m-2-ssd-wds200t2xhe.html",
+      "value": false,
+      "valueScore": 85
+    },
+    "cc_ssd_233285": {
+      "brand": "Samsung",
+      "kind": "SSD",
+      "name": "Samsung 990 Pro 1TB M.2 NVMe PCIe 4.0 Solid State Drive",
+      "reference": 439.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Gen4"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/233285/samsung-990-pro-1tb-m-2-nvme-pcie-4-0-solid-state-drive-mz-v9p1t0b-am.html",
+      "value": false,
+      "valueScore": 56
+    },
+    "cc_ssd_233286": {
+      "brand": "Samsung",
+      "kind": "SSD",
+      "name": "Samsung 990 Pro 2TB M.2 NVMe PCIe 4.0 Solid State Drive",
+      "reference": 874.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        2.0,
+        "Gen4"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/233286/samsung-990-pro-2tb-m-2-nvme-pcie-4-0-solid-state-drive-mz-v9p2t0b-am.html",
+      "value": false,
+      "valueScore": 58
+    },
+    "cc_ssd_241545": {
+      "brand": "Samsung",
+      "kind": "SSD",
+      "name": "Samsung 990 Pro 1TB M.2 NVMe PCIe 4.0 Solid State Drive",
+      "reference": 464.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Gen4"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/241545/samsung-990-pro-1tb-m-2-nvme-pcie-4-0-solid-state-drive-mz-v9p1t0cw.html",
+      "value": false,
+      "valueScore": 52
+    },
+    "cc_ssd_241546": {
+      "brand": "Samsung",
+      "kind": "SSD",
+      "name": "Samsung 990 Pro  2TB with Heatsink M.2 NVMe PCIe 4.0  SSD",
+      "reference": 914.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        2.0,
+        "Gen4"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/241546/samsung-990-pro-2tb-with-heatsink-m-2-nvme-pcie-4-0-ssd-mz-v9p2t0cw.html",
+      "value": false,
+      "valueScore": 55
+    },
+    "cc_ssd_244036": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Sold Out In Store - Available for Pickup",
+      "reference": 469.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/244036/wd-blue-sa510-2tb-sataiii-ssd-wds200t3b0a.html",
+      "value": false,
+      "valueScore": 55
+    },
+    "cc_ssd_244039": {
+      "brand": "WD",
+      "kind": "SSD",
+      "name": "WD Blue™ SA510 4TB SATAIII SSD",
+      "reference": 195.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        4.0,
+        "SATA"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/244039/wd-blue-sa510-4tb-sataiii-ssd-wds400t3b0a.html",
+      "value": true,
+      "valueScore": 99
+    },
+    "cc_ssd_246630": {
+      "brand": "Samsung",
+      "kind": "SSD",
+      "name": "Samsung 990 Pro 4TB M.2 NVMe PCIe 4.0 Solid State Drive",
+      "reference": 1499.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        4.0,
+        "Gen4"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/246630/samsung-990-pro-4tb-m-2-nvme-pcie-4-0-solid-state-drive-mz-v9p4t0b-am.html",
+      "value": false,
+      "valueScore": 64
+    },
+    "cc_ssd_246631": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1554.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/246631/samsung-990-pro-4tb-with-heatsink-m-2-nvme-pcie-4-0-ssd-mz-v9p4t0cw.html",
+      "value": false,
+      "valueScore": 45
+    },
+    "cc_ssd_261113": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 149.9,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/261113/kingston-nv3-500g-nvme-pcie-4x4-ssd-snv3s-500g.html",
+      "value": false,
+      "valueScore": 83
+    },
+    "cc_ssd_261114": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 219.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/261114/kingston-nv3-1tb-nvme-pcie-4x4-ssd-snv3s-1000g.html",
+      "value": false,
+      "valueScore": 85
+    },
+    "cc_ssd_261116": {
+      "brand": "Kingston",
+      "kind": "SSD",
+      "name": "Kingston NV3 2TB NVMe PCIe 4x4 SSD",
+      "reference": 30.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        2.0,
+        "Gen4"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/261116/kingston-nv3-2tb-nvme-pcie-4x4-ssd-snv3s-2000g.html",
+      "value": true,
+      "valueScore": 99
+    },
+    "cc_ssd_261118": {
+      "brand": "Kingston",
+      "kind": "SSD",
+      "name": "Kingston NV3 4TB NVMe PCIe 4x4 SSD",
+      "reference": 899.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        4.0,
+        "Gen4"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/261118/kingston-nv3-4tb-nvme-pcie-4x4-ssd-snv3s-4000g.html",
+      "value": false,
+      "valueScore": 79
+    },
+    "cc_ssd_261559": {
+      "brand": "WD",
+      "kind": "SSD",
+      "name": "WD Black SN850X 8TB PCIe Gen4 NVMe M.2 SSD",
+      "reference": 2499.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        8.0,
+        "Gen4"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/261559/wd-black-sn850x-8tb-pcie-gen4-nvme-m-2-ssd-wds800t2x0e.html",
+      "value": false,
+      "valueScore": 69
+    },
+    "cc_ssd_262546": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Sold Out In Store - Available for Pickup",
+      "reference": 359.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/262546/kingston-nv3-2tb-nvme-pcie-4x4-ssd-snv3s-2000g.html",
+      "value": false,
+      "valueScore": 64
+    },
+    "cc_ssd_262763": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Sold Out In Store - Available for Pickup",
+      "reference": 134.91,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/262763/kingston-nv3-500g-nvme-pcie-4x4-ssd-snv3s-500g.html",
+      "value": false,
+      "valueScore": 83
+    },
+    "cc_ssd_264045": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Sold Out In Store - Available for Pickup",
+      "reference": 197.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/264045/kingston-nv3-1tb-nvme-pcie-4x4-ssd-snv3s-1000g.html",
+      "value": false,
+      "valueScore": 81
+    },
+    "cc_ssd_265360": {
+      "brand": "Samsung",
+      "kind": "SSD",
+      "name": "Samsung 990 Evo Plus  1TB M.2 NVMe PCIe 4.0  Solid State Drive",
+      "reference": 394.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Gen4"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/265360/samsung-990-evo-plus-1tb-m-2-nvme-pcie-4-0-solid-state-drive-mz-v9s1t0b-am.html",
+      "value": false,
+      "valueScore": 62
+    },
+    "cc_ssd_265362": {
+      "brand": "Samsung",
+      "kind": "SSD",
+      "name": "Samsung 990 Evo Plus  2TB M.2 NVMe PCIe 4.0  Solid State Drive",
+      "reference": 789.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        2.0,
+        "Gen4"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/265362/samsung-990-evo-plus-2tb-m-2-nvme-pcie-4-0-solid-state-drive-mz-v9s2t0b-am.html",
+      "value": false,
+      "valueScore": 61
+    },
+    "cc_ssd_265363": {
+      "brand": "Samsung",
+      "kind": "SSD",
+      "name": "Samsung 990 Evo Plus  4TB M.2 NVMe PCIe  Gen 4.0 x4 / 5.0 x2 Solid Sta",
+      "reference": 1429.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        4.0,
+        "Gen5"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/265363/samsung-990-evo-plus-4tb-m-2-nvme-pcie-gen-4-0-x4-5-0-x2-solid-sta-mz-v9s4t0b-am.html",
+      "value": false,
+      "valueScore": 65
+    },
+    "cc_ssd_266589": {
+      "brand": "WD",
+      "kind": "SSD",
+      "name": "WD Black SN7100 1TB PCIe Gen 4.0  M.2 2280 SSD",
+      "reference": 70.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Gen4"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/266589/wd-black-sn7100-1tb-pcie-gen-4-0-m-2-2280-ssd-wds100t4x0e.html",
+      "value": true,
+      "valueScore": 99
+    },
+    "cc_ssd_266590": {
+      "brand": "WD",
+      "kind": "SSD",
+      "name": "WD Black SN7100 2TB PCIe Gen 4.0  M.2 2280 SSD",
+      "reference": 589.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        2.0,
+        "Gen4"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/266590/wd-black-sn7100-2tb-pcie-gen-4-0-m-2-2280-ssd-wds200t4x0e.html",
+      "value": false,
+      "valueScore": 72
+    },
+    "cc_ssd_268047": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Sold Out In Store - Available for Pickup",
+      "reference": 809.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/268047/kingston-nv3-4tb-nvme-pcie-4x4-ssd-snv3s-4000g.html",
+      "value": false,
+      "valueScore": 46
+    },
+    "cc_ssd_269434": {
+      "brand": "WD",
+      "kind": "SSD",
+      "name": "WD Black SN850X 8TB w/Heatsink PCIe Gen4 NVMe M.2 SSD",
+      "reference": 2499.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        8.0,
+        "Gen4"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/269434/wd-black-sn850x-8tb-w-heatsink-pcie-gen4-nvme-m-2-ssd-wds800t2xhe.html",
+      "value": false,
+      "valueScore": 73
+    },
+    "cc_ssd_269435": {
+      "brand": "WD",
+      "kind": "SSD",
+      "name": "WD Black SN850X 4TB w/Heatsink PCIe Gen4 NVMe M.2 SSD",
+      "reference": 460.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        4.0,
+        "Gen4"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/269435/wd-black-sn850x-4tb-w-heatsink-pcie-gen4-nvme-m-2-ssd-wds400t2xhe.html",
+      "value": false,
+      "valueScore": 84
+    },
+    "cc_ssd_269708": {
+      "brand": "Lexar",
+      "kind": "SSD",
+      "name": "Lexar NS100 2TB 2.5” SATA III Solid State Drive (SSD)",
+      "reference": 399.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        2.0,
+        "SATA"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/269708/lexar-ns100-2tb-2-5-sata-iii-solid-state-drive-ssd-lns100-2trb.html",
+      "value": false,
+      "valueScore": 78
+    },
+    "cc_ssd_269814": {
+      "brand": "Samsung",
+      "kind": "SSD",
+      "name": "Samsung 9100 PRO Series - 1TB  M.2  NVMe 2.0 PCIe Gen5. x4 SSD",
+      "reference": 464.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Gen5"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/269814/samsung-9100-pro-series-1tb-m-2-nvme-2-0-pcie-gen5-x4-ssd-mz-vap1t0b-am.html",
+      "value": false,
+      "valueScore": 52
+    },
+    "cc_ssd_269816": {
+      "brand": "Samsung",
+      "kind": "SSD",
+      "name": "Samsung 9100 PRO Series - 2TB  M.2  NVMe 2.0 PCIe Gen5. x4 SSD",
+      "reference": 924.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        2.0,
+        "Gen5"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/269816/samsung-9100-pro-series-2tb-m-2-nvme-2-0-pcie-gen5-x4-ssd-mz-vap2t0b-am.html",
+      "value": false,
+      "valueScore": 54
+    },
+    "cc_ssd_269820": {
+      "brand": "Samsung",
+      "kind": "SSD",
+      "name": "Samsung 9100 PRO Series - 4TB  M.2  NVMe 2.0 PCIe Gen5. x4 SSD",
+      "reference": 1849.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        4.0,
+        "Gen5"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/269820/samsung-9100-pro-series-4tb-m-2-nvme-2-0-pcie-gen5-x4-ssd-mz-vap4t0b-am.html",
+      "value": false,
+      "valueScore": 53
+    },
+    "cc_ssd_269823": {
+      "brand": "Samsung",
+      "kind": "SSD",
+      "name": "Samsung 9100 PRO with Heatsink - 1TB  M.2  NVMe 2.0 PCIe Gen5. x4 SSD",
+      "reference": 489.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Gen5"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/269823/samsung-9100-pro-with-heatsink-1tb-m-2-nvme-2-0-pcie-gen5-x4-ssd-mz-vap1t0cw.html",
+      "value": false,
+      "valueScore": 51
+    },
+    "cc_ssd_269824": {
+      "brand": "Samsung",
+      "kind": "SSD",
+      "name": "Samsung 9100 PRO with Heatsink - 2TB  M.2  NVMe 2.0 PCIe Gen5. x4 SSD",
+      "reference": 969.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        2.0,
+        "Gen5"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/269824/samsung-9100-pro-with-heatsink-2tb-m-2-nvme-2-0-pcie-gen5-x4-ssd-mz-vap2t0cw.html",
+      "value": false,
+      "valueScore": 48
+    },
+    "cc_ssd_269825": {
+      "brand": "Samsung",
+      "kind": "SSD",
+      "name": "Samsung 9100 PRO with Heatsink - 4TB  M.2  NVMe 2.0 PCIe Gen5. X4 SSD",
+      "reference": 1904.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        4.0,
+        "Gen5"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/269825/samsung-9100-pro-with-heatsink-4tb-m-2-nvme-2-0-pcie-gen5-x4-ssd-mz-vap4t0cw.html",
+      "value": false,
+      "valueScore": 49
+    },
+    "cc_ssd_271392": {
+      "brand": "Lexar",
+      "kind": "SSD",
+      "name": "Lexar NQ780 2TB M.2 2280 PCIe Gen 4x4 NVMe SSD",
+      "reference": 60.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        2.0,
+        "Gen4"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/271392/lexar-nq780-2tb-m-2-2280-pcie-gen-4x4-nvme-ssd-lnq780x002t-rnnng.html",
+      "value": true,
+      "valueScore": 99
+    },
+    "cc_ssd_273064": {
+      "brand": "WD",
+      "kind": "SSD",
+      "name": "WD Black SN8100 2TB PCIe Gen5x4 NVMe M.2 2280 SSD",
+      "reference": 619.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        2.0,
+        "Gen5"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/273064/wd-black-sn8100-2tb-pcie-gen5x4-nvme-m-2-2280-ssd-wds200t1x0m.html",
+      "value": false,
+      "valueScore": 77
+    },
+    "cc_ssd_273066": {
+      "brand": "WD",
+      "kind": "SSD",
+      "name": "WD Black SN8100 4TB PCIe Gen5x4 NVMe M.2 2280 SSD",
+      "reference": 1774.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        4.0,
+        "Gen5"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/273066/wd-black-sn8100-4tb-pcie-gen5x4-nvme-m-2-2280-ssd-wds400t1x0m.html",
+      "value": false,
+      "valueScore": 60
+    },
+    "cc_ssd_273504": {
+      "brand": "WD",
+      "kind": "SSD",
+      "name": "WD Black SN7100 4TB PCIe Gen 4.0  M.2 2280 SSD",
+      "reference": 330.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        4.0,
+        "Gen4"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/273504/wd-black-sn7100-4tb-pcie-gen-4-0-m-2-2280-ssd-wds400t4x0e.html",
+      "value": true,
+      "valueScore": 98
+    },
+    "cc_ssd_274068": {
+      "brand": "ADATA",
+      "kind": "SSD",
+      "name": "ADATA LEGEND 860 500GB PCIe Gen4 x4 M.2 2280 (SSD)",
+      "reference": 129.88,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        0.5,
+        "Gen4"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/274068/adata-legend-860-500gb-pcie-gen4-x4-m-2-2280-ssd-sleg-860-500gcs.html",
+      "value": false,
+      "valueScore": 78
+    },
+    "cc_ssd_274072": {
+      "brand": "ADATA",
+      "kind": "SSD",
+      "name": "ADATA LEGEND 860 1TB PCIe Gen4 x4 M.2 2280 (SSD)",
+      "reference": 30.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Gen4"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/274072/adata-legend-860-1tb-pcie-gen4-x4-m-2-2280-ssd-sleg-860-1000gcs.html",
+      "value": true,
+      "valueScore": 99
+    },
+    "cc_ssd_274879": {
+      "brand": "Kingston",
+      "kind": "SSD",
+      "name": "Kingston 1TB NV3 M.2 2230 PCIe 4.0 NVMe SSD",
+      "reference": 318.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Gen4"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/274879/kingston-1tb-nv3-m-2-2230-pcie-4-0-nvme-ssd-snv3sm3-1t0.html",
+      "value": false,
+      "valueScore": 71
+    },
+    "cc_ssd_274885": {
+      "brand": "Kingston",
+      "kind": "SSD",
+      "name": "Kingston 2TB NV3 M.2 2230 PCIe 4.0 NVMe Disque SSD",
+      "reference": 20.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        2.0,
+        "Gen4"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/274885/kingston-2tb-nv3-m-2-2230-pcie-4-0-nvme-disque-ssd-snv3sm3-2t0.html",
+      "value": true,
+      "valueScore": 99
+    },
+    "cc_ssd_280736": {
+      "brand": "WD",
+      "kind": "SSD",
+      "name": "WD Blue SN5100 500GB  NVMe SSD - (WDS500G5B0E)",
+      "reference": 199.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        0.5,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/280736/wd-blue-sn5100-500gb-nvme-ssd-wds500g5b0e-wds500g5b0e.html",
+      "value": false,
+      "valueScore": 60
+    },
+    "cc_ssd_280737": {
+      "brand": "WD",
+      "kind": "SSD",
+      "name": "WD  Blue SN5100 1TB    NVMe SSD - (WDS100T5B0E )",
+      "reference": 30.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/280737/wd-blue-sn5100-1tb-nvme-ssd-wds100t5b0e-wds100t5b0e.html",
+      "value": true,
+      "valueScore": 99
+    },
+    "cc_ssd_280738": {
+      "brand": "WD",
+      "kind": "SSD",
+      "name": "WD Blue SN5100 2TB    NVMe SSD - (WDS200T5B0E )",
+      "reference": 170.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        2.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/280738/wd-blue-sn5100-2tb-nvme-ssd-wds200t5b0e-wds200t5b0e.html",
+      "value": false,
+      "valueScore": 89
+    },
+    "cc_ssd_281226": {
+      "brand": "Samsung",
+      "kind": "SSD",
+      "name": "Samsung 9100 PRO Series - 8TB M.2 NVMe 2.0 PCIe Gen5. X4 SSD",
+      "reference": 3699.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        8.0,
+        "Gen5"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/281226/samsung-9100-pro-series-8tb-m-2-nvme-2-0-pcie-gen5-x4-ssd-mz-vap8t0b-am.html",
+      "value": false,
+      "valueScore": 56
+    },
+    "cc_ssd_281227": {
+      "brand": "Samsung",
+      "kind": "SSD",
+      "name": "Samsung 9100 PRO with heatsink Series - 8TB M.2 NVMe 2.0 PCIe Gen5. X4",
+      "reference": 3769.99,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        8.0,
+        "Gen5"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/281227/samsung-9100-pro-with-heatsink-series-8tb-m-2-nvme-2-0-pcie-gen5-x4-mz-vap8t0cw.html",
+      "value": false,
+      "valueScore": 54
+    },
+    "cc_ssd_281987": {
+      "brand": "WD",
+      "kind": "SSD",
+      "name": "WD Blue SN5100  4TB  NVMe  SSD - (WDS400T5B0E )",
+      "reference": 1124.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        4.0,
+        "Other"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/281987/wd-blue-sn5100-4tb-nvme-ssd-wds400t5b0e-wds400t5b0e.html",
+      "value": false,
+      "valueScore": 73
+    },
+    "cc_ssd_282003": {
+      "brand": "WD",
+      "kind": "SSD",
+      "name": "WD Black SN850X 2TB PCIe Gen4 NVMe M.2 SSD",
+      "reference": 549.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        2.0,
+        "Gen4"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/282003/wd-black-sn850x-2tb-pcie-gen4-nvme-m-2-ssd-wdbb9g0020bnc.html",
+      "value": false,
+      "valueScore": 74
+    },
+    "cc_ssd_282004": {
+      "brand": "WD",
+      "kind": "SSD",
+      "name": "WD Black SN850X 1TB PCIe Gen4 NVMe M.2 SSD",
+      "reference": 329.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Gen4"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/282004/wd-black-sn850x-1tb-pcie-gen4-nvme-m-2-ssd-wdbb9g0010bnc.html",
+      "value": false,
+      "valueScore": 67
+    },
+    "cc_ssd_284305": {
+      "brand": "WD",
+      "kind": "SSD",
+      "name": "WD Black SN8100 1TB PCIe Gen5 NVMe M.2 2280 SSD with Heatsink",
+      "reference": 45.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Gen5"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/284305/wd-black-sn8100-1tb-pcie-gen5-nvme-m-2-2280-ssd-with-heatsink-wds100t1xhm.html",
+      "value": true,
+      "valueScore": 99
+    },
+    "cc_ssd_284308": {
+      "brand": "WD",
+      "kind": "SSD",
+      "name": "WD Black SN8100 2TB PCIe Gen5 NVMe M.2 2280 SSD with Heatsink",
+      "reference": 260.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        2.0,
+        "Gen5"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/284308/wd-black-sn8100-2tb-pcie-gen5-nvme-m-2-2280-ssd-with-heatsink-wds200t1xhm.html",
+      "value": false,
+      "valueScore": 83
+    },
+    "cc_ssd_284309": {
+      "brand": "WD",
+      "kind": "SSD",
+      "name": "WD Black SN8100 4TB PCIe Gen5 NVMe M.2 2280 SSD with Heatsink",
+      "reference": 600.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        4.0,
+        "Gen5"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/284309/wd-black-sn8100-4tb-pcie-gen5-nvme-m-2-2280-ssd-with-heatsink-wds400t1xhm.html",
+      "value": false,
+      "valueScore": 81
+    },
+    "cc_ssd_284636": {
+      "brand": "Lexar",
+      "kind": "SSD",
+      "name": "Lexar NM990 1TB  M.2 2280 PCIe Gen5x4  NVMe SSD",
+      "reference": 384.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Gen5"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/284636/lexar-nm990-1tb-m-2-2280-pcie-gen5x4-nvme-ssd-lnm990x001t-rnnng.html",
+      "value": false,
+      "valueScore": 63
+    },
+    "cc_ssd_284640": {
+      "brand": "Lexar",
+      "kind": "SSD",
+      "name": "Lexar NM990 2TB  M.2 2280 PCIe Gen5x4  NVMe SSD",
+      "reference": 175.0,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        2.0,
+        "Gen5"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/284640/lexar-nm990-2tb-m-2-2280-pcie-gen5x4-nvme-ssd-lnm990x002t-rnnng.html",
+      "value": false,
+      "valueScore": 88
+    },
+    "cc_ssd_284641": {
+      "brand": "Lexar",
+      "kind": "SSD",
+      "name": "Lexar NM990 4TB  M.2 2280 PCIe Gen5x4  NVMe SSD",
+      "reference": 1299.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        4.0,
+        "Gen5"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/284641/lexar-nm990-4tb-m-2-2280-pcie-gen5x4-nvme-ssd-lnm990x004t-rnnng.html",
+      "value": false,
+      "valueScore": 69
+    },
+    "cc_ssd_287714": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Sold Out In Store - Available for Pickup",
+      "reference": 179.89,
+      "referenceStock": "out_of_stock",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/287714/crucial-bx500-1tb-sata-ssd-ct1000bx500ssd1.html",
+      "value": false,
+      "valueScore": 80
+    },
+    "cc_ssd_288475": {
+      "brand": "SanDisk",
+      "kind": "SSD",
+      "name": "SanDisk Optimus GXPro 8100 2TB PCIe 5.0 x4 NVMe 2.0 SSD with HeatSink",
+      "reference": 979.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        2.0,
+        "Gen5"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/288475/sandisk-optimus-gxpro-8100-2tb-pcie-5-0-x4-nvme-2-0-ssd-with-heatsink-sdsp82200tah-000e0.html",
+      "value": false,
+      "valueScore": 50
+    },
+    "cc_ssd_288476": {
+      "brand": "SanDisk",
+      "kind": "SSD",
+      "name": "SanDisk Optimus GXPro 8100 4TB PCIe® 5.0 x4 SSD SSD with HeatSink",
+      "reference": 1899.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        4.0,
+        "Gen5"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/288476/sandisk-optimus-gxpro-8100-4tb-pcie-5-0-x4-ssd-ssd-with-heatsink-sdsp82400tah-000e0.html",
+      "value": false,
+      "valueScore": 53
+    },
+    "cc_ssd_288478": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 499.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/288478/sandisk-optimus-gxpro-8100-1tb-pcie-5-0-x4-nvme-ssd-sdsp82100tan-000e0.html",
+      "value": false,
+      "valueScore": 49
+    },
+    "cc_ssd_288479": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 899.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/288479/sandisk-optimus-gxpro-8100-2tb-pcie-5-0-x4-nvme-ssd-sdsp82200tan-000e0.html",
+      "value": false,
+      "valueScore": 45
+    },
+    "cc_ssd_288480": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1799.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/288480/sandisk-optimus-gxpro-8100-4tb-pcie-5-0-x4-nvme-ssd-sdsp82400tan-000e0.html",
+      "value": false,
+      "valueScore": 45
+    },
+    "cc_ssd_288483": {
+      "brand": "SanDisk",
+      "kind": "SSD",
+      "name": "SanDisk Optimus GXPro  850X 1TB PCIe Gen 4.0 x4, NVM SSD with HeatSink",
+      "reference": 479.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Gen4"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/288483/sandisk-optimus-gxpro-850x-1tb-pcie-gen-4-0-x4-nvm-ssd-with-heatsink-sdsp81100tah-000e0.html",
+      "value": false,
+      "valueScore": 51
+    },
+    "cc_ssd_288484": {
+      "brand": "SanDisk",
+      "kind": "SSD",
+      "name": "SanDisk Optimus GXPro  850X 2TB PCIe Gen 4.0 x4, NVM SSD with HeatSink",
+      "reference": 899.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        2.0,
+        "Gen4"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/288484/sandisk-optimus-gxpro-850x-2tb-pcie-gen-4-0-x4-nvm-ssd-with-heatsink-sdsp81200tah-000e0.html",
+      "value": false,
+      "valueScore": 61
+    },
+    "cc_ssd_288485": {
+      "brand": "SanDisk",
+      "kind": "SSD",
+      "name": "SanDisk Optimus GXPro  850X 4TB PCIe Gen 4.0 NVM SSD with HeatSink",
+      "reference": 1799.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        4.0,
+        "Gen4"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/288485/sandisk-optimus-gxpro-850x-4tb-pcie-gen-4-0-nvm-ssd-with-heatsink-sdsp81400tah-000e0.html",
+      "value": false,
+      "valueScore": 60
+    },
+    "cc_ssd_288489": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 449.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/288489/sandisk-optimus-gxpro-850x-1tb-pcie-gen-4-0-x4-nvme-ssd-sdsp81100tan-000e0.html",
+      "value": false,
+      "valueScore": 62
+    },
+    "cc_ssd_288491": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 879.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/288491/sandisk-optimus-gxpro-850x-2tb-pcie-gen-4-0-x4-nvme-ssd-sdsp81200tan-000e0.html",
+      "value": false,
+      "valueScore": 47
+    },
+    "cc_ssd_288497": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 379.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/288497/sandisk-optimus-gx-7100-1tb-pcie-gen-4-0-x4-nvme-ssd-sdsp71100tan-000e0.html",
+      "value": false,
+      "valueScore": 71
+    },
+    "cc_ssd_288498": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 749.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/288498/sandisk-optimus-gx-7100-2tb-pcie-gen-4-0-x4-nvme-ssd-sdsp71200tan-000e0.html",
+      "value": false,
+      "valueScore": 50
+    },
+    "cc_ssd_288499": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1449.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/288499/sandisk-optimus-gx-7100-4tb-pcie-gen-4-0-x4-nvme-ssd-sdsp71400tan-000e0.html",
+      "value": false,
+      "valueScore": 45
+    },
+    "cc_ssd_288502": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 649.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/288502/sandisk-optimus-5100-2tb-pcie-gen-4-0-x4-nvme-ssd-sdsp51200tan-000e0.html",
+      "value": false,
+      "valueScore": 52
+    },
+    "cc_ssd_288503": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 1199.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/288503/sandisk-optimus-5100-4tb-pcie-gen-4-0-x4-nvme-ssd-sdsp51400tan-000e0.html",
+      "value": false,
+      "valueScore": 46
+    },
+    "cc_ssd_288504": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 379.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/288504/sandisk-optimus-gx-7100m-1tb-pcie-gen-4-0-x4-nvme-ssd-sdsp71100tat-000e0.html",
+      "value": false,
+      "valueScore": 71
+    },
+    "cc_ssd_288505": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 799.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/288505/sandisk-optimus-gx-7100m-2tb-pcie-gen-4-0-x4-nvme-ssd-sdsp71200tat-000e0.html",
+      "value": false,
+      "valueScore": 49
+    },
+    "cc_ssd_296087": {
+      "brand": "Samsung",
+      "kind": "SSD",
+      "name": "Samsung 990 1TB PCIe Gen 4.0 x4, NVMe 2.0 SSD",
+      "reference": 314.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Gen4"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/296087/samsung-990-1tb-pcie-gen-4-0-x4-nvme-2-0-ssd-mz-v9v1t0b-am.html",
+      "value": false,
+      "valueScore": 76
+    },
+    "cc_ssd_296088": {
+      "brand": "Online",
+      "kind": "SSD",
+      "name": "Online - Available to Ship In Store - Available for Pickup",
+      "reference": 694.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Other"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/296088/samsung-990-2tb-pcie-gen-4-0-x4-nvme-2-0-ssd-mz-v9v2t0b-am.html",
+      "value": false,
+      "valueScore": 51
+    },
+    "cc_ssd_296487": {
+      "brand": "KLEVV",
+      "kind": "SSD",
+      "name": "KLEVV N410+ 256GB SATA 2.5 Read:540MB/s, Write:500MB/s SSD",
+      "reference": 64.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        0.256,
+        "SATA"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/296487/klevv-n410-256gb-sata-2-5-read-540mb-s-write-500mb-s-ssd-k256gssds3-n41.html",
+      "value": false,
+      "valueScore": 77
+    },
+    "cc_ssd_296488": {
+      "brand": "KLEVV",
+      "kind": "SSD",
+      "name": "KLEVV N410+ 512GB SATA 2.5 Read:540MB/s, Write:500MB/s SSD",
+      "reference": 109.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        0.512,
+        "SATA"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/296488/klevv-n410-512gb-sata-2-5-read-540mb-s-write-500mb-s-ssd-k512gssds3-n41.html",
+      "value": false,
+      "valueScore": 83
+    },
+    "cc_ssd_296490": {
+      "brand": "KLEVV",
+      "kind": "SSD",
+      "name": "KLEVV C910G 500GB PCIe Gen4 M.2 2280 Read:5000MB/s, Write:3700 MBs SSD",
+      "reference": 139.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        0.5,
+        "Gen4"
+      ],
+      "tier": "low",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/296490/klevv-c910g-500gb-pcie-gen4-m-2-2280-read-5000mb-s-write-3700-mbs-ssd-k500gm2sp0-10g.html",
+      "value": false,
+      "valueScore": 73
+    },
+    "cc_ssd_296491": {
+      "brand": "KLEVV",
+      "kind": "SSD",
+      "name": "KLEVV C910G 1TB PCIe Gen4 M.2 2280 Read:5000MB/s, Write:4800 MB/s SSD",
+      "reference": 229.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Gen4"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/296491/klevv-c910g-1tb-pcie-gen4-m-2-2280-read-5000mb-s-write-4800-mb-s-ssd-k01tbm2sp0-10g.html",
+      "value": false,
+      "valueScore": 81
+    },
+    "cc_ssd_296493": {
+      "brand": "KLEVV",
+      "kind": "SSD",
+      "name": "KLEVV C910G 4TB PCIe Gen4 M.2 2280 Read:5000MB/s, Write:4800 MB/s SSD",
+      "reference": 769.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        4.0,
+        "Gen4"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/296493/klevv-c910g-4tb-pcie-gen4-m-2-2280-read-5000mb-s-write-4800-mb-s-ssd-k04tbm2sp0-10g.html",
+      "value": false,
+      "valueScore": 84
+    },
+    "cc_ssd_296495": {
+      "brand": "KLEVV",
+      "kind": "SSD",
+      "name": "KLEVV C930 2TB PCIe Gen4 M.2 2280 Read:7400 MB/s, Write:6800 MB/s SSD",
+      "reference": 499.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        2.0,
+        "Gen4"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/296495/klevv-c930-2tb-pcie-gen4-m-2-2280-read-7400-mb-s-write-6800-mb-s-ssd-k02tbm2sp0-c93.html",
+      "value": false,
+      "valueScore": 78
+    },
+    "cc_ssd_296497": {
+      "brand": "KLEVV",
+      "kind": "SSD",
+      "name": "KLEVV C925G 1TB PCIe Gen4 M.2 2280 Read:7400 MB/s, Write:6800 MB/s SSD",
+      "reference": 259.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1.0,
+        "Gen4"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/296497/klevv-c925g-1tb-pcie-gen4-m-2-2280-read-7400-mb-s-write-6800-mb-s-ssd-k01tbm2sp0-25g.html",
+      "value": false,
+      "valueScore": 76
+    },
+    "cc_ssd_296498": {
+      "brand": "KLEVV",
+      "kind": "SSD",
+      "name": "KLEVV C925G 2TB PCIe Gen4 M.2 2280 Read:7400 MB/s, Write:6800 MB/s SSD",
+      "reference": 459.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        2.0,
+        "Gen4"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/296498/klevv-c925g-2tb-pcie-gen4-m-2-2280-read-7400-mb-s-write-6800-mb-s-ssd-k02tbm2sp0-25g.html",
+      "value": false,
+      "valueScore": 80
+    }
+  },
+  "schema": "canbuild-catalog.v1",
+  "sources": {
+    "GPU": "https://www.canadacomputers.com/en/914/graphics-cards",
+    "PSU": "https://www.canadacomputers.com/en/1346/power-supplies",
+    "SSD": "https://www.canadacomputers.com/en/1291/desktop-laptop-internal-ssds"
+  },
+  "target_per_kind": 100
+}

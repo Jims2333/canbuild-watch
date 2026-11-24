@@ -1,20 +1,16 @@
 {
   "failures": {
     "best4070": {
-      "last_failure_at": "2026-11-24T04:56:17Z",
+      "last_failure_at": "2026-11-24T08:27:29Z",
       "reason": "403 Client Error: Forbidden for url: https://www.newegg.ca/p/pl?N=100007708+601432392"
     },
     "best5070": {
-      "last_failure_at": "2026-11-24T04:56:17Z",
+      "last_failure_at": "2026-11-24T08:27:29Z",
       "reason": "No qualifying direct retailer quote"
     },
     "c4000": {
-      "last_failure_at": "2026-11-24T04:56:17Z",
+      "last_failure_at": "2026-11-24T08:27:29Z",
       "reason": "Product title missing; refusing unsafe price extraction"
-    },
-    "mlg": {
-      "last_failure_at": "2026-11-24T04:56:17Z",
-      "reason": "403 Client Error: Forbidden for url: https://www.memoryexpress.com/Products/MX00135516"
     }
   },
   "history": {
@@ -508,6 +504,12 @@
         "price": 1609.99,
         "product": "GeForce RTX 5070 Ti MLG EDITION OC 16GB PCI-E w/ HDMI, Triple DP",
         "url": "https://www.memoryexpress.com/Products/MX00135516"
+      },
+      {
+        "date": "2026-11-24",
+        "price": 1609.99,
+        "product": "GeForce RTX 5070 Ti MLG EDITION OC 16GB PCI-E w/ HDMI, Triple DP",
+        "url": "https://www.memoryexpress.com/Products/MX00135516"
       }
     ],
     "nv3a": [
@@ -552,6 +554,14 @@
         "url": "https://deploydepot.ca/products/pny-nvidia-geforce-rtx-4070-ti-super-graphic-card-16-gb-gddr6x-vcg4070ts16tfxpb1-o"
       }
     ],
+    "pure1000": [
+      {
+        "date": "2026-11-24",
+        "price": 149.99,
+        "product": "be quiet! PURE POWER 13 M 1000W Gold Full Modular ATX Power Supply, ATX 3.1 - Black (BP028U2)",
+        "url": "https://www.canadacomputers.com/en/power-supplies/272694/be-quiet-pure-power-13-m-1000w-gold-atx-power-supply-black-bp028u2.html"
+      }
+    ],
     "ram": [
       {
         "date": "2026-11-23",
@@ -578,6 +588,14 @@
         "price": 1469.99,
         "product": "KLEVV CRAS V RGB 64GB (2x32GB) DDR5 6000MHz CL30 1.35V UDIMM INTEL XMP,AMD EXPO - Desktop Memory - Black (KD5BGUA80-60A300G)",
         "url": "https://www.canadacomputers.com/en/desktop-memory/289603/klevv-cras-v-rgb-64gb-2x32gb-ddr5-6000mhz-cl30-udimm-kd5bgua80-60a300g.html"
+      }
+    ],
+    "rm1000x": [
+      {
+        "date": "2026-11-24",
+        "price": 214.99,
+        "product": "CORSAIR RMx Series RM1000x (2024) 80+ Gold Fully Modular Low-Noise ATX Power Supply, ATX 3.1 Compatible",
+        "url": "https://www.canadacomputers.com/en/power-supplies/263829/corsair-rmx-series-rm1000x-cp-9020271-na.html"
       }
     ],
     "rme": [
@@ -822,7 +840,7 @@
   "items": {
     "a750": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -835,7 +853,7 @@
     },
     "a850": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -848,7 +866,7 @@
     },
     "ag400": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -861,7 +879,7 @@
     },
     "ag620": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -874,7 +892,7 @@
     },
     "air903": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -887,7 +905,7 @@
     },
     "b650": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -900,7 +918,7 @@
     },
     "b760": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -913,7 +931,7 @@
     },
     "b850m": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -926,7 +944,7 @@
     },
     "b850t": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -952,7 +970,7 @@
     },
     "best9070": {
       "basis": "lowest_in_stock_variant",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -965,7 +983,7 @@
     },
     "board": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -978,7 +996,7 @@
     },
     "case3500": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -991,7 +1009,7 @@
     },
     "caseframe": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1004,7 +1022,7 @@
     },
     "ch": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1017,7 +1035,7 @@
     },
     "cpu": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1030,7 +1048,7 @@
     },
     "ddr4": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1043,7 +1061,7 @@
     },
     "ddr4s": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1056,7 +1074,7 @@
     },
     "dual620": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1069,7 +1087,7 @@
     },
     "fit16": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1082,7 +1100,7 @@
     },
     "g5060ti": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1095,7 +1113,7 @@
     },
     "g5070": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1108,7 +1126,7 @@
     },
     "g5070v": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1121,7 +1139,7 @@
     },
     "g5080": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1134,7 +1152,7 @@
     },
     "g9060": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1147,7 +1165,7 @@
     },
     "g9070": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1160,7 +1178,7 @@
     },
     "h5": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1173,7 +1191,7 @@
     },
     "i144": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1186,7 +1204,7 @@
     },
     "i147": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1199,7 +1217,7 @@
     },
     "kit": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1212,7 +1230,7 @@
     },
     "kit144": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1225,7 +1243,7 @@
     },
     "kit147": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1238,7 +1256,7 @@
     },
     "kit16": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1251,7 +1269,7 @@
     },
     "kit7800": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1264,7 +1282,7 @@
     },
     "kit9600": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1277,9 +1295,9 @@
     },
     "mlg": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-23T20:16:56Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
-      "date": "2026-11-23",
+      "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
       "price": 1609.99,
       "product": "GeForce RTX 5070 Ti MLG EDITION OC 16GB PCI-E w/ HDMI, Triple DP",
@@ -1290,7 +1308,7 @@
     },
     "nv3a": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1303,7 +1321,7 @@
     },
     "nv3b": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1316,7 +1334,7 @@
     },
     "pny4070": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "price": 1280.99,
@@ -1326,9 +1344,22 @@
       "track_url": "https://deploydepot.ca/products/pny-nvidia-geforce-rtx-4070-ti-super-graphic-card-16-gb-gddr6x-vcg4070ts16tfxpb1-o",
       "url": "https://deploydepot.ca/products/pny-nvidia-geforce-rtx-4070-ti-super-graphic-card-16-gb-gddr6x-vcg4070ts16tfxpb1-o"
     },
+    "pure1000": {
+      "basis": "exact_sku",
+      "checked_at": "2026-11-24T08:27:29Z",
+      "currency": "CAD",
+      "date": "2026-11-24",
+      "note": "Retailer observation. Check current stock and local delivery on the product page.",
+      "price": 149.99,
+      "product": "be quiet! PURE POWER 13 M 1000W Gold Full Modular ATX Power Supply, ATX 3.1 - Black (BP028U2)",
+      "shop": "Canada Computers",
+      "stock": "in_stock",
+      "track_url": "https://www.canadacomputers.com/en/power-supplies/272694/be-quiet-pure-power-13-m-1000w-gold-atx-power-supply-black-bp028u2.html",
+      "url": "https://www.canadacomputers.com/en/power-supplies/272694/be-quiet-pure-power-13-m-1000w-gold-atx-power-supply-black-bp028u2.html"
+    },
     "ram": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1341,7 +1372,7 @@
     },
     "ram64": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1352,9 +1383,22 @@
       "track_url": "https://www.canadacomputers.com/en/desktop-memory/289603/klevv-cras-v-rgb-64gb-2x32gb-ddr5-6000mhz-cl30-udimm-kd5bgua80-60a300g.html",
       "url": "https://www.canadacomputers.com/en/desktop-memory/289603/klevv-cras-v-rgb-64gb-2x32gb-ddr5-6000mhz-cl30-udimm-kd5bgua80-60a300g.html"
     },
+    "rm1000x": {
+      "basis": "exact_sku",
+      "checked_at": "2026-11-24T08:27:29Z",
+      "currency": "CAD",
+      "date": "2026-11-24",
+      "note": "Retailer observation. Check current stock and local delivery on the product page.",
+      "price": 214.99,
+      "product": "CORSAIR RMx Series RM1000x (2024) 80+ Gold Fully Modular Low-Noise ATX Power Supply, ATX 3.1 Compatible",
+      "shop": "Canada Computers",
+      "stock": "in_stock",
+      "track_url": "https://www.canadacomputers.com/en/power-supplies/263829/corsair-rmx-series-rm1000x-cp-9020271-na.html",
+      "url": "https://www.canadacomputers.com/en/power-supplies/263829/corsair-rmx-series-rm1000x-cp-9020271-na.html"
+    },
     "rme": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1367,7 +1411,7 @@
     },
     "rx9850": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1380,7 +1424,7 @@
     },
     "ry7800": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1393,7 +1437,7 @@
     },
     "ry9600": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1406,7 +1450,7 @@
     },
     "ry9700": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1419,7 +1463,7 @@
     },
     "ry9900": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1432,7 +1476,7 @@
     },
     "ry9950": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1445,7 +1489,7 @@
     },
     "s5060": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1458,7 +1502,7 @@
     },
     "sn850": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1471,7 +1515,7 @@
     },
     "ssd2": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1484,7 +1528,7 @@
     },
     "ssd990": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1497,7 +1541,7 @@
     },
     "ultra": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1510,7 +1554,7 @@
     },
     "ultra5": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1523,7 +1567,7 @@
     },
     "vulcan": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1536,7 +1580,7 @@
     },
     "win": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1549,7 +1593,7 @@
     },
     "x870": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1562,7 +1606,7 @@
     },
     "z890": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-24T04:56:17Z",
+      "checked_at": "2026-11-24T08:27:29Z",
       "currency": "CAD",
       "date": "2026-11-24",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1574,12 +1618,12 @@
       "url": "https://www.canadacomputers.com/en/intel-motherboards/264268/msi-pro-z890-s-wifi-intel-z890-atx-lga-1851-motherboard-pro-z890-s-wifi.html"
     }
   },
-  "last_run_at": "2026-11-24T04:56:17Z",
-  "last_successful_run_at": "2026-11-24T04:56:17Z",
+  "last_run_at": "2026-11-24T08:27:29Z",
+  "last_successful_run_at": "2026-11-24T08:27:29Z",
   "run_summary": {
-    "attempted": 60,
-    "failed": 4,
-    "successful": 56
+    "attempted": 62,
+    "failed": 3,
+    "successful": 59
   },
   "schema": "canbuild-live.v1"
 }
