@@ -1,20 +1,24 @@
-name: Refresh prices, test dashboard and publish
+name: Refresh prices, expand catalogue, test dashboard and publish
+
 on:
   push:
     branches: [main]
-    paths-ignore: ['data/prices.json']
+    paths-ignore: ['data/prices.json', 'data/catalog.json']
   schedule:
     - cron: '17 */2 * * *'
   workflow_dispatch:
+
 permissions:
   contents: read
+
 concurrency:
   group: canbuild-pages
   cancel-in-progress: false
+
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 45
     permissions:
       contents: write
     steps:
@@ -28,7 +32,13 @@ jobs:
           python -m pip install -r requirements.txt playwright
           python -m playwright install --with-deps chromium
       - name: Run parser tests
-        run: python -m unittest -v test_parsers
+        run: python -m unittest -v test_parsers test_catalog
+      - name: Refresh 100+ item component categories
+        id: catalog
+        continue-on-error: true
+        run: |
+          mkdir -p data
+          python build_catalog.py
       - name: Refresh price observations
         id: collect
         continue-on-error: true
@@ -41,14 +51,16 @@ jobs:
           mkdir -p public/data
           cp index.html public/
           cp data/prices.json public/data/
+          if [ -f data/catalog.json ]; then cp data/catalog.json public/data/; fi
           python verify_dashboard.py public
-      - name: Save verified observations
+      - name: Save verified observations and catalogue
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/prices.json
+          if [ -f data/catalog.json ]; then git add data/catalog.json; fi
           if ! git diff --cached --quiet; then
-            git commit -m "Record Canadian component price observations"
+            git commit -m "Refresh Canadian component catalogue and prices"
             git push
           fi
       - uses: actions/upload-pages-artifact@v3
@@ -57,7 +69,10 @@ jobs:
       - name: Report collection status
         run: |
           python -c 'import json; print(json.load(open("data/prices.json"))["run_summary"])' >> "$GITHUB_STEP_SUMMARY"
+          if [ -f data/catalog.json ]; then python -c 'import json; print(json.load(open("data/catalog.json"))["counts"])' >> "$GITHUB_STEP_SUMMARY"; fi
+          if [ "${{ steps.catalog.outcome }}" != success ]; then echo "::warning::Catalogue refresh did not reach 100 items in every batch-1 category."; fi
           if [ "${{ steps.collect.outcome }}" != success ]; then echo "::warning::No new prices. The dashboard identifies retained observations."; fi
+
   publish:
     needs: verify
     runs-on: ubuntu-latest
