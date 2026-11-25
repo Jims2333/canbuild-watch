@@ -5,7 +5,7 @@
     "SSD": 100
   },
   "errors": {},
-  "generated_at": "2026-11-25T02:33:03Z",
+  "generated_at": "2026-11-25T14:29:02Z",
   "parts": {
     "cc_gpu_108604": {
       "brand": "ASUS",
@@ -1737,7 +1737,7 @@
       "tier": "low",
       "url": "https://www.canadacomputers.com/en/power-supplies/103030/thermaltake-smart-white-600w-80-plus-certified-power-supply-ps-spd-0600npcwus-w.html",
       "value": false,
-      "valueScore": 75
+      "valueScore": 76
     },
     "cc_psu_103031": {
       "brand": "Thermaltake",
@@ -1753,7 +1753,7 @@
       "tier": "low",
       "url": "https://www.canadacomputers.com/en/power-supplies/103031/thermaltake-smart-white-700w-80-plus-certified-power-supply-ps-spd-0700npcwus-w.html",
       "value": false,
-      "valueScore": 74
+      "valueScore": 75
     },
     "cc_psu_235341": {
       "brand": "Online",
@@ -1833,7 +1833,7 @@
       "tier": "low",
       "url": "https://www.canadacomputers.com/en/power-supplies/235374/fsp-ha2-750-bronze-atx-power-supply-black-ha2-750.html",
       "value": false,
-      "valueScore": 65
+      "valueScore": 67
     },
     "cc_psu_235376": {
       "brand": "Online",
@@ -1849,7 +1849,7 @@
       "tier": "low",
       "url": "https://www.canadacomputers.com/en/power-supplies/235376/fsp-ha2-550-bronze-atx-power-supply-black-ha2-550.html",
       "value": false,
-      "valueScore": 69
+      "valueScore": 70
     },
     "cc_psu_239504": {
       "brand": "ASUS",
@@ -1881,7 +1881,7 @@
       "tier": "high",
       "url": "https://www.canadacomputers.com/en/power-supplies/239506/asus-tuf-gaming-1000w-gold-atx-power-supply-black-tuf-gaming-1000g.html",
       "value": false,
-      "valueScore": 55
+      "valueScore": 53
     },
     "cc_psu_239507": {
       "brand": "Online",
@@ -1945,7 +1945,7 @@
       "tier": "low",
       "url": "https://www.canadacomputers.com/en/power-supplies/241559/msi-mag-a850gl-pcie5-fully-modular-compact-80-gold-power-supply-mag-a850gl-pcie5.html",
       "value": false,
-      "valueScore": 85
+      "valueScore": 86
     },
     "cc_psu_241562": {
       "brand": "MSI",
@@ -1977,7 +1977,7 @@
       "tier": "low",
       "url": "https://www.canadacomputers.com/en/power-supplies/241567/msi-mag-a650gl-fully-modular-compact-80-gold-power-supply-mag-a650gl.html",
       "value": false,
-      "valueScore": 85
+      "valueScore": 86
     },
     "cc_psu_242300": {
       "brand": "be quiet!",
@@ -1993,7 +1993,7 @@
       "tier": "high",
       "url": "https://www.canadacomputers.com/en/power-supplies/242300/be-quiet-dark-power-pro-13-1300w-80-titanium-power-supply-bn500.html",
       "value": false,
-      "valueScore": 50
+      "valueScore": 51
     },
     "cc_psu_243485": {
       "brand": "ASUS",
@@ -2057,7 +2057,7 @@
       "tier": "high",
       "url": "https://www.canadacomputers.com/en/power-supplies/246758/fsp-hydro-ptm-pro-1350w-power-supply-80-plus-platinum-full-modular-hpt2-1350m.html",
       "value": false,
-      "valueScore": 58
+      "valueScore": 56
     },
     "cc_psu_248846": {
       "brand": "Thermaltake",
@@ -2073,7 +2073,7 @@
       "tier": "low",
       "url": "https://www.canadacomputers.com/en/power-supplies/248846/thermaltake-toughpower-gf-a3-850w-atx-3-0-pcie-5-psu-white-ps-tpd-0850fnfagu-n.html",
       "value": false,
-      "valueScore": 59
+      "valueScore": 60
     },
     "cc_psu_249665": {
       "brand": "Super Flower",
@@ -2137,7 +2137,7 @@
       "tier": "low",
       "url": "https://www.canadacomputers.com/en/power-supplies/250153/msi-mag-a550bn-non-modular-compact-80-bronze-power-supply-mag-a550bn.html",
       "value": false,
-      "valueScore": 74
+      "valueScore": 73
     },
     "cc_psu_251060": {
       "brand": "Online",
@@ -2155,22 +2155,6 @@
       "value": false,
       "valueScore": 68
     },
-    "cc_psu_251065": {
-      "brand": "Corsair",
-      "kind": "PSU",
-      "name": "CORSAIR CX Series, CX750, 750 Watt, 80 PLUS Bronze",
-      "reference": 114.99,
-      "referenceStock": "out_of_stock",
-      "source": "Canada Computers",
-      "spec": [
-        650,
-        "Bronze"
-      ],
-      "tier": "low",
-      "url": "https://www.canadacomputers.com/en/power-supplies/251065/corsair-cx-series-cx750-750-watt-80-plus-bronze-cp-9020279-na.html",
-      "value": false,
-      "valueScore": 64
-    },
     "cc_psu_251068": {
       "brand": "MSI",
       "kind": "PSU",
@@ -2185,7 +2169,7 @@
       "tier": "low",
       "url": "https://www.canadacomputers.com/en/power-supplies/251068/msi-mag-a850gl-pcie5-white-fully-modular-compact-power-supply-mag-a850gl-pcie5-white.html",
       "value": false,
-      "valueScore": 76
+      "valueScore": 77
     },
     "cc_psu_252456": {
       "brand": "MSI",
@@ -2233,7 +2217,7 @@
       "tier": "mid",
       "url": "https://www.canadacomputers.com/en/power-supplies/253007/asus-prime-850w-gold-power-supply-ap-850g.html",
       "value": false,
-      "valueScore": 61
+      "valueScore": 60
     },
     "cc_psu_253022": {
       "brand": "Online",
@@ -2249,7 +2233,7 @@
       "tier": "low",
       "url": "https://www.canadacomputers.com/en/power-supplies/253022/asus-prime-750w-gold-power-supply-ap-750g.html",
       "value": false,
-      "valueScore": 53
+      "valueScore": 54
     },
     "cc_psu_253669": {
       "brand": "ASUS",
@@ -2345,7 +2329,7 @@
       "tier": "mid",
       "url": "https://www.canadacomputers.com/en/power-supplies/257975/super-flower-combat-fg-750w-atx-3-1-gold-power-supply-sf-750c12fg.html",
       "value": false,
-      "valueScore": 66
+      "valueScore": 61
     },
     "cc_psu_257977": {
       "brand": "SUPERFLOWER",
@@ -2377,7 +2361,7 @@
       "tier": "high",
       "url": "https://www.canadacomputers.com/en/power-supplies/257978/super-flower-1000w-gold-atx-power-supply-black-sf-1000f14ge.html",
       "value": false,
-      "valueScore": 62
+      "valueScore": 61
     },
     "cc_psu_257979": {
       "brand": "Super Flower",
@@ -2393,7 +2377,7 @@
       "tier": "high",
       "url": "https://www.canadacomputers.com/en/power-supplies/257979/super-flower-leadex-iii-gold-up-atx-1300w-atx-3-1-gold-power-supply-sf-1300f14ge.html",
       "value": false,
-      "valueScore": 67
+      "valueScore": 68
     },
     "cc_psu_257980": {
       "brand": "Super Flower",
@@ -2569,7 +2553,7 @@
       "tier": "low",
       "url": "https://www.canadacomputers.com/en/power-supplies/263594/deepcool-pl650d-650w-non-modular-atx3-1-power-supply-r-pl650d-fc0b-us-v2.html",
       "value": false,
-      "valueScore": 70
+      "valueScore": 71
     },
     "cc_psu_263595": {
       "brand": "Online",
@@ -2889,7 +2873,7 @@
       "tier": "high",
       "url": "https://www.canadacomputers.com/en/power-supplies/268492/fsp-mega-ti-pro-1350w-atx-3-1-pcie-5-power-supply-80-plus-titanium-mega-1350ti.html",
       "value": false,
-      "valueScore": 48
+      "valueScore": 49
     },
     "cc_psu_269037": {
       "brand": "Online",
@@ -3115,22 +3099,6 @@
       "value": false,
       "valueScore": 56
     },
-    "cc_psu_273199": {
-      "brand": "AZZA",
-      "kind": "PSU",
-      "name": "AZZA PSAZ-1000G ATX3.1 Fully Modular, Power supply",
-      "reference": 159.99,
-      "referenceStock": "out_of_stock",
-      "source": "Canada Computers",
-      "spec": [
-        650,
-        "Unrated"
-      ],
-      "tier": "low",
-      "url": "https://www.canadacomputers.com/en/power-supplies/273199/azza-psaz-1000g-atx3-1-fully-modular-power-supply-psaz-1000g-31.html",
-      "value": false,
-      "valueScore": 52
-    },
     "cc_psu_275700": {
       "brand": "ASUS",
       "kind": "PSU",
@@ -3273,7 +3241,7 @@
       "tier": "low",
       "url": "https://www.canadacomputers.com/en/power-supplies/295415/deepcool-pk-d-v2-650w-gold-atx-power-supply-black-r-pk650d-ff0b-jgus-v2.html",
       "value": false,
-      "valueScore": 73
+      "valueScore": 74
     },
     "cc_psu_295416": {
       "brand": "DeepCool",
@@ -3289,7 +3257,39 @@
       "tier": "mid",
       "url": "https://www.canadacomputers.com/en/power-supplies/295416/deepcool-pk-d-v2-750w-gold-atx-power-supply-black-r-pk750d-ff0b-jgus-v2.html",
       "value": false,
-      "valueScore": 72
+      "valueScore": 73
+    },
+    "cc_psu_295759": {
+      "brand": "Cooler Master",
+      "kind": "PSU",
+      "name": "COOLER MASTER ELITE GOLD 850W Gold ATX Power Supply, Black",
+      "reference": 154.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        850,
+        "Gold"
+      ],
+      "tier": "mid",
+      "url": "https://www.canadacomputers.com/en/power-supplies/295759/cooler-master-elite-gold-850w-gold-atx-power-supply-black-mpx-8505-afag-bus.html",
+      "value": false,
+      "valueScore": 67
+    },
+    "cc_psu_295762": {
+      "brand": "Cooler Master",
+      "kind": "PSU",
+      "name": "COOLER MASTER ELITE GOLD 1000W Gold ATX Power Supply, Black",
+      "reference": 189.99,
+      "referenceStock": "unknown",
+      "source": "Canada Computers",
+      "spec": [
+        1000,
+        "Gold"
+      ],
+      "tier": "high",
+      "url": "https://www.canadacomputers.com/en/power-supplies/295762/cooler-master-elite-gold-1000w-gold-atx-power-supply-black-mpx-a005-afag-bus.html",
+      "value": false,
+      "valueScore": 66
     },
     "cc_psu_295773": {
       "brand": "Cooler Master",
@@ -3305,7 +3305,7 @@
       "tier": "mid",
       "url": "https://www.canadacomputers.com/en/power-supplies/295773/cooler-master-mwe-gold-v4-850w-80-plus-gold-atx-power-supply-black-mpm-85f4-afg-c3b0cus.html",
       "value": false,
-      "valueScore": 61
+      "valueScore": 60
     },
     "cc_ssd_105078": {
       "brand": "Kingston",
