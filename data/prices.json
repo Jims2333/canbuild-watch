@@ -1,12 +1,228 @@
 {
   "failures": {
+    "a750": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/power-supplies/241562/msi-mag-a750gl-pcie5-fully-modular-compact-80-gold-power-supply-mag-a750gl-pcie5.html"
+    },
+    "a850": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/power-supplies/241559/msi-mag-a850gl-pcie5-fully-modular-compact-80-gold-power-supply-mag-a850gl-pcie5.html"
+    },
+    "ag400": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/cpu-air-coolers/288114/deepcool-ag400-g2-plus-cpu-air-cooler-black-r-ag400-bknpmg2-g-1.html"
+    },
+    "ag620": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/cpu-air-coolers/285861/deepcool-ak620-g2-cpu-air-cooler-black-r-ak620g2-bknnmn-gjd.html"
+    },
+    "b650": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/amd-motherboards/251754/gigabyte-b650-eagle-ax-am5-lga-1718-amd-b650-atx-ddr5-triple-m-2-b650-eagle-ax.html"
+    },
+    "b760": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/intel-motherboards/281798/asus-b760m-ayw-wifi-d4-ii-intel-lga-1700-micro-atxmotherboard-b760m-ayw-wifi-d4-ii.html"
+    },
+    "b850m": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/amd-motherboards/267134/gigabyte-b850m-gaming-x-wifi6e-amd-am5-lga-1718-motherboard-matx-b850m-gaming-x-wifi6e.html"
+    },
+    "b850t": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/amd-motherboards/274367/asus-tuf-gaming-b850-e-wifi-amd-b850-am5-ddr5-atx-wi-fi-6e-tuf-gaming-b850-e-wifi.html"
+    },
     "best4070": {
-      "last_failure_at": "2026-11-26T10:58:41Z",
+      "last_failure_at": "2026-11-26T21:38:01Z",
       "reason": "403 Client Error: Forbidden for url: https://www.newegg.ca/p/pl?N=100007708+601432392"
     },
+    "board": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/amd-motherboards/267132/gigabyte-b850-eagle-wifi6e-amd-am5-lga-1718-motherboard-atx-ddr5-b850-eagle-wifi6e.html"
+    },
     "c4000": {
-      "last_failure_at": "2026-11-26T10:58:41Z",
-      "reason": "Product title missing; refusing unsafe price extraction"
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/mid-tower-cases/173118/corsair-4000d-airflow-tempered-glass-mid-tower-atx-case-black-cc-9011200-ww.html"
+    },
+    "case3500": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/mid-tower-cases/275911/corsair-3500x-rs-r-argb-mid-tower-pc-case-black-cc-9011322-ww.html"
+    },
+    "caseframe": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/mid-tower-cases/267139/corsair-frame-4000d-rs-black-cc-9011312-ww.html"
+    },
+    "ch": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/mid-tower-cases/242247/deepcool-ch560-digital-atx-airflow-case-3x-pre-installed-140mm-argb-r-ch560-bkape4d-g-1.html"
+    },
+    "cpu": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "No qualifying direct retailer quote"
+    },
+    "ddr4": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/desktop-memory/183957/corsair-vengeance-lpx-32gb-2x16gb-ddr4-3200mhz-cl16-udimm-cmk32gx4m2e3200c16.html"
+    },
+    "ddr4s": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/desktop-memory/289600/klevv-bolt-x-16gb-2x8gb-ddr4-3200mhz-cl16-udimm-kd48gu880-32a160u.html"
+    },
+    "dual620": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/cpu-air-coolers/288118/deepcool-ag620-g2-cpu-air-cooler-black-r-ag620-bknpmg2-g.html"
+    },
+    "fit16": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/desktop-memory/293191/klevv-fit-v-16gb-1x16gb-ddr5-5600mhz-cl30-udimm-kd5agu880-56k300k.html"
+    },
+    "g5060ti": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/powered-by-nvidia/271220/msi-geforce-rtx-5060-ti-16g-ventus-2x-oc-plus-gddr7-double-fans-rtx-5060-ti-16g-ventus-2x-oc-plus.html"
+    },
+    "g5070": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/powered-by-nvidia/269557/msi-geforce-rtx-5070-12g-shadow-3x-oc-12gb-gddr7-rtx-5070-12g-shadow-3x-oc.html"
+    },
+    "g5070v": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/powered-by-nvidia/269555/msi-geforce-rtx-5070-12g-ventus-2x-oc-12gb-gddr7-rtx-5070-12g-ventus-2x-oc.html"
+    },
+    "g5080": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/powered-by-nvidia/267147/asus-prime-geforce-rtx-5080-16gb-gddr7-oc-edition-sff-prime-rtx5080-o16g.html"
+    },
+    "g9060": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/powered-by-amd/273994/sapphire-pulse-amd-radeon-rx-9060-xt-gaming-oc-16gb-gddr6-11350-03-20g.html"
+    },
+    "g9070": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/powered-by-amd/267255/asus-prime-radeon-rx-9070-oc-gddr6-triple-fans-prime-rx9070-o16g.html"
+    },
+    "h5": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/mid-tower-cases/262343/nzxt-h5-flow-compact-atx-mid-tower-black-cc-h52fb-01.html"
+    },
+    "i144": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/intel-desktop-processors/251587/intel-core-i5-14400-desktop-processor-10-cores-6p-4e-lga1700-bx8071514400.html"
+    },
+    "i147": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/intel-desktop-processors/244465/intel-core-i7-14700k-desktop-processor-20-cores-8p-12e-lga1700-bx8071514700k.html"
+    },
+    "kit": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/amd-desktop-processors/283326/amd-ryzen-7-9800x3d-cpu-asus-tuf-gaming-b850-e-wifi-motherboard-t-force-32gb-d5-6000mhz-cl30-ram.html"
+    },
+    "kit144": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/intel-desktop-processors/297119/intel-core-i5-14400-cpu-asus-b760m-ayw-wifi-d4-ii-motherboard-klevv-bolt-x-16gb-ddr4-3200mhz-cl16-ram.html"
+    },
+    "kit147": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/cpu/295675/intel-core-i7-14700k-cpu-asus-b760m-ayw-wifi-d4-ii-motherboard-corsair-32gb-d4-3200mhz-ram.html"
+    },
+    "kit16": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/amd-desktop-processors/294467/amd-ryzen-5-9600x-cpu-gigabyte-b650-eagle-ax-motherboard-klevv-fit-v-16gb-ddr5-5600mhz-cl30-ram.html"
+    },
+    "kit7800": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/amd-desktop-processors/267277/amd-r7-7800x3d-cpu-gigabyte-b650-eagle-ax-motherboard-t-force-32gb-d5-6000mhz-cl30-ram.html"
+    },
+    "kit9600": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/amd-desktop-processors/287372/amd-ryzen-5-9600x-cpu-gigabyte-b850m-gaming-x-wifi6e-motherboard-t-force-32gb-d5-6000mhz-cl30-ram.html"
+    },
+    "nv3a": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/261114/kingston-nv3-1tb-nvme-pcie-4x4-ssd-snv3s-1000g.html"
+    },
+    "nv3b": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/261116/kingston-nv3-2tb-nvme-pcie-4x4-ssd-snv3s-2000g.html"
+    },
+    "pure1000": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/power-supplies/272694/be-quiet-pure-power-13-m-1000w-gold-atx-power-supply-black-bp028u2.html"
+    },
+    "ram64": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/desktop-memory/289603/klevv-cras-v-rgb-64gb-2x32gb-ddr5-6000mhz-cl30-udimm-kd5bgua80-60a300g.html"
+    },
+    "rm1000x": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/power-supplies/263829/corsair-rmx-series-rm1000x-cp-9020271-na.html"
+    },
+    "rme": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "No qualifying direct retailer quote"
+    },
+    "rx9850": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/amd-desktop-processors/285236/amd-ryzen-7-9850x3d-8-core-4nm-am5-104mb-cache-120w-zen-5-cpu-100-100001973wof.html"
+    },
+    "ry7800": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/amd-desktop-processors/235997/amd-ryzen-7-7800x3d-8-core-16-thread-5nm-104mb-cache-120w-zen-4-cpu-100-100000910wof.html"
+    },
+    "ry9600": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/amd-desktop-processors/258318/amd-ryzen-5-9600x-6-core-12thread-4nm-zen-5-cpu-100-100001405wof.html"
+    },
+    "ry9700": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/amd-desktop-processors/258320/amd-ryzen-7-9700x-8-core-16thread-4nm-zen-5-cpu-100-100001404wof.html"
+    },
+    "ry9900": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/amd-desktop-processors/267979/amd-ryzen-9-9900x3d-12-core-24thread-4nm-zen-5-cpu-100-100001368wof.html"
+    },
+    "ry9950": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/amd-desktop-processors/267978/amd-ryzen-9-9950x3d-16-core-32thread-4nm-zen-5-cpu-100-100000719wof.html"
+    },
+    "s5060": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/powered-by-nvidia/272908/msi-geforce-rtx-5060-8g-shadow-2x-oc-gddr7-8gb-pci-e-5-0-128-bit-rtx-5060-8g-shadow-2x-oc.html"
+    },
+    "sn850": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/282003/wd-black-sn850x-2tb-pcie-gen4-nvme-m-2-ssd-wdbb9g0020bnc.html"
+    },
+    "ssd2": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/280737/wd-blue-sn5100-1tb-nvme-ssd-wds100t5b0e-wds100t5b0e.html"
+    },
+    "ssd990": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/desktop-laptop-internal-ssds/265360/samsung-990-evo-plus-1tb-m-2-nvme-pcie-4-0-solid-state-drive-mz-v9s1t0b-am.html"
+    },
+    "ultra": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/intel-desktop-processors/263477/intel-core-ultra-7-265k-desktop-processor-20-cores-8p-12e-lga1851-bx80768265k.html"
+    },
+    "ultra5": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/intel-desktop-processors/263479/intel-core-ultra-5-245k-desktop-processor-14-cores-6p-8e-lga1851-bx80768245k.html"
+    },
+    "vulcan": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/desktop-memory/246328/teamgroup-t-force-vulcan-32gb-2x16gb-ddr5-6000mhz-cl30-udimm-flbd532g6000hc30dc01.html"
+    },
+    "win": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/powered-by-nvidia/268823/gigabyte-geforce-rtx-5070-ti-windforce-oc-sff-16g-graphics-card-gv-n507twf3oc-16gd.html"
+    },
+    "x870": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/amd-motherboards/278640/asus-rog-strix-x870e-h-gaming-wifi7-amd-motherboard-rog-strix-x870e-h-gaming-wifi7.html"
+    },
+    "z890": {
+      "last_failure_at": "2026-11-26T21:38:01Z",
+      "reason": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/intel-motherboards/264268/msi-pro-z890-s-wifi-intel-z890-atx-lga-1851-motherboard-pro-z890-s-wifi.html"
     }
   },
   "history": {
@@ -1602,7 +1818,7 @@
     },
     "air903": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-26T10:58:41Z",
+      "checked_at": "2026-11-26T21:38:01Z",
       "currency": "CAD",
       "date": "2026-11-26",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -1667,7 +1883,7 @@
     },
     "best5070": {
       "basis": "lowest_in_stock_variant",
-      "checked_at": "2026-11-26T10:58:41Z",
+      "checked_at": "2026-11-26T21:38:01Z",
       "date": "2026-11-26",
       "note": "The retailer reports this listing out of stock. It conflicts with the tracker observation.",
       "price": 1610.0,
@@ -1679,7 +1895,7 @@
     },
     "best9070": {
       "basis": "lowest_in_stock_variant",
-      "checked_at": "2026-11-26T10:58:41Z",
+      "checked_at": "2026-11-26T21:38:01Z",
       "date": "2026-11-26",
       "note": "Lowest available variant reported by the tracker. Models may vary between dates. Confirm shipping at checkout.",
       "price": 1050.0,
@@ -2003,7 +2219,7 @@
     },
     "mlg": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-26T10:58:41Z",
+      "checked_at": "2026-11-26T21:38:01Z",
       "currency": "CAD",
       "date": "2026-11-26",
       "note": "Retailer observation. Check current stock and local delivery on the product page.",
@@ -2042,7 +2258,7 @@
     },
     "pny4070": {
       "basis": "exact_sku",
-      "checked_at": "2026-11-26T10:58:41Z",
+      "checked_at": "2026-11-26T21:38:01Z",
       "currency": "CAD",
       "date": "2026-11-26",
       "price": 1280.99,
@@ -2067,7 +2283,7 @@
     },
     "ram": {
       "basis": "lowest_in_stock_variant",
-      "checked_at": "2026-11-26T10:58:41Z",
+      "checked_at": "2026-11-26T21:38:01Z",
       "date": "2026-11-26",
       "note": "Lowest available variant reported by the tracker. Models may vary between dates. Confirm shipping at checkout.",
       "price": 820.0,
@@ -2325,12 +2541,12 @@
       "url": "https://www.canadacomputers.com/en/intel-motherboards/264268/msi-pro-z890-s-wifi-intel-z890-atx-lga-1851-motherboard-pro-z890-s-wifi.html"
     }
   },
-  "last_run_at": "2026-11-26T10:58:41Z",
-  "last_successful_run_at": "2026-11-26T10:58:41Z",
+  "last_run_at": "2026-11-26T21:38:01Z",
+  "last_successful_run_at": "2026-11-26T21:38:01Z",
   "run_summary": {
     "attempted": 62,
-    "failed": 2,
-    "successful": 60
+    "failed": 56,
+    "successful": 6
   },
   "schema": "canbuild-live.v1"
 }
