@@ -4,8 +4,12 @@
     "PSU": 100,
     "SSD": 100
   },
-  "errors": {},
-  "generated_at": "2026-11-25T14:29:02Z",
+  "errors": {
+    "GPU": "GPU returned only 0 unique products; keeping previous data; retained previous 100",
+    "PSU": "PSU returned only 0 unique products; keeping previous data; retained previous 100",
+    "SSD": "SSD returned only 0 unique products; keeping previous data; retained previous 100"
+  },
+  "generated_at": "2026-11-26T00:25:44Z",
   "parts": {
     "cc_gpu_108604": {
       "brand": "ASUS",
