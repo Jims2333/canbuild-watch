@@ -9,7 +9,7 @@
     "PSU": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/1346/power-supplies?page=1; retained previous 100",
     "SSD": "403 Client Error: Forbidden for url: https://www.canadacomputers.com/en/1291/desktop-laptop-internal-ssds?page=1; retained previous 100"
   },
-  "generated_at": "2026-11-27T16:44:28Z",
+  "generated_at": "2026-11-28T01:28:42Z",
   "parts": {
     "cc_gpu_108604": {
       "brand": "ASUS",
